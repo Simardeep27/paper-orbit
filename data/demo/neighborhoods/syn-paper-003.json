@@ -1,0 +1,732 @@
+{
+  "schemaVersion": 1,
+  "centerId": "syn-paper-003",
+  "nodes": [
+    {
+      "paper": {
+        "id": "syn-paper-003",
+        "title": "Uncertainty Cues in Literature Recommendation",
+        "authors": [
+          {
+            "id": "syn-author-003-1",
+            "name": "Imani Brooks"
+          },
+          {
+            "id": "syn-author-003-2",
+            "name": "Leo Marchetti"
+          }
+        ],
+        "year": 2023,
+        "venue": "Workshop on Research Interfaces",
+        "abstract": "Literature recommenders often hide missing abstracts, incomplete citation counts, and sampled candidate pools. We study uncertainty cues for recommendation lists and find that explicit missing-data labels help readers compare candidates without treating an ordering as a confidence score. We recommend separating provider rank from local text similarity.",
+        "citationCount": 61,
+        "referenceCount": 38,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [],
+      "recommendationRank": null,
+      "textSimilarity": null,
+      "similarityCoverage": "unavailable"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-002",
+        "title": "A Field Guide to Citation Neighborhoods",
+        "authors": [
+          {
+            "id": "syn-author-002-1",
+            "name": "Priya Ramanathan"
+          },
+          {
+            "id": "syn-author-002-2",
+            "name": "Tomas Vela"
+          }
+        ],
+        "year": 2018,
+        "venue": "Computational Reading Symposium",
+        "abstract": "This field guide defines the ego citation neighborhood: a center paper, its references, papers that cite it, and provider-selected recommendations. We argue that bounded samples should be labeled as samples, that citation direction must come from observed provider edges, and that recommendation links should be visually distinct from citations.",
+        "citationCount": 96,
+        "referenceCount": 41,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.061810823988184924,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-015",
+        "title": "A Taxonomy of Literature Review Tasks",
+        "authors": [
+          {
+            "id": "syn-author-015-1",
+            "name": "Bruno Costa"
+          },
+          {
+            "id": "syn-author-015-2",
+            "name": "Camille Roy"
+          }
+        ],
+        "year": 2020,
+        "venue": "Research Methods Quarterly",
+        "abstract": "Literature review tasks include finding earlier work, identifying later citing papers, comparing candidates, and following a citation trail. We map these domain tasks to lookup, filter, compare, rank, identify distributions, inspect adjacency, and follow directed connections. The taxonomy informed the design of a bounded neighborhood browser.",
+        "citationCount": 205,
+        "referenceCount": 71,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 3,
+      "textSimilarity": 0.13087905703863,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-024",
+        "title": "Beyond the H-Index: Contextual Citation Displays",
+        "authors": [
+          {
+            "id": "syn-author-024-1",
+            "name": "Viktor Novak"
+          },
+          {
+            "id": "syn-author-024-2",
+            "name": "Wen Li"
+          }
+        ],
+        "year": 2014,
+        "venue": "Review of Scholarly Search",
+        "abstract": "Citation counts summarize indexed attention, not research quality. We design contextual citation displays with log-scaled marks, explicit unknown glyphs, and plain-language caveats. Readers should compare counts locally and remember that older papers have had more time to accumulate citations.",
+        "citationCount": 178,
+        "referenceCount": 40,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 4,
+      "textSimilarity": 0.077433141669328,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-039",
+        "title": "Citation Direction and Perceived Influence",
+        "authors": [
+          {
+            "id": "syn-author-039-1",
+            "name": "Devon Okafor"
+          },
+          {
+            "id": "syn-author-039-2",
+            "name": "Yara Saleh"
+          }
+        ],
+        "year": 2019,
+        "venue": "Journal of Bibliometric Methods",
+        "abstract": "Readers infer influence from arrow direction. We show that citation arrows must point from citing paper to cited paper and that recommendation links must not reuse citation arrows. In a small evaluation, inconsistent directions produced relationship errors even when titles and years were visible.",
+        "citationCount": 98,
+        "referenceCount": 36,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.04961331433625752,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-008",
+        "title": "Designing for Serendipity in Literature Search",
+        "authors": [
+          {
+            "id": "syn-author-008-1",
+            "name": "Felix Moreau"
+          },
+          {
+            "id": "syn-author-008-2",
+            "name": "Ines Duarte"
+          }
+        ],
+        "year": 2019,
+        "venue": "Human Factors in Reading",
+        "abstract": "Serendipitous discovery depends on overview, low-cost inspection, and reversible navigation. We describe a search interface that keeps a local neighborhood visible while readers inspect recommendations. Reversible recentering and a shortlist supported exploration without losing the original seed paper.",
+        "citationCount": 74,
+        "referenceCount": 44,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.10515000517810033,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-040",
+        "title": "Designing Offline Demonstrations for Research Tools",
+        "authors": [
+          {
+            "id": "syn-author-040-1",
+            "name": "Tomas Vela"
+          },
+          {
+            "id": "syn-author-040-2",
+            "name": "Camille Roy"
+          }
+        ],
+        "year": 2022,
+        "venue": "Research Data Practices",
+        "abstract": "Offline demonstrations protect research tools from network failures and shared rate limits. We describe deterministic local fixtures that use the same normalized contracts as the live adapter. Synthetic fixtures are labeled persistently and never presented as real research data. Stored snapshots include provenance and retrieval dates.",
+        "citationCount": 45,
+        "referenceCount": 21,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 7,
+      "textSimilarity": 0.016590882973975207,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-038",
+        "title": "Evaluating Scholarly Recommendation Transparency",
+        "authors": [
+          {
+            "id": "syn-author-038-1",
+            "name": "Lena Fischer"
+          },
+          {
+            "id": "syn-author-038-2",
+            "name": "Gabriel Silva"
+          }
+        ],
+        "year": 2025,
+        "venue": "Workshop on Research Interfaces",
+        "abstract": "We evaluate transparency labels for scholarly recommendations across candidate pools. Participants distinguished citations from recommendations when link styles and filters were separate. They also wanted a persistent provenance panel and a clear explanation of what local text similarity does and does not measure.",
+        "citationCount": 12,
+        "referenceCount": 14,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.1185924108481344,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-009",
+        "title": "Evaluating Uncertainty Visualizations for Rankings",
+        "authors": [
+          {
+            "id": "syn-author-009-1",
+            "name": "Kofi Mensah"
+          },
+          {
+            "id": "syn-author-009-2",
+            "name": "Lena Fischer"
+          }
+        ],
+        "year": 2022,
+        "venue": "Transactions on Visual Communication",
+        "abstract": "We evaluate how uncertainty annotations affect interpretation of ranked lists. Explicit unknown labels and visual separation of missing values reduced false confidence. Participants preferred local text similarity when its corpus and limitations were explained in plain language.",
+        "citationCount": 53,
+        "referenceCount": 31,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.24203862240513171,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-036",
+        "title": "Explaining Recommendation Rank Without Scores",
+        "authors": [
+          {
+            "id": "syn-author-036-1",
+            "name": "Omar Haddad"
+          },
+          {
+            "id": "syn-author-036-2",
+            "name": "Sofia Alvarez"
+          }
+        ],
+        "year": 2024,
+        "venue": "Workshop on Research Interfaces",
+        "abstract": "A provider may return an ordered recommendation list without a numerical score. We explain rank as ordering only and avoid presenting it as a similarity magnitude. Local text similarity is offered separately, with its corpus and coverage stated, so readers can compare candidates with appropriate caution.",
+        "citationCount": 27,
+        "referenceCount": 17,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 6,
+      "textSimilarity": 0.22958628236590656,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-033",
+        "title": "How Users Compare Candidate Papers",
+        "authors": [
+          {
+            "id": "syn-author-033-1",
+            "name": "Mateo Rios"
+          },
+          {
+            "id": "syn-author-033-2",
+            "name": "Amara Nwosu"
+          }
+        ],
+        "year": 2021,
+        "venue": "Symposium on Interactive Reading",
+        "abstract": "We observed readers comparing candidate papers by year, venue, citation count, abstract, and relationship to a known paper. Side-by-side layouts supported comparison, while a single details panel encouraged serial inspection. Saving two candidates helped readers return to a decision later.",
+        "citationCount": 64,
+        "referenceCount": 27,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.07737261228389039,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-013",
+        "title": "Local Text Similarity Without Embeddings",
+        "authors": [
+          {
+            "id": "syn-author-013-1",
+            "name": "Wen Li"
+          },
+          {
+            "id": "syn-author-013-2",
+            "name": "Yara Saleh"
+          }
+        ],
+        "year": 2021,
+        "venue": "Computational Reading Symposium",
+        "abstract": "We describe a reproducible term-frequency inverse-document-frequency similarity over a loaded paper neighborhood. Titles receive modest extra weight, abstracts are used when available, and missing abstracts yield a title-only coverage label. The method is transparent but can miss conceptual similarity.",
+        "citationCount": 88,
+        "referenceCount": 34,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "reference",
+        "recommended"
+      ],
+      "recommendationRank": 2,
+      "textSimilarity": 0.13568954535951805,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-021",
+        "title": "Missing Years and Biased Trends",
+        "authors": [
+          {
+            "id": "syn-author-021-1",
+            "name": "Noor Haddad"
+          },
+          {
+            "id": "syn-author-021-2",
+            "name": "Ruth Kimani"
+          }
+        ],
+        "year": 2022,
+        "venue": "Journal of Bibliometric Methods",
+        "abstract": "Publication-year distributions are biased when unknown years are dropped silently. We compare complete-case analysis with an explicit unknown-year group. A separate unknown count and an inclusive range filter make missingness visible without imputing dates.",
+        "citationCount": 42,
+        "referenceCount": 30,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.05885198019244974,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-027",
+        "title": "Provenance in Scholarly Data Pipelines",
+        "authors": [
+          {
+            "id": "syn-author-027-1",
+            "name": "Camille Roy"
+          },
+          {
+            "id": "syn-author-027-2",
+            "name": "Darius Bell"
+          }
+        ],
+        "year": 2021,
+        "venue": "Research Data Practices",
+        "abstract": "Scholarly data pipelines should preserve source, retrieval time, requested fields, sampling limits, and branch failures. We show how provenance panels help readers distinguish a failed branch from an empty result and a sampled neighborhood from a complete corpus. Successful empty responses remain empty, not errors.",
+        "citationCount": 57,
+        "referenceCount": 35,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.0714464918406117,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-006",
+        "title": "Recommender Systems for Scholarly Discovery: A Survey",
+        "authors": [
+          {
+            "id": "syn-author-006-1",
+            "name": "Greta Lindqvist"
+          },
+          {
+            "id": "syn-author-006-2",
+            "name": "Mateo Rios"
+          },
+          {
+            "id": "syn-author-006-3",
+            "name": "Hana Sato"
+          }
+        ],
+        "year": 2020,
+        "venue": "Review of Scholarly Search",
+        "abstract": "We survey scholarly recommendation systems, including content-based, citation-based, and collaborative approaches. Provider recommendations are candidates, not verified citations, and their ordering should not be presented as a calibrated relevance score. Transparency about candidate pools is essential.",
+        "citationCount": 388,
+        "referenceCount": 112,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 1,
+      "textSimilarity": 0.09087903303200495,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-018",
+        "title": "Trust and Transparency in Paper Recommendations",
+        "authors": [
+          {
+            "id": "syn-author-018-1",
+            "name": "Mira Halvorsen"
+          },
+          {
+            "id": "syn-author-018-2",
+            "name": "Imani Brooks"
+          }
+        ],
+        "year": 2023,
+        "venue": "Workshop on Research Interfaces",
+        "abstract": "Readers trust recommendations more when provider rank, candidate pool, and missing metadata are explained. We distinguish citation relationships from recommendation associations and show that dashed links and separate controls reduce confusion. Transparency does not require claiming a semantic explanation.",
+        "citationCount": 49,
+        "referenceCount": 33,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.08807035585092397,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "syn-paper-032",
+        "title": "Uncertainty-Aware Reading Lists",
+        "authors": [
+          {
+            "id": "syn-author-032-1",
+            "name": "Imani Brooks"
+          },
+          {
+            "id": "syn-author-032-2",
+            "name": "Hana Sato"
+          }
+        ],
+        "year": 2024,
+        "venue": "Workshop on Research Interfaces",
+        "abstract": "Reading lists usually record papers without recording why they were saved or which metadata were missing. We propose uncertainty-aware reading lists that preserve missing-value states and provenance. Saved items from another center should not reuse an old similarity score against the current center.",
+        "citationCount": 31,
+        "referenceCount": 19,
+        "url": null,
+        "externalIds": {},
+        "source": "synthetic-test",
+        "fetchedAt": "2026-10-20T12:00:00.000Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 5,
+      "textSimilarity": 0.19929697925622114,
+      "similarityCoverage": "title+abstract"
+    }
+  ],
+  "edges": [
+    {
+      "id": "cit:syn-paper-003->syn-paper-002",
+      "source": "syn-paper-003",
+      "target": "syn-paper-002",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:syn-paper-003->syn-paper-008",
+      "source": "syn-paper-003",
+      "target": "syn-paper-008",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:syn-paper-003->syn-paper-013",
+      "source": "syn-paper-003",
+      "target": "syn-paper-013",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:syn-paper-003->syn-paper-021",
+      "source": "syn-paper-003",
+      "target": "syn-paper-021",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:syn-paper-003->syn-paper-027",
+      "source": "syn-paper-003",
+      "target": "syn-paper-027",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:syn-paper-003->syn-paper-039",
+      "source": "syn-paper-003",
+      "target": "syn-paper-039",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:syn-paper-009->syn-paper-003",
+      "source": "syn-paper-009",
+      "target": "syn-paper-003",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:syn-paper-018->syn-paper-003",
+      "source": "syn-paper-018",
+      "target": "syn-paper-003",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:syn-paper-033->syn-paper-003",
+      "source": "syn-paper-033",
+      "target": "syn-paper-003",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:syn-paper-038->syn-paper-003",
+      "source": "syn-paper-038",
+      "target": "syn-paper-003",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec:syn-paper-003->syn-paper-006",
+      "source": "syn-paper-003",
+      "target": "syn-paper-006",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 1
+    },
+    {
+      "id": "rec:syn-paper-003->syn-paper-013",
+      "source": "syn-paper-003",
+      "target": "syn-paper-013",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 2
+    },
+    {
+      "id": "rec:syn-paper-003->syn-paper-015",
+      "source": "syn-paper-003",
+      "target": "syn-paper-015",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 3
+    },
+    {
+      "id": "rec:syn-paper-003->syn-paper-024",
+      "source": "syn-paper-003",
+      "target": "syn-paper-024",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 4
+    },
+    {
+      "id": "rec:syn-paper-003->syn-paper-032",
+      "source": "syn-paper-003",
+      "target": "syn-paper-032",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 5
+    },
+    {
+      "id": "rec:syn-paper-003->syn-paper-036",
+      "source": "syn-paper-003",
+      "target": "syn-paper-036",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 6
+    },
+    {
+      "id": "rec:syn-paper-003->syn-paper-040",
+      "source": "syn-paper-003",
+      "target": "syn-paper-040",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 7
+    }
+  ],
+  "mode": "synthetic-demo",
+  "provider": "synthetic-test",
+  "fetchedAt": "2026-10-20T12:00:00.000Z",
+  "recommendationPool": "all-cs",
+  "coverage": {
+    "references": {
+      "status": "ok",
+      "requestedLimit": 40,
+      "receivedEntries": 6,
+      "validDistinctPapers": 6,
+      "skippedEntries": 0,
+      "nextOffset": null
+    },
+    "citing": {
+      "status": "ok",
+      "requestedLimit": 40,
+      "receivedEntries": 4,
+      "validDistinctPapers": 4,
+      "skippedEntries": 0,
+      "nextOffset": null
+    },
+    "recommended": {
+      "status": "ok",
+      "requestedLimit": 20,
+      "receivedEntries": 7,
+      "validDistinctPapers": 7,
+      "skippedEntries": 0,
+      "nextOffset": null
+    }
+  },
+  "warnings": [
+    "Synthetic interaction demo: every title, author, venue, year, citation count, abstract, and relationship is fictional.",
+    "Branches are bounded synthetic samples, not complete citation graphs. Recommendations use the all-cs pool and carry ordering only."
+  ],
+  "similarity": {
+    "algorithm": "tfidf-cosine",
+    "version": "1.0.0",
+    "corpusIds": [
+      "syn-paper-002",
+      "syn-paper-003",
+      "syn-paper-006",
+      "syn-paper-008",
+      "syn-paper-009",
+      "syn-paper-013",
+      "syn-paper-015",
+      "syn-paper-018",
+      "syn-paper-021",
+      "syn-paper-024",
+      "syn-paper-027",
+      "syn-paper-032",
+      "syn-paper-033",
+      "syn-paper-036",
+      "syn-paper-038",
+      "syn-paper-039",
+      "syn-paper-040"
+    ],
+    "computedAt": "2026-10-20T12:00:00.000Z"
+  },
+  "demo": {
+    "availableCenterIds": [
+      "syn-paper-001",
+      "syn-paper-002",
+      "syn-paper-003"
+    ],
+    "notice": "Synthetic interaction demo. This offline neighborhood is fictional and is not a record of real research."
+  }
+}

@@ -1,0 +1,24 @@
+
+> paper-orbit@1.0.0 test:e2e
+> playwright test
+
+
+Running 15 tests using 1 worker
+
+  ✓   1 tests/e2e/demo-flow.spec.ts:19:5 › demo search opens the center neighborhood in every view (1.4s)
+  ✓   2 tests/e2e/demo-flow.spec.ts:66:5 › filters keep graph, list, counts, and histogram in agreement (498ms)
+  ✓   3 tests/e2e/demo-flow.spec.ts:103:5 › recenter stores history and restores the previous filters on back (371ms)
+  ✓   4 tests/e2e/demo-flow.spec.ts:144:5 › unavailable demo center preserves the old graph and explains why (391ms)
+  ✓   5 tests/e2e/demo-flow.spec.ts:173:5 › comparison keeps at most two candidates and supports accessible removal (498ms)
+  ✓   6 tests/e2e/provider-errors.spec.ts:3:5 › live rate limiting is an actionable error, not an empty result (329ms)
+  ✓   7 tests/e2e/provider-errors.spec.ts:41:5 › a failed recommendation branch is labeled as partial, not empty (833ms)
+  ✓   8 tests/e2e/reading-list.spec.ts:6:5 › reading list survives reload and exports only saved papers as JSON (532ms)
+  ✓   9 tests/e2e/resilience.spec.ts:35:5 › forced WebGL failure switches to 2D and keeps analysis usable (346ms)
+  ✓  10 tests/e2e/resilience.spec.ts:54:5 › mobile layout has no horizontal overflow and keeps core actions reachable (846ms)
+  ✓  11 tests/e2e/resilience.spec.ts:106:5 › reduced motion disables automatic rotation (734ms)
+  ✓  12 tests/e2e/resilience.spec.ts:123:5 › a keyboard-only user can search and open a result (822ms)
+  ✓  13 tests/e2e/resilience.spec.ts:149:5 › a keyboard-only user can filter, select, save, and recenter (747ms)
+  ✓  14 tests/e2e/snapshots.spec.ts:6:5 › stored snapshots are searchable and recenter to linked real centers (2.2s)
+  ✓  15 tests/e2e/snapshots.spec.ts:64:5 › an unstored snapshot paper preserves the graph and explains the limit (467ms)
+
+  15 passed (15.5s)

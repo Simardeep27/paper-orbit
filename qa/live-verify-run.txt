@@ -1,0 +1,123 @@
+{
+  "capturedAt": "2026-10-28T18:39:36.209Z",
+  "note": "Opt-in credentialed live smoke check against the running production server. No key or header is stored.",
+  "checks": [
+    {
+      "name": "live search title",
+      "status": 200,
+      "latencyMs": 2037,
+      "firstTitle": "Attention is All you Need",
+      "firstId": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "resultCount": 10,
+      "errorCode": null
+    },
+    {
+      "name": "live arXiv ID",
+      "status": 200,
+      "latencyMs": 1642,
+      "firstTitle": "Attention is All you Need",
+      "firstId": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "resultCount": null,
+      "errorCode": null
+    },
+    {
+      "name": "live arXiv URL",
+      "status": 200,
+      "latencyMs": 2,
+      "firstTitle": "Attention is All you Need",
+      "firstId": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "resultCount": null,
+      "errorCode": null
+    },
+    {
+      "name": "live DOI",
+      "status": 200,
+      "latencyMs": 2150,
+      "firstTitle": "A Learning Algorithm for Continually Running Fully Recurrent Neural Networks",
+      "firstId": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "resultCount": null,
+      "errorCode": null
+    },
+    {
+      "name": "live DOI URL",
+      "status": 200,
+      "latencyMs": 1,
+      "firstTitle": "A Learning Algorithm for Continually Running Fully Recurrent Neural Networks",
+      "firstId": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "resultCount": null,
+      "errorCode": null
+    },
+    {
+      "name": "stored snapshot search",
+      "status": 200,
+      "latencyMs": 2,
+      "firstTitle": "Attention history-based attention for abstractive text summarization",
+      "firstId": "aad2beba23eaf73693382527ca3d1ca4c10ed855",
+      "resultCount": 10,
+      "errorCode": null
+    },
+    {
+      "name": "live neighborhood",
+      "status": 200,
+      "latencyMs": 7062,
+      "nodeCount": 100,
+      "coverage": {
+        "references": {
+          "status": "ok",
+          "received": 39,
+          "distinct": 39,
+          "message": null
+        },
+        "citing": {
+          "status": "ok",
+          "received": 40,
+          "distinct": 40,
+          "message": null
+        },
+        "recommended": {
+          "status": "ok",
+          "received": 20,
+          "distinct": 20,
+          "message": null
+        }
+      }
+    },
+    {
+      "name": "live browser inspection",
+      "status": "pass",
+      "chip": "99 visible · 99 loaded\nLIVE PROVIDER",
+      "branches": "REFERENCE 39\nCITING 40\nRECOMMENDED 20",
+      "warning": null,
+      "consoleErrors": []
+    }
+  ],
+  "neighborhood": {
+    "attempt": 2,
+    "status": 200,
+    "latencyMs": 7062,
+    "center": "Attention is All you Need",
+    "nodeCount": 100,
+    "coverage": {
+      "references": {
+        "status": "ok",
+        "received": 39,
+        "distinct": 39,
+        "message": null
+      },
+      "citing": {
+        "status": "ok",
+        "received": 40,
+        "distinct": 40,
+        "message": null
+      },
+      "recommended": {
+        "status": "ok",
+        "received": 20,
+        "distinct": 20,
+        "message": null
+      }
+    },
+    "errorCode": null
+  },
+  "screenshot": "qa/screenshots/live-3d-full.png"
+}

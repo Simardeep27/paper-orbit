@@ -1,0 +1,137 @@
+
+> paper-orbit@1.0.0 test:e2e
+> playwright test
+
+
+Running 13 tests using 1 worker
+
+  ✓   1 tests/e2e/demo-flow.spec.ts:19:5 › demo search opens the center neighborhood in every view (1.5s)
+  ✓   2 tests/e2e/demo-flow.spec.ts:66:5 › filters keep graph, list, counts, and histogram in agreement (513ms)
+  ✓   3 tests/e2e/demo-flow.spec.ts:103:5 › recenter stores history and restores the previous filters on back (396ms)
+  ✓   4 tests/e2e/demo-flow.spec.ts:144:5 › unavailable demo center preserves the old graph and explains why (440ms)
+  ✓   5 tests/e2e/demo-flow.spec.ts:173:5 › comparison keeps at most two candidates and supports accessible removal (555ms)
+  ✘   6 tests/e2e/provider-errors.spec.ts:3:5 › live rate limiting is an actionable error, not an empty result (353ms)
+  ✓   7 tests/e2e/provider-errors.spec.ts:41:5 › a failed recommendation branch is labeled as partial, not empty (1.2s)
+  ✓   8 tests/e2e/reading-list.spec.ts:6:5 › reading list survives reload and exports only saved papers as JSON (827ms)
+  ✘   9 tests/e2e/resilience.spec.ts:35:5 › forced WebGL failure switches to 2D and keeps analysis usable (10.3s)
+  ✘  10 tests/e2e/resilience.spec.ts:52:5 › mobile layout has no horizontal overflow and keeps core actions reachable (618ms)
+  ✓  11 tests/e2e/resilience.spec.ts:101:5 › reduced motion disables automatic rotation (1.2s)
+  ✓  12 tests/e2e/resilience.spec.ts:118:5 › a keyboard-only user can search and open a result (927ms)
+  ✓  13 tests/e2e/resilience.spec.ts:144:5 › a keyboard-only user can filter, select, save, and recenter (814ms)
+
+
+  1) tests/e2e/provider-errors.spec.ts:3:5 › live rate limiting is an actionable error, not an empty result 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "rate limiting this deployment"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <div role="alert" class="search-results search-results-inline">…</div> aka getByRole('alert').filter({ hasText: 'Semantic Scholar is rate' })
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 10000ms
+      - waiting for getByRole('alert')
+        - locator resolved to <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div>
+        - unexpected value ""
+
+
+      34 |
+      35 |   const alert = page.getByRole("alert");
+    > 36 |   await expect(alert).toContainText("rate limiting this deployment");
+         |                       ^
+      37 |   await expect(alert).toContainText("offline demo");
+      38 |   await expect(page.getByText("No papers matched")).toHaveCount(0);
+      39 | });
+        at /Users/ssethi/Documents/build/paper-orbit/tests/e2e/provider-errors.spec.ts:36:23
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/provider-errors-live-rate--41876-e-error-not-an-empty-result/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/provider-errors-live-rate--41876-e-error-not-an-empty-result/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/provider-errors-live-rate--41876-e-error-not-an-empty-result/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/provider-errors-live-rate--41876-e-error-not-an-empty-result/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/e2e/resilience.spec.ts:35:5 › forced WebGL failure switches to 2D and keeps analysis usable 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText(/3D rendering is unavailable/)
+    Expected: visible
+    Timeout: 10000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText(/3D rendering is unavailable/) with timeout 10000ms
+      - waiting for getByText(/3D rendering is unavailable/)
+
+
+      39 |   await expect(
+      40 |     page.getByText(/3D rendering is unavailable/),
+    > 41 |   ).toBeVisible();
+         |     ^
+      42 |   await expect(page.locator(".radial-svg")).toBeVisible();
+      43 |   await expect(page.locator("[data-node]")).toHaveCount(21);
+      44 |   await expect(page.getByRole("button", { name: "3D", exact: true })).toBeDisabled();
+        at /Users/ssethi/Documents/build/paper-orbit/tests/e2e/resilience.spec.ts:41:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/resilience-forced-WebGL-fa-50446-D-and-keeps-analysis-usable/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/resilience-forced-WebGL-fa-50446-D-and-keeps-analysis-usable/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/resilience-forced-WebGL-fa-50446-D-and-keeps-analysis-usable/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/resilience-forced-WebGL-fa-50446-D-and-keeps-analysis-usable/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) tests/e2e/resilience.spec.ts:52:5 › mobile layout has no horizontal overflow and keeps core actions reachable 
+
+    Error: locator.click: Error: strict mode violation: getByRole('button', { name: 'Close filters' }) resolved to 2 elements:
+        1) <button type="button" aria-label="Close filters" class="icon-btn drawer-close">…</button> aka getByRole('complementary', { name: 'Filters' }).getByRole('button', { name: 'Close filters' })
+        2) <button type="button" aria-label="Close filters" class="drawer-backdrop drawer-backdrop-filter"></button> aka getByRole('button', { name: 'Close filters' }).nth(1)
+
+    Call log:
+      - waiting for getByRole('button', { name: 'Close filters' })
+
+
+      76 |   await expect(page.locator("#filter-rail")).toHaveClass(/filter-rail-open/);
+      77 |   await page.getByRole("checkbox", { name: /^Citing/ }).uncheck();
+    > 78 |   await page.getByRole("button", { name: "Close filters" }).click();
+         |                                                             ^
+      79 |
+      80 |   await page.getByRole("button", { name: "List", exact: true }).click();
+      81 |   await expect(page.locator(".paper-row")).toHaveCount(15);
+        at /Users/ssethi/Documents/build/paper-orbit/tests/e2e/resilience.spec.ts:78:61
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/resilience-mobile-layout-h-029d5-eeps-core-actions-reachable/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/resilience-mobile-layout-h-029d5-eeps-core-actions-reachable/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/resilience-mobile-layout-h-029d5-eeps-core-actions-reachable/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/resilience-mobile-layout-h-029d5-eeps-core-actions-reachable/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    tests/e2e/provider-errors.spec.ts:3:5 › live rate limiting is an actionable error, not an empty result 
+    tests/e2e/resilience.spec.ts:35:5 › forced WebGL failure switches to 2D and keeps analysis usable 
+    tests/e2e/resilience.spec.ts:52:5 › mobile layout has no horizontal overflow and keeps core actions reachable 
+  10 passed (26.1s)

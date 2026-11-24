@@ -1,0 +1,63 @@
+
+> paper-orbit@1.0.0 test:e2e
+> playwright test
+
+
+Running 13 tests using 1 worker
+
+  ✓   1 tests/e2e/demo-flow.spec.ts:19:5 › demo search opens the center neighborhood in every view (1.4s)
+  ✓   2 tests/e2e/demo-flow.spec.ts:66:5 › filters keep graph, list, counts, and histogram in agreement (516ms)
+  ✓   3 tests/e2e/demo-flow.spec.ts:103:5 › recenter stores history and restores the previous filters on back (371ms)
+  ✓   4 tests/e2e/demo-flow.spec.ts:144:5 › unavailable demo center preserves the old graph and explains why (387ms)
+  ✓   5 tests/e2e/demo-flow.spec.ts:173:5 › comparison keeps at most two candidates and supports accessible removal (481ms)
+  ✓   6 tests/e2e/provider-errors.spec.ts:3:5 › live rate limiting is an actionable error, not an empty result (323ms)
+  ✓   7 tests/e2e/provider-errors.spec.ts:41:5 › a failed recommendation branch is labeled as partial, not empty (819ms)
+  ✓   8 tests/e2e/reading-list.spec.ts:6:5 › reading list survives reload and exports only saved papers as JSON (483ms)
+  ✘   9 tests/e2e/resilience.spec.ts:35:5 › forced WebGL failure switches to 2D and keeps analysis usable (314ms)
+  ✓  10 tests/e2e/resilience.spec.ts:52:5 › mobile layout has no horizontal overflow and keeps core actions reachable (759ms)
+  ✓  11 tests/e2e/resilience.spec.ts:104:5 › reduced motion disables automatic rotation (815ms)
+  ✓  12 tests/e2e/resilience.spec.ts:121:5 › a keyboard-only user can search and open a result (798ms)
+  ✓  13 tests/e2e/resilience.spec.ts:147:5 › a keyboard-only user can filter, select, save, and recenter (726ms)
+
+
+  1) tests/e2e/resilience.spec.ts:35:5 › forced WebGL failure switches to 2D and keeps analysis usable 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText(/3D rendering is unavailable/)
+    Expected: visible
+    Error: strict mode violation: getByText(/3D rendering is unavailable/) resolved to 2 elements:
+        1) <div class="sr-only" aria-live="polite" aria-atomic="true">3D rendering is unavailable. Switched to the 2D v…</div> aka getByText('3D rendering is unavailable. Switched to the 2D view; all analytical tools')
+        2) <span>3D rendering is unavailable. The 2D map and every…</span> aka getByText('3D rendering is unavailable. The 2D map and every analytical tool remain usable.')
+
+    Call log:
+      - Expect "toBeVisible" getByText(/3D rendering is unavailable/) with timeout 10000ms
+      - waiting for getByText(/3D rendering is unavailable/)
+
+
+      39 |   await expect(
+      40 |     page.getByText(/3D rendering is unavailable/),
+    > 41 |   ).toBeVisible();
+         |     ^
+      42 |   await expect(page.locator(".radial-svg")).toBeVisible();
+      43 |   await expect(page.locator("[data-node]")).toHaveCount(21);
+      44 |   await expect(page.getByRole("button", { name: "3D", exact: true })).toBeDisabled();
+        at /Users/ssethi/Documents/build/paper-orbit/tests/e2e/resilience.spec.ts:41:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/resilience-forced-WebGL-fa-50446-D-and-keeps-analysis-usable/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/resilience-forced-WebGL-fa-50446-D-and-keeps-analysis-usable/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/resilience-forced-WebGL-fa-50446-D-and-keeps-analysis-usable/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/resilience-forced-WebGL-fa-50446-D-and-keeps-analysis-usable/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests/e2e/resilience.spec.ts:35:5 › forced WebGL failure switches to 2D and keeps analysis usable 
+  12 passed (13.0s)

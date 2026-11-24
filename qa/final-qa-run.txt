@@ -1,0 +1,82 @@
+{
+  "capturedAt": "2026-10-28T18:38:18.925Z",
+  "browser": "Chromium via Playwright",
+  "viewport": "1440x900 (desktop), 390x844 (mobile), 720x450 (200% zoom approximation)",
+  "metrics": {
+    "demoHeadingMs": 1723,
+    "demoNavigation": {
+      "domContentLoadedMs": 28,
+      "loadMs": 75,
+      "transferSize": 4345
+    },
+    "dragFps": 56.2,
+    "demo2dNodes": 21,
+    "demoListRows": 20,
+    "filterToVisibleCountMs": 198,
+    "filteredVisibleChip": "15 visible · 20 loaded\nSYNTHETIC DEMO",
+    "filteredListRows": 15,
+    "resetListRows": 20,
+    "readingListItems": 1,
+    "fallback2dNodes": 21,
+    "mobileOverflow": {
+      "documentWidth": 390,
+      "clientWidth": 390,
+      "bodyWidth": 390
+    },
+    "mobileDefault2d": "true",
+    "snapshotVisibleChip": "99 visible · 99 loaded\nSTORED SNAPSHOT",
+    "snapshotBadge": "STORED SNAPSHOT",
+    "snapshotRecenterUrl": "http://127.0.0.1:3100/explore?center=032274e57f7d8b456bd255fe76b909b2c1d7458e&mode=snapshot&view=list&layout=similarity-radius&rels=reference%2Cciting%2Crecommended",
+    "liveVisibleChip": "59 visible · 59 loaded\nLIVE PROVIDER",
+    "liveBranchCounts": "REFERENCE 39\nCITING 0\nRECOMMENDED 20",
+    "liveMode": "LIVE PROVIDER",
+    "liveListRows": 59,
+    "zoom200Overflow": {
+      "documentWidth": 720,
+      "clientWidth": 720
+    }
+  },
+  "checks": [
+    {
+      "check": "comparison max two and accessible removal",
+      "details": "compare panel visible"
+    },
+    {
+      "check": "unavailable recenter preserves graph and explains why",
+      "details": "This paper's neighborhood is not included in the offline demo. It can still be inspected and added to your reading list from the current neighborhood.\nAvailable demo"
+    },
+    {
+      "check": "forced WebGL failure falls back to 2D",
+      "details": "3D rendering is unavailable. The 2D map and every analytical tool remain usable.\nRetry 3D\nHelp"
+    },
+    {
+      "check": "snapshot provenance",
+      "details": "Data provenance\n\nWhat this loaded neighborhood contains, where it came from, and what it does not cover.\n\nLOADED NEIGHBORHOOD\nMODE\nStored snapshot\nPROVIDER\nsemantic-scholar\nRETRIEVED\nOct 28, 2026, 02:18 PM\nRECOMMENDATION POOL\nall-cs\nCENTER\nAttention is All you Need\nLOADED NODES\n100 total · 99 neighbors\n\nBranches are bounded samples. A loaded neighborhood is not a complete citation graph, and fetched counts describe only this sample.\n\nBRANCH COVERAGE\nBRANCH\tSTATUS\tREQUESTED\tRECEIVED\tDISTINCT\tSKIPPED\tNEXT OFFSET\nReferences\tok\t40\t39\t39\t0\t—\nCiting papers\tok\t40\t40\t40\t0\t40\nRecommendations\tok\t20\t20\t2"
+    },
+    {
+      "check": "console errors",
+      "count": 0,
+      "details": "none"
+    }
+  ],
+  "consoleErrors": [],
+  "screenshots": [
+    "qa/screenshots/desktop-3d.png",
+    "qa/screenshots/desktop-2d.png",
+    "qa/screenshots/desktop-list.png",
+    "qa/screenshots/compare-panel.png",
+    "qa/screenshots/reading-list.png",
+    "qa/screenshots/unavailable-recenter.png",
+    "qa/screenshots/webgl-fallback.png",
+    "qa/screenshots/explorer-mobile.png",
+    "qa/screenshots/explorer-mobile-filters.png",
+    "qa/screenshots/snapshot-3d.png",
+    "qa/screenshots/snapshot-data-info.png",
+    "qa/screenshots/snapshot-recentered.png",
+    "qa/screenshots/live-3d.png",
+    "qa/screenshots/live-data-info.png",
+    "qa/screenshots/live-2d.png",
+    "qa/screenshots/live-list.png",
+    "qa/screenshots/desktop-200pct.png"
+  ]
+}

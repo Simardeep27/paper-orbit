@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-10-28T18:37:31.467Z",
+  "hardware": "Local macOS review machine; Chromium headless via Playwright; viewport 1440x900; deviceScaleFactor 1",
+  "fps": {
+    "syntheticDemo21Nodes3d": {
+      "samples": [
+        55.4,
+        60,
+        59.3
+      ],
+      "median": 59.3
+    },
+    "snapshot100Nodes3d": {
+      "samples": [
+        60,
+        60,
+        59.3
+      ],
+      "median": 60
+    }
+  },
+  "filterLatency": {
+    "samplesMs": [
+      4.9,
+      4.9,
+      14,
+      16.1,
+      17.1,
+      18.9
+    ],
+    "medianMs": 16.1,
+    "note": "Measured inside the page from checkbox click to coordinated chip/list DOM update; includes React render."
+  }
+}

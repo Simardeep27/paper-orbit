@@ -1,0 +1,3098 @@
+{
+  "schemaVersion": 1,
+  "centerId": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+  "nodes": [
+    {
+      "paper": {
+        "id": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+        "title": "A Learning Algorithm for Continually Running Fully Recurrent Neural Networks",
+        "authors": [
+          {
+            "id": "2116648700",
+            "name": "Ronald J. Williams"
+          },
+          {
+            "id": "1895771",
+            "name": "D. Zipser"
+          }
+        ],
+        "year": 1989,
+        "venue": "Neural Computation",
+        "abstract": null,
+        "citationCount": 5155,
+        "referenceCount": 18,
+        "url": "https://www.semanticscholar.org/paper/ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+        "externalIds": {
+          "DOI": "10.1162/neco.1989.1.2.270"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:32.326Z"
+      },
+      "memberships": [],
+      "recommendationRank": null,
+      "textSimilarity": null,
+      "similarityCoverage": "unavailable"
+    },
+    {
+      "paper": {
+        "id": "89b9a181801f32bf62c4237c4265ba036a79f9dc",
+        "title": "A Fixed Size Storage O(n3) Time Complexity Learning Algorithm for Fully Recurrent Continually Running Networks",
+        "authors": [
+          {
+            "id": "2467624663",
+            "name": "J. Schmidhuber"
+          }
+        ],
+        "year": 1992,
+        "venue": "Neural Computation",
+        "abstract": null,
+        "citationCount": 153,
+        "referenceCount": 12,
+        "url": "https://www.semanticscholar.org/paper/89b9a181801f32bf62c4237c4265ba036a79f9dc",
+        "externalIds": {
+          "DOI": "10.1162/neco.1992.4.2.243"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 3,
+      "textSimilarity": 0.5961428942991128,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "0d0998b0afba6e8412d98ab95ff389a363408d2c",
+        "title": "A learning algorithm for improved recurrent neural networks",
+        "authors": [
+          {
+            "id": "51078698",
+            "name": "Chi-Hau Chen"
+          },
+          {
+            "id": "2469337851",
+            "name": "Li-Wen Yu"
+          }
+        ],
+        "year": 1997,
+        "venue": "International Conference on Neural Networks",
+        "abstract": null,
+        "citationCount": 3,
+        "referenceCount": 20,
+        "url": "https://www.semanticscholar.org/paper/0d0998b0afba6e8412d98ab95ff389a363408d2c",
+        "externalIds": {
+          "DOI": "10.1109/ICNN.1997.614249"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 4,
+      "textSimilarity": 0.48918531468710036,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "c471e4813daab6b449bec9c8f9146e8672730d82",
+        "title": "A method for computer-aided learning of a recurrent neural network",
+        "authors": [
+          {
+            "id": "2557174",
+            "name": "Ralph Grothmann"
+          },
+          {
+            "id": "2274787",
+            "name": "C. Tietz"
+          },
+          {
+            "id": "40066374",
+            "name": "H. Zimmermann"
+          }
+        ],
+        "year": 2008,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 0,
+        "url": "https://www.semanticscholar.org/paper/c471e4813daab6b449bec9c8f9146e8672730d82",
+        "externalIds": {},
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 20,
+      "textSimilarity": 0.16623103148249854,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "2875eb6cc7304703a6b6e4d263e79bc1487f95c9",
+        "title": "A probabilistic deep learning framework for predicting structural response in earthquake early warning in urban building portfolios",
+        "authors": [
+          {
+            "id": "2202756977",
+            "name": "Bo Liu"
+          },
+          {
+            "id": "2324098954",
+            "name": "Xiao-Min Wang"
+          },
+          {
+            "id": "2324230621",
+            "name": "Jia Jia"
+          },
+          {
+            "id": "2118977870",
+            "name": "Yinan Zhao"
+          },
+          {
+            "id": "2332362185",
+            "name": "Mao-Sheng Gong"
+          }
+        ],
+        "year": 2026,
+        "venue": "Engineering applications of artificial intelligence",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 57,
+        "url": "https://www.semanticscholar.org/paper/2875eb6cc7304703a6b6e4d263e79bc1487f95c9",
+        "externalIds": {
+          "DOI": "10.1016/j.engappai.2026.116121"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.030525338206485442,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "77a4ce4e9f88e3c918f47ecf937ec3ac8e6fb84c",
+        "title": "A Scalable AI-Driven Digital Twin Framework for Hydroelectric Power Plants",
+        "authors": [
+          {
+            "id": "95039192",
+            "name": "I. Silber"
+          },
+          {
+            "id": "92623869",
+            "name": "S. Warnick"
+          },
+          {
+            "id": "2306650600",
+            "name": "Michael R. Kieburtz"
+          },
+          {
+            "id": "2302631374",
+            "name": "Shu-Hao Bai"
+          },
+          {
+            "id": "2202676",
+            "name": "Sherman Beus"
+          },
+          {
+            "id": "1974440",
+            "name": "M. Macduff"
+          },
+          {
+            "id": "2507416837",
+            "name": "Greg Kenyon"
+          },
+          {
+            "id": "49118104",
+            "name": "C. Sivaraman"
+          }
+        ],
+        "year": 2026,
+        "venue": "Hydropower",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 26,
+        "url": "https://www.semanticscholar.org/paper/77a4ce4e9f88e3c918f47ecf937ec3ac8e6fb84c",
+        "externalIds": {
+          "DOI": "10.3390/hydropower1030010"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "d6fb358938b7c2bb81fdf9583f72ec93cb01ce1e",
+        "title": "A simplex optimization approach for recurrent neural network training and for learning time-dependent trajectory patterns",
+        "authors": [
+          {
+            "id": "1791510",
+            "name": "Y. Wong"
+          },
+          {
+            "id": "1782897",
+            "name": "M. Sundareshan"
+          }
+        ],
+        "year": 1999,
+        "venue": "IJCNN'99. International Joint Conference on Neural Networks. Proceedings (Cat. No.99CH36339)",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 6,
+        "url": "https://www.semanticscholar.org/paper/d6fb358938b7c2bb81fdf9583f72ec93cb01ce1e",
+        "externalIds": {
+          "DOI": "10.1109/IJCNN.1999.831518"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 19,
+      "textSimilarity": 0.1142566880960266,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "f2e056800d615b97899777180fda053075bdbe4a",
+        "title": "A Taxonomy of Recurrent Learning Rules",
+        "authors": [
+          {
+            "id": "1400619056",
+            "name": "G. Martín-Sánchez"
+          },
+          {
+            "id": "2179104944",
+            "name": "Sander M. Boht'e"
+          },
+          {
+            "id": "2527215",
+            "name": "S. Otte"
+          }
+        ],
+        "year": 2022,
+        "venue": "International Conference on Artificial Neural Networks",
+        "abstract": "Backpropagation through time (BPTT) is the de facto standard for training recurrent neural networks (RNNs), but it is non-causal and non-local. Real-time recurrent learning is a causal alternative, but it is highly inefficient. Recently, e-prop was proposed as a causal, local, and efficient practical alternative to these algorithms, providing an approximation of the exact gradient by radically pruning the recurrent dependencies carried over time. Here, we derive RTRL from BPTT using a detailed notation bringing intuition and clarification to how they are connected. Furthermore, we frame e-prop within in the picture, formalising what it approximates. Finally, we derive a family of algorithms of which e-prop is a special case.",
+        "citationCount": 5,
+        "referenceCount": 10,
+        "url": "https://www.semanticscholar.org/paper/f2e056800d615b97899777180fda053075bdbe4a",
+        "externalIds": {
+          "DOI": "10.1007/978-3-031-15919-0_40",
+          "ArXiv": "2207.11439"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 14,
+      "textSimilarity": 0.1105133290270647,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "b7c145666b531d5d16726675b9bf8c4df079d1b7",
+        "title": "A theory of noisy linear recurrent neural network learning dynamics",
+        "authors": [
+          {
+            "id": "103675568",
+            "name": "John J. Vastola"
+          },
+          {
+            "id": "2324787403",
+            "name": "Kanaka Rajan"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 27,
+        "url": "https://www.semanticscholar.org/paper/b7c145666b531d5d16726675b9bf8c4df079d1b7",
+        "externalIds": {
+          "ArXiv": "2610.35785"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.15229862135317157,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "ece347b7f766935a08d32796a2cc8c4d0f8c57fd",
+        "title": "A Unifying View of Gradient Calculations and Learning for Locally Recurrent Neural Networks",
+        "authors": [
+          {
+            "id": null,
+            "name": "Paolo Campolucci"
+          },
+          {
+            "id": "1737292",
+            "name": "A. Uncini"
+          },
+          {
+            "id": "1701870",
+            "name": "F. Piazza"
+          }
+        ],
+        "year": 1998,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 8,
+        "referenceCount": 36,
+        "url": "https://www.semanticscholar.org/paper/ece347b7f766935a08d32796a2cc8c4d0f8c57fd",
+        "externalIds": {
+          "DOI": "10.1007/978-1-4471-1520-5_3"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 12,
+      "textSimilarity": 0.20869631772634198,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "b5aa9542b85f177114f39d3f75927d01ebd3aa17",
+        "title": "Agent Behavior Maps: Locating Agents by What They Would Do, Without Running Them",
+        "authors": [
+          {
+            "id": "2328645625",
+            "name": "Shota Fujikawa"
+          },
+          {
+            "id": "2357973189",
+            "name": "Takuya Tamura"
+          },
+          {
+            "id": "2273675486",
+            "name": "Kosuke Akimoto"
+          },
+          {
+            "id": "2064706229",
+            "name": "Daichi Haraguchi"
+          },
+          {
+            "id": "2337796223",
+            "name": "Masafumi Oyamada"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 53,
+        "url": "https://www.semanticscholar.org/paper/b5aa9542b85f177114f39d3f75927d01ebd3aa17",
+        "externalIds": {
+          "ArXiv": "2610.30014"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.15070048394126476,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "2ae5a5507253aa3cada113d41d35fada1e84555f",
+        "title": "An Efficient Gradient-Based Algorithm for On-Line Training of Recurrent Network Trajectories",
+        "authors": [
+          {
+            "id": "2116648700",
+            "name": "Ronald J. Williams"
+          },
+          {
+            "id": "47918185",
+            "name": "Jing Peng"
+          }
+        ],
+        "year": 1990,
+        "venue": "Neural Computation",
+        "abstract": null,
+        "citationCount": 779,
+        "referenceCount": 12,
+        "url": "https://www.semanticscholar.org/paper/2ae5a5507253aa3cada113d41d35fada1e84555f",
+        "externalIds": {
+          "DOI": "10.1162/neco.1990.2.4.490"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 1,
+      "textSimilarity": 0.16143225713541215,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "8f6d5184993bbf62bbb7753a284cf76d864d6abb",
+        "title": "Antiferroelectric phase-field simulations via scale-invariant physics-informed neural operators",
+        "authors": [
+          {
+            "id": "2139917970",
+            "name": "D. Durdiev"
+          },
+          {
+            "id": "2258528222",
+            "name": "Bai-Xiang Xu"
+          }
+        ],
+        "year": 2026,
+        "venue": "npj Computational Materials",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 46,
+        "url": "https://www.semanticscholar.org/paper/8f6d5184993bbf62bbb7753a284cf76d864d6abb",
+        "externalIds": {
+          "DOI": "10.1038/s41524-026-02344-y"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.04151345242668774,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "46200735c1aa105a2e5be6ed34af445cabc2710c",
+        "title": "Autoregressive Physics-Informed Neural Operator Surrogates and Joint 4-D Seismic-Production Bayesian History Matching",
+        "authors": [
+          {
+            "id": "72224811",
+            "name": "Clement Etienam"
+          },
+          {
+            "id": "2486981564",
+            "name": "D. Blom"
+          },
+          {
+            "id": "2484137397",
+            "name": "H. Pattathil"
+          },
+          {
+            "id": "5729117",
+            "name": "Tsubasa Onishi"
+          },
+          {
+            "id": "118335873",
+            "name": "Harpreet Sethi"
+          },
+          {
+            "id": "2500056537",
+            "name": "L. Vincent"
+          },
+          {
+            "id": "2274378958",
+            "name": "S. Pawar"
+          },
+          {
+            "id": "2517977273",
+            "name": "Kishan Ramesh Kumar"
+          },
+          {
+            "id": "41049316",
+            "name": "P. Devarakota"
+          },
+          {
+            "id": "2332242612",
+            "name": "Faruk O. Alpak"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 82,
+        "url": "https://www.semanticscholar.org/paper/46200735c1aa105a2e5be6ed34af445cabc2710c",
+        "externalIds": {
+          "ArXiv": "2610.31677"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.0398935192163712,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "432ea1e187796eab884dea70d054c18641825b0d",
+        "title": "Beyond Static Structures: Linking Protein Dynamics to Function via DynaReason-Pro",
+        "authors": [
+          {
+            "id": "2392821196",
+            "name": "Zhao-Kang Liang"
+          },
+          {
+            "id": "2265387430",
+            "name": "Ming-Ze Yuan"
+          },
+          {
+            "id": null,
+            "name": "Quan-Zheng Li"
+          },
+          {
+            "id": "2301193304",
+            "name": "Wen-Gong Jin"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 57,
+        "url": "https://www.semanticscholar.org/paper/432ea1e187796eab884dea70d054c18641825b0d",
+        "externalIds": {
+          "ArXiv": "2610.33804"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "c549ec3808ff22bf4d317669e9d9614f55e34d96",
+        "title": "Conditional Residual Prediction: Improving Autoregressive Video Diffusion without a Bidirectional Teacher",
+        "authors": [
+          {
+            "id": "2343075080",
+            "name": "Bo-Wen Zheng"
+          },
+          {
+            "id": "2460330935",
+            "name": "Zhi-Guang Liu"
+          },
+          {
+            "id": "2325731646",
+            "name": "Jia-Rong Ou"
+          },
+          {
+            "id": "2296791324",
+            "name": "Rui Chen"
+          },
+          {
+            "id": "2112911801",
+            "name": "Tianyang Hu"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 100,
+        "url": "https://www.semanticscholar.org/paper/c549ec3808ff22bf4d317669e9d9614f55e34d96",
+        "externalIds": {
+          "ArXiv": "2610.11479"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "91a13fb6dd1c9832267a04817ae0e4db93029770",
+        "title": "Correct then Forecast: Observer State-Space Models for Time Series Forecasting",
+        "authors": [
+          {
+            "id": "2302803824",
+            "name": "Alexis-Raja Brachet"
+          },
+          {
+            "id": "2505371080",
+            "name": "Guillaume Clavier-Frémond"
+          },
+          {
+            "id": "2389398429",
+            "name": "Abdelhakim Ziani"
+          },
+          {
+            "id": "2302804078",
+            "name": "Pierre-Yves Richard"
+          },
+          {
+            "id": "2284760855",
+            "name": "Céline Hudelot"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 48,
+        "url": "https://www.semanticscholar.org/paper/91a13fb6dd1c9832267a04817ae0e4db93029770",
+        "externalIds": {
+          "ArXiv": "2609.33566"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "5ab284533b7aa6230a2d8f4289ea4762c4a8f081",
+        "title": "Cumulative Sums Robustness and Resilience in the Context of Time Series Anomaly Detection",
+        "authors": [
+          {
+            "id": "1486405869",
+            "name": "Roland Bolboacă"
+          }
+        ],
+        "year": 2026,
+        "venue": "Quality and Reliability Engineering International",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 62,
+        "url": "https://www.semanticscholar.org/paper/5ab284533b7aa6230a2d8f4289ea4762c4a8f081",
+        "externalIds": {
+          "DOI": "10.1002/qre.70411"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "086f856aae383cd90355bea3823b60d8a6e8d805",
+        "title": "Does Gradient Conflict Predict the Understanding--Generation Trade-off? A Controlled Audit of Conflict-Metric Validity in Unified Multimodal Models",
+        "authors": [
+          {
+            "id": "2273562481",
+            "name": "Shu-Yang Jiang"
+          },
+          {
+            "id": "2505835341",
+            "name": "Fu-Cheng Deng"
+          },
+          {
+            "id": "2506252553",
+            "name": "Yu-Chuan Luo"
+          },
+          {
+            "id": "2156372999",
+            "name": "Zhen-Yu Wu"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 51,
+        "url": "https://www.semanticscholar.org/paper/086f856aae383cd90355bea3823b60d8a6e8d805",
+        "externalIds": {
+          "ArXiv": "2609.38465"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "af86162f839480c615c253253348ab535a7fa10c",
+        "title": "Dynamic recurrent neural networks",
+        "authors": [
+          {
+            "id": "1700974",
+            "name": "Barak A. Pearlmutter"
+          }
+        ],
+        "year": 1990,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 169,
+        "referenceCount": 45,
+        "url": "https://www.semanticscholar.org/paper/af86162f839480c615c253253348ab535a7fa10c",
+        "externalIds": {},
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 11,
+      "textSimilarity": 0.31695001379947146,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "2a6f3efc7e27e2d873af9f358e32d4b38251792a",
+        "title": "Dynamic recurrent neural networks: Theory and applications",
+        "authors": [
+          {
+            "id": "1749125",
+            "name": "Colin Giles"
+          },
+          {
+            "id": "2091434",
+            "name": "G. Kuhn"
+          },
+          {
+            "id": "2116648700",
+            "name": "Ronald J. Williams"
+          }
+        ],
+        "year": 1994,
+        "venue": "IEEE Trans. Neural Networks Learn. Syst.",
+        "abstract": null,
+        "citationCount": 188,
+        "referenceCount": 6,
+        "url": "https://www.semanticscholar.org/paper/2a6f3efc7e27e2d873af9f358e32d4b38251792a",
+        "externalIds": {
+          "DOI": "10.1109/TNN.1994.8753425"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 5,
+      "textSimilarity": 0.2089857801178098,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "b33d228ad7cc62e3b13a2491ec3e9ef9c73b3b40",
+        "title": "Evaluating Machine Learning Emulators for Atmospheric Radiative Transfer: The Atmospheric Machine Learning Emulation Challenge",
+        "authors": [
+          {
+            "id": "91082920",
+            "name": "Jorge Vicentservera"
+          },
+          {
+            "id": "2278826481",
+            "name": "Jasdeep Singh"
+          },
+          {
+            "id": "2006324745",
+            "name": "A. Rochel"
+          },
+          {
+            "id": "2444681746",
+            "name": "Julio Cesar Contreras Huerta"
+          },
+          {
+            "id": "152623993",
+            "name": "R. Poirier"
+          },
+          {
+            "id": "1411147235",
+            "name": "Panagiotis Liatsis"
+          },
+          {
+            "id": "2499210689",
+            "name": "Hasan Al Marzouqi"
+          },
+          {
+            "id": "2256862557",
+            "name": "G. Camps-Valls"
+          }
+        ],
+        "year": 2026,
+        "venue": "IEEE Geoscience and Remote Sensing Magazine",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 34,
+        "url": "https://www.semanticscholar.org/paper/b33d228ad7cc62e3b13a2491ec3e9ef9c73b3b40",
+        "externalIds": {
+          "DOI": "10.1109/MGRS.2026.3703170"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.05532819805888935,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "424710825d726e10b016204ed2bc979e2a342d10",
+        "title": "Experimental Analysis of the Real-time Recurrent Learning Algorithm",
+        "authors": [
+          {
+            "id": "2116648700",
+            "name": "Ronald J. Williams"
+          },
+          {
+            "id": "1895771",
+            "name": "D. Zipser"
+          }
+        ],
+        "year": 1989,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 361,
+        "referenceCount": 15,
+        "url": "https://www.semanticscholar.org/paper/424710825d726e10b016204ed2bc979e2a342d10",
+        "externalIds": {
+          "DOI": "10.1080/09540098908915631"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 9,
+      "textSimilarity": 0.2474284874959919,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "f27e28f650ef2de77786fe33ffa4b82fe015a410",
+        "title": "Explainable spatiotemporal Graph Neural Networks: Multi-City PM2.5 forecasting in Bangladesh with geographic graph topology validation",
+        "authors": [
+          {
+            "id": "2373603780",
+            "name": "Pritom Ray Nobin"
+          }
+        ],
+        "year": 2026,
+        "venue": "PLoS ONE",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 84,
+        "url": "https://www.semanticscholar.org/paper/f27e28f650ef2de77786fe33ffa4b82fe015a410",
+        "externalIds": {
+          "DOI": "10.1371/journal.pone.0351928"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.0774985872394139,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "26d4a12bb1b22179c958e8e0912799790201c812",
+        "title": "Finding Emotions Where They Belong: Rethinking Audio Emotion Recognition through Masked Temporal Affective Grounding",
+        "authors": [
+          {
+            "id": "2260403705",
+            "name": "Abdelrahman Mohamed"
+          },
+          {
+            "id": "2257256681",
+            "name": "Lars Kai Hansen"
+          },
+          {
+            "id": "2257413640",
+            "name": "Zheng-Hua Tan"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 29,
+        "url": "https://www.semanticscholar.org/paper/26d4a12bb1b22179c958e8e0912799790201c812",
+        "externalIds": {
+          "ArXiv": "2609.32804"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "5c445cec3e7d6f38777fd15f4b73962f8fc3b154",
+        "title": "Fish Audio Drama 3 Technical Report",
+        "authors": [
+          {
+            "id": "47894086",
+            "name": "Da-Wei Han"
+          },
+          {
+            "id": "2336257624",
+            "name": "Shi-Dong Li"
+          },
+          {
+            "id": "2293723407",
+            "name": "Shi-Jia Liao"
+          },
+          {
+            "id": "2397014385",
+            "name": "Jia-Huan Liu"
+          },
+          {
+            "id": "2362626283",
+            "name": "Song-Ting Liu"
+          },
+          {
+            "id": "2364651360",
+            "name": "Qing-Zheng Wang"
+          },
+          {
+            "id": "2293350045",
+            "name": "Yuxuan Wang"
+          },
+          {
+            "id": "2346962770",
+            "name": "Xin Chen"
+          },
+          {
+            "id": "2329118508",
+            "name": "Yi-Fan Cheng"
+          },
+          {
+            "id": "2319991132",
+            "name": "Tian-Yu Li"
+          },
+          {
+            "id": "2362864647",
+            "name": "Gangin Park"
+          },
+          {
+            "id": "2504131975",
+            "name": "Xue-Hao Yang"
+          },
+          {
+            "id": "150961491",
+            "name": "Chang Zeng"
+          },
+          {
+            "id": "2363406803",
+            "name": "Haoyang Zhang"
+          },
+          {
+            "id": "2329130910",
+            "name": "Ruo-Yi Zhang"
+          },
+          {
+            "id": "2453713545",
+            "name": "Xiang-Yu Zhang"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 1,
+        "referenceCount": 88,
+        "url": "https://www.semanticscholar.org/paper/5c445cec3e7d6f38777fd15f4b73962f8fc3b154",
+        "externalIds": {
+          "ArXiv": "2610.18010"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "5905cf3b6a13b9d53a89c3e1e1e68a6289573bbd",
+        "title": "Fortifying smart contracts through rich heterogeneous graph semantics and dual attention guards",
+        "authors": [
+          {
+            "id": "2240027319",
+            "name": "Ying-Ying Qu"
+          },
+          {
+            "id": "2476407964",
+            "name": "Jiang-Tao Cui"
+          },
+          {
+            "id": "2287853190",
+            "name": "Hao-Tian Chi"
+          },
+          {
+            "id": "2349742419",
+            "name": "Yong-Gang Li"
+          },
+          {
+            "id": "2114033769",
+            "name": "Yeh-Ching Chung"
+          },
+          {
+            "id": "2334607778",
+            "name": "Shun-Rong Jiang"
+          }
+        ],
+        "year": 2026,
+        "venue": "Engineering applications of artificial intelligence",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 43,
+        "url": "https://www.semanticscholar.org/paper/5905cf3b6a13b9d53a89c3e1e1e68a6289573bbd",
+        "externalIds": {
+          "DOI": "10.1016/j.engappai.2026.116074"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "e1e47efadbda1a9e2cf38e501fc93c8eb357395e",
+        "title": "Fully Formatted Pdf and Full Text (html) Versions Will Be Made Available Soon. Sorn: a Self-organizing Recurrent Neural Network Sorn: a Self-organizing Recurrent Network",
+        "authors": [
+          {
+            "id": "40381799",
+            "name": "Andreea Lazar"
+          },
+          {
+            "id": "1734512",
+            "name": "G. Pipa"
+          },
+          {
+            "id": "2273402470",
+            "name": "Jochen Triesch"
+          }
+        ],
+        "year": null,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 16,
+        "referenceCount": 27,
+        "url": "https://www.semanticscholar.org/paper/e1e47efadbda1a9e2cf38e501fc93c8eb357395e",
+        "externalIds": {},
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 17,
+      "textSimilarity": 0.11567776739051173,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "589e1f7c5a0d2f072a881c091c66a45c64008380",
+        "title": "Gauss-newton Based Learning For Fully Recurrent Neural Networks",
+        "authors": [
+          {
+            "id": "1951730",
+            "name": "Aniket A. Vartak"
+          }
+        ],
+        "year": 2004,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 31,
+        "url": "https://www.semanticscholar.org/paper/589e1f7c5a0d2f072a881c091c66a45c64008380",
+        "externalIds": {},
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 13,
+      "textSimilarity": 0.40492575489896465,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "2f13976db8a14c092ed8927d2ddacf5adfd1ec2d",
+        "title": "Generative World Simulation with DAO and JING",
+        "authors": [
+          {
+            "id": "2510652228",
+            "name": "Xgen Team Guohao Cai"
+          },
+          {
+            "id": "2351605641",
+            "name": "Hao-Xuan Che"
+          },
+          {
+            "id": "2502648714",
+            "name": "Frank Fan"
+          },
+          {
+            "id": "2501134788",
+            "name": "Chen-Ran Huang"
+          },
+          {
+            "id": "2256226565",
+            "name": "Jun-Jia Huang"
+          },
+          {
+            "id": "2506889277",
+            "name": "Jia-Yi Jiang"
+          },
+          {
+            "id": "2346047464",
+            "name": "Yan-Heng Li"
+          },
+          {
+            "id": "2506665116",
+            "name": "Leon Liu"
+          },
+          {
+            "id": "2288676140",
+            "name": "Shao-Teng Liu"
+          },
+          {
+            "id": "2510655742",
+            "name": "Xi Liu"
+          },
+          {
+            "id": "2510644170",
+            "name": "Feng Nie"
+          },
+          {
+            "id": "2261750244",
+            "name": "Zhe-Fan Rao"
+          },
+          {
+            "id": "2491872311",
+            "name": "An-Ni Wang"
+          },
+          {
+            "id": "2387442715",
+            "name": "Han-Wen Wang"
+          },
+          {
+            "id": "1423709985",
+            "name": "Peng-Xiang Yan"
+          },
+          {
+            "id": "2296848803",
+            "name": "Jie-Ming Yu"
+          },
+          {
+            "id": "2433299400",
+            "name": "Qi-Yu Zha"
+          },
+          {
+            "id": "2510651655",
+            "name": "Wen-Tao Zheng"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 47,
+        "url": "https://www.semanticscholar.org/paper/2f13976db8a14c092ed8927d2ddacf5adfd1ec2d",
+        "externalIds": {
+          "ArXiv": "2610.19726"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "32e97eef94beacace020e79322cef0e1e5a76ee0",
+        "title": "Gradient calculations for dynamic recurrent neural networks: a survey",
+        "authors": [
+          {
+            "id": "1700974",
+            "name": "Barak A. Pearlmutter"
+          }
+        ],
+        "year": 1995,
+        "venue": "IEEE Trans. Neural Networks",
+        "abstract": null,
+        "citationCount": 662,
+        "referenceCount": 168,
+        "url": "https://www.semanticscholar.org/paper/32e97eef94beacace020e79322cef0e1e5a76ee0",
+        "externalIds": {
+          "DOI": "10.1109/72.410363"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 10,
+      "textSimilarity": 0.1928087927712153,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "5530d0c11a9c186d3e4c0fa801cb03e5ba21cebd",
+        "title": "In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion",
+        "authors": [
+          {
+            "id": "2271890043",
+            "name": "Yi-Kai Wang"
+          },
+          {
+            "id": "2279855389",
+            "name": "Xiao Han"
+          },
+          {
+            "id": "2257133107",
+            "name": "Meng-Meng Xu"
+          },
+          {
+            "id": "2505392072",
+            "name": "Juan Camilo Perez"
+          },
+          {
+            "id": "2384132658",
+            "name": "Yiannis Douratsos"
+          },
+          {
+            "id": "2257314859",
+            "name": "Sen He"
+          },
+          {
+            "id": "2328159942",
+            "name": "Zi-Jian Zhou"
+          },
+          {
+            "id": "2237603027",
+            "name": "Fei Zhang"
+          },
+          {
+            "id": "2395669918",
+            "name": "Zhao-Chong An"
+          },
+          {
+            "id": "1397974082",
+            "name": "Juan-Manuel Pérez-Rúa"
+          },
+          {
+            "id": "2253394312",
+            "name": "C. Loy"
+          },
+          {
+            "id": "2384126371",
+            "name": "Tao Xiang"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 68,
+        "url": "https://www.semanticscholar.org/paper/5530d0c11a9c186d3e4c0fa801cb03e5ba21cebd",
+        "externalIds": {
+          "ArXiv": "2609.32540"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "2efb9f18c756a40511ad17fd5b7f3c5cfeca72a8",
+        "title": "Interpretable Physics Informed WiFi Indoor Localization: Learning an Effective Access Point Geometry and Using It to Prune",
+        "authors": [
+          {
+            "id": "2360804483",
+            "name": "Arshia Eftekhari Zadeh"
+          },
+          {
+            "id": "2337119143",
+            "name": "Rezvan Nasiri"
+          },
+          {
+            "id": "144342961",
+            "name": "H. Moradi"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 40,
+        "url": "https://www.semanticscholar.org/paper/2efb9f18c756a40511ad17fd5b7f3c5cfeca72a8",
+        "externalIds": {
+          "ArXiv": "2609.32539"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.03126435619017291,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "a1a29b1b54460918e061724fe724461b5f55d8d5",
+        "title": "Large Distant Gradients Need Not Be Reliable: reliability-weighted credit assignment for long-horizon autoregressive forecasting",
+        "authors": [
+          {
+            "id": "2495910868",
+            "name": "Jun-Hao Zhao"
+          },
+          {
+            "id": "2498043715",
+            "name": "David Michael Simberg"
+          },
+          {
+            "id": "2166321441",
+            "name": "Jacob Kang"
+          },
+          {
+            "id": "2278649462",
+            "name": "C. Kurniawan"
+          },
+          {
+            "id": "2447802262",
+            "name": "Nan Xu"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 62,
+        "url": "https://www.semanticscholar.org/paper/a1a29b1b54460918e061724fe724461b5f55d8d5",
+        "externalIds": {
+          "ArXiv": "2609.12890"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "4dafcbad48d6eb6d3d69f1965180dfe67e06c537",
+        "title": "Large Flow Language Models",
+        "authors": [
+          {
+            "id": "1585915155",
+            "name": "Arnav Chavan"
+          },
+          {
+            "id": "2335812409",
+            "name": "Chanhyuk Lee"
+          },
+          {
+            "id": "1574190084",
+            "name": "Udbhav Bamba"
+          },
+          {
+            "id": "2299302887",
+            "name": "Jaehoon Yoo"
+          },
+          {
+            "id": "2291882029",
+            "name": "Seunghoon Hong"
+          },
+          {
+            "id": "2238242154",
+            "name": "Aditi Raghunathan"
+          },
+          {
+            "id": "2144171168",
+            "name": "Jinwoo Kim"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 77,
+        "url": "https://www.semanticscholar.org/paper/4dafcbad48d6eb6d3d69f1965180dfe67e06c537",
+        "externalIds": {
+          "ArXiv": "2610.28559"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "f6ed193e149f3c91353cac3e8c98bc3b47b2b21a",
+        "title": "Learning Collective Dynamics with Differentiable Gaussian Representations",
+        "authors": [
+          {
+            "id": "2499668085",
+            "name": "Jian-Xiang Ma"
+          },
+          {
+            "id": "2499817244",
+            "name": "Ming-Fu Zhang"
+          },
+          {
+            "id": "2135971356",
+            "name": "Xiaocui Yang"
+          },
+          {
+            "id": "2504316504",
+            "name": "Yi-Chen Gao"
+          },
+          {
+            "id": "2499651395",
+            "name": "Jun-Zhao Huang"
+          },
+          {
+            "id": "2499641738",
+            "name": "Yue-Song Hou"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 79,
+        "url": "https://www.semanticscholar.org/paper/f6ed193e149f3c91353cac3e8c98bc3b47b2b21a",
+        "externalIds": {
+          "ArXiv": "2609.28405"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.04725873715520833,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "91bf82320ab01ebc1f5374b65dd21e2face1a81a",
+        "title": "Machine Learning–Assisted Multi-Time-Step Method for Structural Dynamics",
+        "authors": [
+          {
+            "id": "2305407756",
+            "name": "Sun-Beom Kwon"
+          },
+          {
+            "id": "2304755011",
+            "name": "Arun Prakash"
+          }
+        ],
+        "year": 2026,
+        "venue": "Journal of engineering mechanics",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 41,
+        "url": "https://www.semanticscholar.org/paper/91bf82320ab01ebc1f5374b65dd21e2face1a81a",
+        "externalIds": {
+          "DOI": "10.1061/jenmdt.emeng-8953"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.042187546695894536,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "ae4d4dad986750f9faee00fc97996af0a4193086",
+        "title": "Mechanism-Driven vs. Data-Driven: A comparison of physics-informed bayesian estimation and deep learning models for EPB shield chamber pressure forecasting",
+        "authors": [
+          {
+            "id": "2068567506",
+            "name": "Tong Yin"
+          },
+          {
+            "id": "66259089",
+            "name": "Ye-Ting Zhu"
+          },
+          {
+            "id": "153925936",
+            "name": "Shuaifeng Wang"
+          },
+          {
+            "id": "152690776",
+            "name": "Yu-Dan Gou"
+          },
+          {
+            "id": "2262338870",
+            "name": "Daniel Dias"
+          },
+          {
+            "id": "2152662216",
+            "name": "Xin Huang"
+          },
+          {
+            "id": "47294749",
+            "name": "Zi-Xin Zhang"
+          }
+        ],
+        "year": 2026,
+        "venue": "Advanced Engineering Informatics",
+        "abstract": null,
+        "citationCount": 2,
+        "referenceCount": 48,
+        "url": "https://www.semanticscholar.org/paper/ae4d4dad986750f9faee00fc97996af0a4193086",
+        "externalIds": {
+          "DOI": "10.1016/j.aei.2026.104630"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.02565001984344978,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "cc87523d8376a0f983d067631cd966e2bc89d0bb",
+        "title": "MinCU: A Fine-Grained Benchmark for Grounded Minimal-Change Understanding in Image Pairs",
+        "authors": [
+          {
+            "id": "2502166601",
+            "name": "Chao-Qian Mu"
+          },
+          {
+            "id": "2292414070",
+            "name": "Wen-Hao Wu"
+          },
+          {
+            "id": "2327937197",
+            "name": "Zi-Chen Liang"
+          },
+          {
+            "id": "2339548240",
+            "name": "Jia-Xu Li"
+          },
+          {
+            "id": "2279248330",
+            "name": "Li-Jun Wang"
+          },
+          {
+            "id": "2279310206",
+            "name": "Yi-Fan Wang"
+          },
+          {
+            "id": "2279962721",
+            "name": "Hu-Chuan Lu"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 61,
+        "url": "https://www.semanticscholar.org/paper/cc87523d8376a0f983d067631cd966e2bc89d0bb",
+        "externalIds": {
+          "ArXiv": "2609.23336"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "4a884c7151111f30cf09014fc5024302282fb978",
+        "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+        "authors": [
+          {
+            "id": "2302525910",
+            "name": "Luo-Zheng Qin"
+          },
+          {
+            "id": "2210201247",
+            "name": "Yu-Han Zhu"
+          },
+          {
+            "id": "2308067782",
+            "name": "Chang-Hai Zhou"
+          },
+          {
+            "id": "2305823100",
+            "name": "Qian Qiao"
+          },
+          {
+            "id": "2292481494",
+            "name": "Jun Gao"
+          },
+          {
+            "id": "2331676258",
+            "name": "Yu-Hua Zhou"
+          },
+          {
+            "id": "2284614777",
+            "name": "Harry Zhang"
+          },
+          {
+            "id": "2294982159",
+            "name": "Xiang-Yun Zeng"
+          },
+          {
+            "id": "2511866611",
+            "name": "Yuxuan Liu"
+          },
+          {
+            "id": "2449941446",
+            "name": "Yu-Xin Lu"
+          },
+          {
+            "id": "2364383886",
+            "name": "Kai-Jie Chen"
+          },
+          {
+            "id": "2323337107",
+            "name": "Andre Chen"
+          },
+          {
+            "id": "123092244",
+            "name": "Pony Ma"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 84,
+        "url": "https://www.semanticscholar.org/paper/4a884c7151111f30cf09014fc5024302282fb978",
+        "externalIds": {
+          "ArXiv": "2610.22276"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "ae78d21de2ae6ba4c1eaa43d327190eb7b70b755",
+        "title": "On-line Gauss – Newton-based learning for fully recurrent neural networks",
+        "authors": [
+          {
+            "id": "2079707528",
+            "name": "A. A. Vartaka"
+          },
+          {
+            "id": "2103165653",
+            "name": "M. Georgiopoulosa"
+          },
+          {
+            "id": "2083987429",
+            "name": "G. C. Anagnostopoulosb"
+          }
+        ],
+        "year": 2005,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 3,
+        "referenceCount": 22,
+        "url": "https://www.semanticscholar.org/paper/ae78d21de2ae6ba4c1eaa43d327190eb7b70b755",
+        "externalIds": {},
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 7,
+      "textSimilarity": 0.36719685103536354,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "bf5547449c9e81c99d565506b544bc6514e69493",
+        "title": "On-line Gauss-Newton-based learning for fully recurrent neural networks",
+        "authors": [
+          {
+            "id": "1951730",
+            "name": "Aniket A. Vartak"
+          },
+          {
+            "id": "2085046",
+            "name": "M. Georgiopoulos"
+          },
+          {
+            "id": "8492907",
+            "name": "G. Anagnostopoulos"
+          }
+        ],
+        "year": 2005,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 8,
+        "referenceCount": 19,
+        "url": "https://www.semanticscholar.org/paper/bf5547449c9e81c99d565506b544bc6514e69493",
+        "externalIds": {
+          "DOI": "10.1016/J.NA.2005.02.015"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 6,
+      "textSimilarity": 0.36719685103536354,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "e5c9c348d87d18ad532e8184317c30f966f73904",
+        "title": "Original Contribution: A method for improving the real-time recurrent learning algorithm",
+        "authors": [
+          {
+            "id": "2087931",
+            "name": "T. Catfolis"
+          }
+        ],
+        "year": 1993,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 41,
+        "referenceCount": 16,
+        "url": "https://www.semanticscholar.org/paper/e5c9c348d87d18ad532e8184317c30f966f73904",
+        "externalIds": {
+          "DOI": "10.1016/S0893-6080(05)80126-1"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 16,
+      "textSimilarity": 0.2086864254871894,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "2356f7bf6bc519c0a1f021f1371ead4070fad19b",
+        "title": "Precise Editing and Flexible Referencing for Interactable Worlds",
+        "authors": [
+          {
+            "id": "2344214409",
+            "name": "Xin-Yao Liao"
+          },
+          {
+            "id": "2304365979",
+            "name": "Xian-Fang Zeng"
+          },
+          {
+            "id": "2505388925",
+            "name": "Zhu Liang"
+          },
+          {
+            "id": "2157046216",
+            "name": "Zhou-Jie Fu"
+          },
+          {
+            "id": "2406058626",
+            "name": "Qian-Xun Xu"
+          },
+          {
+            "id": "2505505613",
+            "name": "Jia-Chi Liu"
+          },
+          {
+            "id": "2319193801",
+            "name": "Gang Yu"
+          },
+          {
+            "id": "2279702013",
+            "name": "Guo-Sheng Lin"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 2,
+        "referenceCount": 57,
+        "url": "https://www.semanticscholar.org/paper/2356f7bf6bc519c0a1f021f1371ead4070fad19b",
+        "externalIds": {
+          "ArXiv": "2609.34470"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "66303738a142fa81a3f5f59a11671a9729225dcf",
+        "title": "Prompting Particle Physics: Tokenized Multi-modal Foundation Models for Combinatorially Many Tasks",
+        "authors": [
+          {
+            "id": "2420257572",
+            "name": "Nilotpal Kakati"
+          },
+          {
+            "id": "90715285",
+            "name": "D. Murnane"
+          },
+          {
+            "id": "2363345144",
+            "name": "B. Hashemi"
+          },
+          {
+            "id": "2147347133",
+            "name": "S. Klein"
+          },
+          {
+            "id": "1750878974",
+            "name": "J. Krupa"
+          },
+          {
+            "id": "2284680683",
+            "name": "E. Gross"
+          },
+          {
+            "id": "2347684513",
+            "name": "L. Heinrich"
+          },
+          {
+            "id": "2505053600",
+            "name": "Michael Kagan"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 3,
+        "referenceCount": 110,
+        "url": "https://www.semanticscholar.org/paper/66303738a142fa81a3f5f59a11671a9729225dcf",
+        "externalIds": {
+          "ArXiv": "2609.31862"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "dd9dcd74b79202655cb387d9d7fae82cf4971cc7",
+        "title": "Prospective Coding Improves Learning in Deep Continuous-Time Recurrent Networks",
+        "authors": [
+          {
+            "id": "2323370576",
+            "name": "Shivang Rawat"
+          },
+          {
+            "id": "2480567273",
+            "name": "Mirko Morello"
+          },
+          {
+            "id": "3239668",
+            "name": "F. Morone"
+          },
+          {
+            "id": "2375680141",
+            "name": "D. J. Heeger"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 43,
+        "url": "https://www.semanticscholar.org/paper/dd9dcd74b79202655cb387d9d7fae82cf4971cc7",
+        "externalIds": {
+          "ArXiv": "2609.04134"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.1487238869869392,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "cfa910a664f34ac1d13e542056b42030f15c8329",
+        "title": "Real-Time Moisture Prediction of Potato Slices during Drying Using RNN and GLCM-Based Image Textural Features",
+        "authors": [
+          {
+            "id": "2062913494",
+            "name": "M. Sabat"
+          },
+          {
+            "id": "13893211",
+            "name": "N. Kotwaliwale"
+          },
+          {
+            "id": "115248717",
+            "name": "Pramod S. Shelake"
+          },
+          {
+            "id": "2405490823",
+            "name": "Nisha Sulakhe"
+          }
+        ],
+        "year": 2026,
+        "venue": "Potato Research",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 44,
+        "url": "https://www.semanticscholar.org/paper/cfa910a664f34ac1d13e542056b42030f15c8329",
+        "externalIds": {
+          "DOI": "10.1007/s11540-026-10144-6"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "2834fe63ba998cd34b1501887ca33e5623441147",
+        "title": "Recurrent Neural Networks: Properties and Models",
+        "authors": [
+          {
+            "id": "37321103",
+            "name": "J. Draye"
+          }
+        ],
+        "year": 2001,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 3,
+        "referenceCount": 30,
+        "url": "https://www.semanticscholar.org/paper/2834fe63ba998cd34b1501887ca33e5623441147",
+        "externalIds": {
+          "DOI": "10.1007/978-94-010-0674-3_3"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 8,
+      "textSimilarity": 0.25281704818165296,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "61639af1a89c69094bcc0ed40fad752832b037c3",
+        "title": "Reducing the Ratio Between Learning Complexity and Number of Time Varying Variables in Fully Recurrent Nets",
+        "authors": [
+          {
+            "id": "145341374",
+            "name": "J. Schmidhuber"
+          }
+        ],
+        "year": 1993,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 86,
+        "referenceCount": 9,
+        "url": "https://www.semanticscholar.org/paper/61639af1a89c69094bcc0ed40fad752832b037c3",
+        "externalIds": {
+          "DOI": "10.1007/978-1-4471-2063-6_110"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 2,
+      "textSimilarity": 0.16203317494978184,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "29ded57e1ebbca105c7642b4ed13f3458a878cfa",
+        "title": "Self-Repairing Recurrent Ensembles for Real-Time Recovery from Distribution Shift",
+        "authors": [
+          {
+            "id": "2023253516",
+            "name": "Julian Lemmel"
+          },
+          {
+            "id": "1398155467",
+            "name": "P. Wendel-Garcia"
+          },
+          {
+            "id": "2327303066",
+            "name": "Taisuke Kobayashi"
+          },
+          {
+            "id": "1787208",
+            "name": "R. Grosu"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 15,
+        "url": "https://www.semanticscholar.org/paper/29ded57e1ebbca105c7642b4ed13f3458a878cfa",
+        "externalIds": {
+          "ArXiv": "2610.03249"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.037832830746329475,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "571a7a62a70006f42eaca285205883fe700f93db",
+        "title": "Shared Phase and Retention Control for Efficient Adaptive Spectral Recurrence",
+        "authors": [
+          {
+            "id": "2382598129",
+            "name": "Wen-Tao Wang"
+          },
+          {
+            "id": "2336752741",
+            "name": "Heng-Yu Zhong"
+          },
+          {
+            "id": "2330227575",
+            "name": "Yun-Han Jiang"
+          },
+          {
+            "id": "2506113037",
+            "name": "Jia-Liang An"
+          },
+          {
+            "id": "2506655624",
+            "name": "Meng Lu"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 30,
+        "url": "https://www.semanticscholar.org/paper/571a7a62a70006f42eaca285205883fe700f93db",
+        "externalIds": {
+          "ArXiv": "2609.39082"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "bc07a0fe2281a3bed3a3b0c571e1cb29f962d9aa",
+        "title": "Soft Teacher Forcing",
+        "authors": [
+          {
+            "id": "78613214",
+            "name": "Mohammad Fahes"
+          },
+          {
+            "id": "2274103985",
+            "name": "Cordelia Schmid"
+          },
+          {
+            "id": "31638576",
+            "name": "Anurag Arnab"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 41,
+        "url": "https://www.semanticscholar.org/paper/bc07a0fe2281a3bed3a3b0c571e1cb29f962d9aa",
+        "externalIds": {
+          "ArXiv": "2610.17189"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "caa7aebe4ae684ff0e98f1e428a723afbc603bda",
+        "title": "SpliTEE: Fast and Private LLM Inference by Coupling GPU-Assisted Trusted Execution Environments with Differential Privacy",
+        "authors": [
+          {
+            "id": "2398798969",
+            "name": "Shashie Dilhara Batan Arachchige"
+          },
+          {
+            "id": "2331320715",
+            "name": "Robin Carpentier"
+          },
+          {
+            "id": "2223694",
+            "name": "H. Asghar"
+          },
+          {
+            "id": "1971681",
+            "name": "Dali Kaafar"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 57,
+        "url": "https://www.semanticscholar.org/paper/caa7aebe4ae684ff0e98f1e428a723afbc603bda",
+        "externalIds": {
+          "ArXiv": "2609.15039"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "bf4e6a9d92c525c89bd28df240c250dc5a986baf",
+        "title": "Steerspeech: Activation Steering For Emotion Control In Generated Speech",
+        "authors": [
+          {
+            "id": "95253881",
+            "name": "A. Benazir"
+          },
+          {
+            "id": "2339267344",
+            "name": "Darius Petermann"
+          },
+          {
+            "id": "2268727458",
+            "name": "Felix Xiaozhu Lin"
+          },
+          {
+            "id": "2508674445",
+            "name": "Salar Rahili"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 27,
+        "url": "https://www.semanticscholar.org/paper/bf4e6a9d92c525c89bd28df240c250dc5a986baf",
+        "externalIds": {
+          "ArXiv": "2610.10415"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "f21753209fdbb0b981aa854ba1240509bde07fa1",
+        "title": "Streaming Recurrent Memory",
+        "authors": [
+          {
+            "id": "2294362627",
+            "name": "Mohamed Elsayed"
+          },
+          {
+            "id": "2482228201",
+            "name": "M. Pham"
+          },
+          {
+            "id": "2253402755",
+            "name": "A. Mahmood"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 76,
+        "url": "https://www.semanticscholar.org/paper/f21753209fdbb0b981aa854ba1240509bde07fa1",
+        "externalIds": {
+          "ArXiv": "2610.34833"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.07015113103766887,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "79668cd7ed1d2f0a35e1b00583e1d8189f8a6e53",
+        "title": "Supervising the Chain Ladder",
+        "authors": [
+          {
+            "id": "2499698640",
+            "name": "Stephan Marais"
+          },
+          {
+            "id": "2499698684",
+            "name": "James Grove"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 36,
+        "url": "https://www.semanticscholar.org/paper/79668cd7ed1d2f0a35e1b00583e1d8189f8a6e53",
+        "externalIds": {
+          "ArXiv": "2609.16552"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "b45c3c129fa31eda0bc8c29822f7a099e0f470ad",
+        "title": "Temporal sequence learning with non-equilibrium recurrent neural networks",
+        "authors": [
+          {
+            "id": "49839303",
+            "name": "P. Sottas"
+          }
+        ],
+        "year": 2003,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 1,
+        "referenceCount": 0,
+        "url": "https://www.semanticscholar.org/paper/b45c3c129fa31eda0bc8c29822f7a099e0f470ad",
+        "externalIds": {
+          "DOI": "10.5075/EPFL-THESIS-2637"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 15,
+      "textSimilarity": 0.2295530089739293,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "b5ac2b0079fb31a8bbe6b6de7addccbafef213e2",
+        "title": "The RNN Homunculus: Learning to Gate Long-Term Memory",
+        "authors": [
+          {
+            "id": "2385471843",
+            "name": "Ze-Yu Fan"
+          },
+          {
+            "id": "2459275498",
+            "name": "Alexandru-Dragos Manolache"
+          },
+          {
+            "id": "134228326",
+            "name": "J. V. van Gemert"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 25,
+        "url": "https://www.semanticscholar.org/paper/b5ac2b0079fb31a8bbe6b6de7addccbafef213e2",
+        "externalIds": {
+          "ArXiv": "2610.14279"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.04358628846552736,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "1e9ce3c83bf25795e46e0507d6bd5e72c4397b15",
+        "title": "Tracing Morphology, Semantics, and Divergence in Language Acquisition",
+        "authors": [
+          {
+            "id": "2510647883",
+            "name": "Forough Shirin Abkenar"
+          },
+          {
+            "id": "2510807350",
+            "name": "Hao-Shuo Fu"
+          },
+          {
+            "id": "2510644104",
+            "name": "Liang Feng"
+          },
+          {
+            "id": "2261388136",
+            "name": "Ning Yan"
+          },
+          {
+            "id": "145285465",
+            "name": "Masood Mortazavi"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 34,
+        "url": "https://www.semanticscholar.org/paper/1e9ce3c83bf25795e46e0507d6bd5e72c4397b15",
+        "externalIds": {
+          "ArXiv": "2610.19041"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "1c3ef896ce631767ff803a4a508e4ad695e7c21f",
+        "title": "WL-SeqVAE: Sequence-Based Graph Generation Using Variational Autoencoders and Weisfeiler-Leman Colors",
+        "authors": [
+          {
+            "id": "2072733395",
+            "name": "Iakovos Evdaimon"
+          },
+          {
+            "id": "3005882",
+            "name": "Giannis Nikolentzos"
+          },
+          {
+            "id": "2517367996",
+            "name": "Achilleas Tsimichodimos"
+          },
+          {
+            "id": "40704095",
+            "name": "Christos Xypolopoulos"
+          },
+          {
+            "id": "1690383",
+            "name": "M. Vazirgiannis"
+          }
+        ],
+        "year": 2026,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 50,
+        "url": "https://www.semanticscholar.org/paper/1c3ef896ce631767ff803a4a508e4ad695e7c21f",
+        "externalIds": {
+          "ArXiv": "2610.32650"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:35.712Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    }
+  ],
+  "edges": [
+    {
+      "id": "cit:086f856aae383cd90355bea3823b60d8a6e8d805->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "086f856aae383cd90355bea3823b60d8a6e8d805",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:1c3ef896ce631767ff803a4a508e4ad695e7c21f->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "1c3ef896ce631767ff803a4a508e4ad695e7c21f",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:1e9ce3c83bf25795e46e0507d6bd5e72c4397b15->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "1e9ce3c83bf25795e46e0507d6bd5e72c4397b15",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:2356f7bf6bc519c0a1f021f1371ead4070fad19b->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "2356f7bf6bc519c0a1f021f1371ead4070fad19b",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:26d4a12bb1b22179c958e8e0912799790201c812->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "26d4a12bb1b22179c958e8e0912799790201c812",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:2875eb6cc7304703a6b6e4d263e79bc1487f95c9->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "2875eb6cc7304703a6b6e4d263e79bc1487f95c9",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:29ded57e1ebbca105c7642b4ed13f3458a878cfa->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "29ded57e1ebbca105c7642b4ed13f3458a878cfa",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:2efb9f18c756a40511ad17fd5b7f3c5cfeca72a8->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "2efb9f18c756a40511ad17fd5b7f3c5cfeca72a8",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:2f13976db8a14c092ed8927d2ddacf5adfd1ec2d->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "2f13976db8a14c092ed8927d2ddacf5adfd1ec2d",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:432ea1e187796eab884dea70d054c18641825b0d->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "432ea1e187796eab884dea70d054c18641825b0d",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:46200735c1aa105a2e5be6ed34af445cabc2710c->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "46200735c1aa105a2e5be6ed34af445cabc2710c",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:4a884c7151111f30cf09014fc5024302282fb978->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "4a884c7151111f30cf09014fc5024302282fb978",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:4dafcbad48d6eb6d3d69f1965180dfe67e06c537->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "4dafcbad48d6eb6d3d69f1965180dfe67e06c537",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:5530d0c11a9c186d3e4c0fa801cb03e5ba21cebd->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "5530d0c11a9c186d3e4c0fa801cb03e5ba21cebd",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:571a7a62a70006f42eaca285205883fe700f93db->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "571a7a62a70006f42eaca285205883fe700f93db",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:5905cf3b6a13b9d53a89c3e1e1e68a6289573bbd->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "5905cf3b6a13b9d53a89c3e1e1e68a6289573bbd",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:5ab284533b7aa6230a2d8f4289ea4762c4a8f081->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "5ab284533b7aa6230a2d8f4289ea4762c4a8f081",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:5c445cec3e7d6f38777fd15f4b73962f8fc3b154->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "5c445cec3e7d6f38777fd15f4b73962f8fc3b154",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:66303738a142fa81a3f5f59a11671a9729225dcf->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "66303738a142fa81a3f5f59a11671a9729225dcf",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:77a4ce4e9f88e3c918f47ecf937ec3ac8e6fb84c->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "77a4ce4e9f88e3c918f47ecf937ec3ac8e6fb84c",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:79668cd7ed1d2f0a35e1b00583e1d8189f8a6e53->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "79668cd7ed1d2f0a35e1b00583e1d8189f8a6e53",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:8f6d5184993bbf62bbb7753a284cf76d864d6abb->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "8f6d5184993bbf62bbb7753a284cf76d864d6abb",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:91a13fb6dd1c9832267a04817ae0e4db93029770->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "91a13fb6dd1c9832267a04817ae0e4db93029770",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:91bf82320ab01ebc1f5374b65dd21e2face1a81a->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "91bf82320ab01ebc1f5374b65dd21e2face1a81a",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:a1a29b1b54460918e061724fe724461b5f55d8d5->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "a1a29b1b54460918e061724fe724461b5f55d8d5",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:ae4d4dad986750f9faee00fc97996af0a4193086->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "ae4d4dad986750f9faee00fc97996af0a4193086",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:b33d228ad7cc62e3b13a2491ec3e9ef9c73b3b40->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "b33d228ad7cc62e3b13a2491ec3e9ef9c73b3b40",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:b5aa9542b85f177114f39d3f75927d01ebd3aa17->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "b5aa9542b85f177114f39d3f75927d01ebd3aa17",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:b5ac2b0079fb31a8bbe6b6de7addccbafef213e2->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "b5ac2b0079fb31a8bbe6b6de7addccbafef213e2",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:b7c145666b531d5d16726675b9bf8c4df079d1b7->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "b7c145666b531d5d16726675b9bf8c4df079d1b7",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:bc07a0fe2281a3bed3a3b0c571e1cb29f962d9aa->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "bc07a0fe2281a3bed3a3b0c571e1cb29f962d9aa",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:bf4e6a9d92c525c89bd28df240c250dc5a986baf->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "bf4e6a9d92c525c89bd28df240c250dc5a986baf",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:c549ec3808ff22bf4d317669e9d9614f55e34d96->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "c549ec3808ff22bf4d317669e9d9614f55e34d96",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:caa7aebe4ae684ff0e98f1e428a723afbc603bda->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "caa7aebe4ae684ff0e98f1e428a723afbc603bda",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:cc87523d8376a0f983d067631cd966e2bc89d0bb->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "cc87523d8376a0f983d067631cd966e2bc89d0bb",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:cfa910a664f34ac1d13e542056b42030f15c8329->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "cfa910a664f34ac1d13e542056b42030f15c8329",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:dd9dcd74b79202655cb387d9d7fae82cf4971cc7->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "dd9dcd74b79202655cb387d9d7fae82cf4971cc7",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:f21753209fdbb0b981aa854ba1240509bde07fa1->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "f21753209fdbb0b981aa854ba1240509bde07fa1",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:f27e28f650ef2de77786fe33ffa4b82fe015a410->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "f27e28f650ef2de77786fe33ffa4b82fe015a410",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:f6ed193e149f3c91353cac3e8c98bc3b47b2b21a->ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "source": "f6ed193e149f3c91353cac3e8c98bc3b47b2b21a",
+      "target": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->2ae5a5507253aa3cada113d41d35fada1e84555f",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "2ae5a5507253aa3cada113d41d35fada1e84555f",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 1
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->61639af1a89c69094bcc0ed40fad752832b037c3",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "61639af1a89c69094bcc0ed40fad752832b037c3",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 2
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->89b9a181801f32bf62c4237c4265ba036a79f9dc",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "89b9a181801f32bf62c4237c4265ba036a79f9dc",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 3
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->0d0998b0afba6e8412d98ab95ff389a363408d2c",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "0d0998b0afba6e8412d98ab95ff389a363408d2c",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 4
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->2a6f3efc7e27e2d873af9f358e32d4b38251792a",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "2a6f3efc7e27e2d873af9f358e32d4b38251792a",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 5
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->bf5547449c9e81c99d565506b544bc6514e69493",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "bf5547449c9e81c99d565506b544bc6514e69493",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 6
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->ae78d21de2ae6ba4c1eaa43d327190eb7b70b755",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "ae78d21de2ae6ba4c1eaa43d327190eb7b70b755",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 7
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->2834fe63ba998cd34b1501887ca33e5623441147",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "2834fe63ba998cd34b1501887ca33e5623441147",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 8
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->424710825d726e10b016204ed2bc979e2a342d10",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "424710825d726e10b016204ed2bc979e2a342d10",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 9
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->32e97eef94beacace020e79322cef0e1e5a76ee0",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "32e97eef94beacace020e79322cef0e1e5a76ee0",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 10
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->af86162f839480c615c253253348ab535a7fa10c",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "af86162f839480c615c253253348ab535a7fa10c",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 11
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->ece347b7f766935a08d32796a2cc8c4d0f8c57fd",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "ece347b7f766935a08d32796a2cc8c4d0f8c57fd",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 12
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->589e1f7c5a0d2f072a881c091c66a45c64008380",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "589e1f7c5a0d2f072a881c091c66a45c64008380",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 13
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->f2e056800d615b97899777180fda053075bdbe4a",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "f2e056800d615b97899777180fda053075bdbe4a",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 14
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->b45c3c129fa31eda0bc8c29822f7a099e0f470ad",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "b45c3c129fa31eda0bc8c29822f7a099e0f470ad",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 15
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->e5c9c348d87d18ad532e8184317c30f966f73904",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "e5c9c348d87d18ad532e8184317c30f966f73904",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 16
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->e1e47efadbda1a9e2cf38e501fc93c8eb357395e",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "e1e47efadbda1a9e2cf38e501fc93c8eb357395e",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 17
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->d6fb358938b7c2bb81fdf9583f72ec93cb01ce1e",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "d6fb358938b7c2bb81fdf9583f72ec93cb01ce1e",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 19
+    },
+    {
+      "id": "rec:ce9a21b93ba29d4145a8ef6bf401e77f261848de->c471e4813daab6b449bec9c8f9146e8672730d82",
+      "source": "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "target": "c471e4813daab6b449bec9c8f9146e8672730d82",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 20
+    }
+  ],
+  "mode": "snapshot",
+  "provider": "semantic-scholar",
+  "fetchedAt": "2026-10-28T18:18:32.326Z",
+  "recommendationPool": "all-cs",
+  "coverage": {
+    "references": {
+      "status": "error",
+      "requestedLimit": 40,
+      "receivedEntries": 0,
+      "validDistinctPapers": 0,
+      "skippedEntries": 0,
+      "nextOffset": null,
+      "message": "Semantic Scholar returned an unexpected response shape."
+    },
+    "citing": {
+      "status": "ok",
+      "requestedLimit": 40,
+      "receivedEntries": 40,
+      "validDistinctPapers": 40,
+      "skippedEntries": 0,
+      "nextOffset": 40
+    },
+    "recommended": {
+      "status": "ok",
+      "requestedLimit": 20,
+      "receivedEntries": 20,
+      "validDistinctPapers": 19,
+      "skippedEntries": 0,
+      "nextOffset": null
+    }
+  },
+  "warnings": [
+    "This is a bounded live sample: up to 40 references, 40 citing papers, and 20 recommendations. It is not a complete citation graph.",
+    "Provider citation totals and retrieved neighbor counts are shown separately in Data info.",
+    "References could not be retrieved: Semantic Scholar returned an unexpected response shape.. This is a failed branch, not an empty result."
+  ],
+  "similarity": {
+    "algorithm": "tfidf-cosine",
+    "version": "1.0.0",
+    "corpusIds": [
+      "086f856aae383cd90355bea3823b60d8a6e8d805",
+      "0d0998b0afba6e8412d98ab95ff389a363408d2c",
+      "1c3ef896ce631767ff803a4a508e4ad695e7c21f",
+      "1e9ce3c83bf25795e46e0507d6bd5e72c4397b15",
+      "2356f7bf6bc519c0a1f021f1371ead4070fad19b",
+      "26d4a12bb1b22179c958e8e0912799790201c812",
+      "2834fe63ba998cd34b1501887ca33e5623441147",
+      "2875eb6cc7304703a6b6e4d263e79bc1487f95c9",
+      "29ded57e1ebbca105c7642b4ed13f3458a878cfa",
+      "2a6f3efc7e27e2d873af9f358e32d4b38251792a",
+      "2ae5a5507253aa3cada113d41d35fada1e84555f",
+      "2efb9f18c756a40511ad17fd5b7f3c5cfeca72a8",
+      "2f13976db8a14c092ed8927d2ddacf5adfd1ec2d",
+      "32e97eef94beacace020e79322cef0e1e5a76ee0",
+      "424710825d726e10b016204ed2bc979e2a342d10",
+      "432ea1e187796eab884dea70d054c18641825b0d",
+      "46200735c1aa105a2e5be6ed34af445cabc2710c",
+      "4a884c7151111f30cf09014fc5024302282fb978",
+      "4dafcbad48d6eb6d3d69f1965180dfe67e06c537",
+      "5530d0c11a9c186d3e4c0fa801cb03e5ba21cebd",
+      "571a7a62a70006f42eaca285205883fe700f93db",
+      "589e1f7c5a0d2f072a881c091c66a45c64008380",
+      "5905cf3b6a13b9d53a89c3e1e1e68a6289573bbd",
+      "5ab284533b7aa6230a2d8f4289ea4762c4a8f081",
+      "5c445cec3e7d6f38777fd15f4b73962f8fc3b154",
+      "61639af1a89c69094bcc0ed40fad752832b037c3",
+      "66303738a142fa81a3f5f59a11671a9729225dcf",
+      "77a4ce4e9f88e3c918f47ecf937ec3ac8e6fb84c",
+      "79668cd7ed1d2f0a35e1b00583e1d8189f8a6e53",
+      "89b9a181801f32bf62c4237c4265ba036a79f9dc",
+      "8f6d5184993bbf62bbb7753a284cf76d864d6abb",
+      "91a13fb6dd1c9832267a04817ae0e4db93029770",
+      "91bf82320ab01ebc1f5374b65dd21e2face1a81a",
+      "a1a29b1b54460918e061724fe724461b5f55d8d5",
+      "ae4d4dad986750f9faee00fc97996af0a4193086",
+      "ae78d21de2ae6ba4c1eaa43d327190eb7b70b755",
+      "af86162f839480c615c253253348ab535a7fa10c",
+      "b33d228ad7cc62e3b13a2491ec3e9ef9c73b3b40",
+      "b45c3c129fa31eda0bc8c29822f7a099e0f470ad",
+      "b5aa9542b85f177114f39d3f75927d01ebd3aa17",
+      "b5ac2b0079fb31a8bbe6b6de7addccbafef213e2",
+      "b7c145666b531d5d16726675b9bf8c4df079d1b7",
+      "bc07a0fe2281a3bed3a3b0c571e1cb29f962d9aa",
+      "bf4e6a9d92c525c89bd28df240c250dc5a986baf",
+      "bf5547449c9e81c99d565506b544bc6514e69493",
+      "c471e4813daab6b449bec9c8f9146e8672730d82",
+      "c549ec3808ff22bf4d317669e9d9614f55e34d96",
+      "caa7aebe4ae684ff0e98f1e428a723afbc603bda",
+      "cc87523d8376a0f983d067631cd966e2bc89d0bb",
+      "ce9a21b93ba29d4145a8ef6bf401e77f261848de",
+      "cfa910a664f34ac1d13e542056b42030f15c8329",
+      "d6fb358938b7c2bb81fdf9583f72ec93cb01ce1e",
+      "dd9dcd74b79202655cb387d9d7fae82cf4971cc7",
+      "e1e47efadbda1a9e2cf38e501fc93c8eb357395e",
+      "e5c9c348d87d18ad532e8184317c30f966f73904",
+      "ece347b7f766935a08d32796a2cc8c4d0f8c57fd",
+      "f21753209fdbb0b981aa854ba1240509bde07fa1",
+      "f27e28f650ef2de77786fe33ffa4b82fe015a410",
+      "f2e056800d615b97899777180fda053075bdbe4a",
+      "f6ed193e149f3c91353cac3e8c98bc3b47b2b21a"
+    ],
+    "computedAt": "2026-10-28T18:18:32.326Z"
+  }
+}

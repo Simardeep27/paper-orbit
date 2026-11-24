@@ -1,0 +1,10 @@
+
+> paper-orbit@1.0.0 demo:fetch
+> tsx scripts/fetch-demo.ts --seed Attention Is All You Need
+
+Resolved seed "Attention Is All You Need" to 204e3073870fae3d05bcbc2f6a8e263d9b72e776 (Attention is All you Need).
+Resolved seed "032274e57f7d8b456bd255fe76b909b2c1d7458e" to 032274e57f7d8b456bd255fe76b909b2c1d7458e (A Deep Reinforced Model for Abstractive Summarization).
+Resolved seed "ce9a21b93ba29d4145a8ef6bf401e77f261848de" to ce9a21b93ba29d4145a8ef6bf401e77f261848de (A Learning Algorithm for Continually Running Fully Recurrent Neural Networks).
+Wrote 3 snapshot neighborhood(s) and a manifest to /Users/ssethi/Documents/build/paper-orbit/data/snapshots.
+Centers: 204e3073870fae3d05bcbc2f6a8e263d9b72e776, 032274e57f7d8b456bd255fe76b909b2c1d7458e, ce9a21b93ba29d4145a8ef6bf401e77f261848de
+Review the Semantic Scholar API license and redistribution terms before publishing these files.

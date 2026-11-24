@@ -1,0 +1,8 @@
+
+> paper-orbit@1.0.0 demo:fetch
+> tsx scripts/fetch-demo.ts --seed Attention Is All You Need --dry-run
+
+Failed to fetch "Attention Is All You Need": Semantic Scholar is rate limiting this deployment. Try again shortly, or use the offline demo.
+
+No snapshots were written. Semantic Scholar may be rate limiting this deployment.
+Set SEMANTIC_SCHOLAR_API_KEY, wait for the limit to reset, or keep using the offline synthetic demo.

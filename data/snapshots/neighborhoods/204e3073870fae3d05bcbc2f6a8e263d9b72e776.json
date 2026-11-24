@@ -1,0 +1,5131 @@
+{
+  "schemaVersion": 1,
+  "centerId": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+  "nodes": [
+    {
+      "paper": {
+        "id": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+        "title": "Attention is All you Need",
+        "authors": [
+          {
+            "id": "40348417",
+            "name": "Ashish Vaswani"
+          },
+          {
+            "id": "1846258",
+            "name": "Noam Shazeer"
+          },
+          {
+            "id": "3877127",
+            "name": "N. Parmar"
+          },
+          {
+            "id": "39328010",
+            "name": "J. Uszkoreit"
+          },
+          {
+            "id": "145024664",
+            "name": "Llion Jones"
+          },
+          {
+            "id": "19177000",
+            "name": "Aidan N. Gomez"
+          },
+          {
+            "id": "40527594",
+            "name": "Lukasz Kaiser"
+          },
+          {
+            "id": "3443442",
+            "name": "I. Polosukhin"
+          }
+        ],
+        "year": 2017,
+        "venue": "Neural Information Processing Systems",
+        "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+        "citationCount": 199000,
+        "referenceCount": 41,
+        "url": "https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+        "externalIds": {
+          "ArXiv": "1706.03762"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:07.655Z"
+      },
+      "memberships": [],
+      "recommendationRank": null,
+      "textSimilarity": null,
+      "similarityCoverage": "unavailable"
+    },
+    {
+      "paper": {
+        "id": "d92d5b1764c01e6d5e1998371111f1a6536f93d6",
+        "title": "A comprehensive review of data-driven electrochemical impedance spectroscopy (EIS) approaches for Li-ion battery SoH and RUL estimations",
+        "authors": [
+          {
+            "id": "2265088700",
+            "name": "Kashif Raza"
+          },
+          {
+            "id": "2508791570",
+            "name": "Ouadii Ouledboutaarjia"
+          },
+          {
+            "id": "35370857",
+            "name": "R. Rifat"
+          },
+          {
+            "id": "2462348",
+            "name": "M. Berecibar"
+          },
+          {
+            "id": "123221202",
+            "name": "Md Sazzad Hosen"
+          }
+        ],
+        "year": 2027,
+        "venue": "Renewable & Sustainable Energy Reviews",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 160,
+        "url": "https://www.semanticscholar.org/paper/d92d5b1764c01e6d5e1998371111f1a6536f93d6",
+        "externalIds": {
+          "DOI": "10.1016/j.rser.2026.117559"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.014375992465277281,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "032274e57f7d8b456bd255fe76b909b2c1d7458e",
+        "title": "A Deep Reinforced Model for Abstractive Summarization",
+        "authors": [
+          {
+            "id": "2896063",
+            "name": "Romain Paulus"
+          },
+          {
+            "id": "2228109",
+            "name": "Caiming Xiong"
+          },
+          {
+            "id": "2166511",
+            "name": "R. Socher"
+          }
+        ],
+        "year": 2017,
+        "venue": "International Conference on Learning Representations",
+        "abstract": null,
+        "citationCount": 1702,
+        "referenceCount": 43,
+        "url": "https://www.semanticscholar.org/paper/032274e57f7d8b456bd255fe76b909b2c1d7458e",
+        "externalIds": {
+          "ArXiv": "1705.04304"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.0528101227869845,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "c45e35f786a4812493ddf5b76aa09ee97f56e15d",
+        "title": "A Hierarchical Spatio-Temporal Refinement Network with residual temporal convolutional networks and closed-form calibration for national-scale short-term load forecasting",
+        "authors": [
+          {
+            "id": "119233387",
+            "name": "I. Haq"
+          },
+          {
+            "id": "2316050547",
+            "name": "Fang Liu"
+          },
+          {
+            "id": "2071215678",
+            "name": "D. Sidorov"
+          },
+          {
+            "id": "2506221644",
+            "name": "Su-Zhen Huang"
+          },
+          {
+            "id": "1940780",
+            "name": "L. Aslam"
+          }
+        ],
+        "year": 2027,
+        "venue": "Computers & electrical engineering",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 48,
+        "url": "https://www.semanticscholar.org/paper/c45e35f786a4812493ddf5b76aa09ee97f56e15d",
+        "externalIds": {
+          "DOI": "10.1016/j.compeleceng.2026.111567"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.031457135836634585,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "a1e6868c04eeab2bc9ab9ea5ef6d597377f23e75",
+        "title": "A lightweight dual-stream framework for short-horizon voltage prediction of PEMFC systems",
+        "authors": [
+          {
+            "id": "116986751",
+            "name": "Teng-Juan Xu"
+          },
+          {
+            "id": "2153281744",
+            "name": "Kai Zhang"
+          },
+          {
+            "id": "2254331513",
+            "name": "Yue Kai"
+          }
+        ],
+        "year": 2027,
+        "venue": "Journal of Power Sources",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 44,
+        "url": "https://www.semanticscholar.org/paper/a1e6868c04eeab2bc9ab9ea5ef6d597377f23e75",
+        "externalIds": {
+          "DOI": "10.1016/j.jpowsour.2026.241653"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "6a842f57c9871bf023c82709ef3193cae55f045a",
+        "title": "A region-aware field reliability prediction method for power batteries under heterogeneous conditions using improved deep clustering",
+        "authors": [
+          {
+            "id": "2495925503",
+            "name": "Yong-Chao Lv"
+          },
+          {
+            "id": "153893146",
+            "name": "Li-Lin Jie"
+          },
+          {
+            "id": "2278678291",
+            "name": "Liang-Qing Feng"
+          },
+          {
+            "id": "2109585407",
+            "name": "Wei-Dong Liu"
+          }
+        ],
+        "year": 2027,
+        "venue": "Applied Energy",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 69,
+        "url": "https://www.semanticscholar.org/paper/6a842f57c9871bf023c82709ef3193cae55f045a",
+        "externalIds": {
+          "DOI": "10.1016/j.apenergy.2026.129051"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "204a4a70428f3938d2c538a4d74c7ae0416306d8",
+        "title": "A Structured Self-attentive Sentence Embedding",
+        "authors": [
+          {
+            "id": "3146592",
+            "name": "Zhouhan Lin"
+          },
+          {
+            "id": "2521552",
+            "name": "Min-Wei Feng"
+          },
+          {
+            "id": "1790831",
+            "name": "C. D. dos Santos"
+          },
+          {
+            "id": "2482533",
+            "name": "Mo Yu"
+          },
+          {
+            "id": "144028698",
+            "name": "Xiang Bing"
+          },
+          {
+            "id": "145218984",
+            "name": "Bowen Zhou"
+          },
+          {
+            "id": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "year": 2017,
+        "venue": "International Conference on Learning Representations",
+        "abstract": null,
+        "citationCount": 2338,
+        "referenceCount": 39,
+        "url": "https://www.semanticscholar.org/paper/204a4a70428f3938d2c538a4d74c7ae0416306d8",
+        "externalIds": {
+          "ArXiv": "1703.03130"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "a6cb366736791bcccc5c8639de5a8f9636bf87e8",
+        "title": "Adam: A Method for Stochastic Optimization",
+        "authors": [
+          {
+            "id": "1726807",
+            "name": "Diederik P. Kingma"
+          },
+          {
+            "id": "2503659",
+            "name": "Jimmy Ba"
+          }
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations",
+        "abstract": null,
+        "citationCount": 173230,
+        "referenceCount": 26,
+        "url": "https://www.semanticscholar.org/paper/a6cb366736791bcccc5c8639de5a8f9636bf87e8",
+        "externalIds": {
+          "ArXiv": "1412.6980"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "c394412647888d6c8ab80c32a332d35033c27fa4",
+        "title": "Agentic-LS: Physically grounded logic synthesis via LLM-guided dual-granularity neuro-symbolic search",
+        "authors": [
+          {
+            "id": "2514990665",
+            "name": "De-Lang Chen"
+          },
+          {
+            "id": null,
+            "name": "Ji-Zhou Luo"
+          },
+          {
+            "id": null,
+            "name": "Zhong-Li Liu"
+          },
+          {
+            "id": null,
+            "name": "Xing-Ji Li"
+          },
+          {
+            "id": null,
+            "name": "Jian-Qun Yang"
+          },
+          {
+            "id": null,
+            "name": "Jia-Xi Liu"
+          }
+        ],
+        "year": 2027,
+        "venue": "Integration",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 25,
+        "url": "https://www.semanticscholar.org/paper/c394412647888d6c8ab80c32a332d35033c27fa4",
+        "externalIds": {
+          "DOI": "10.1016/j.vlsi.2026.102911"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "debbe94eddc66b7be99a20cf34a002736e40343b",
+        "title": "AGLFormer: Compact feature selection and parameter-budget-aware global-local modeling for lithium-ion battery state-of-health estimation",
+        "authors": [
+          {
+            "id": "2047554201",
+            "name": "Jian Ouyang"
+          },
+          {
+            "id": "2518101671",
+            "name": "Si-Rong Ma"
+          },
+          {
+            "id": "2517952966",
+            "name": "Yi-Mei Zhu"
+          },
+          {
+            "id": "2267662695",
+            "name": "Ye Hong"
+          }
+        ],
+        "year": 2027,
+        "venue": "Journal of Energy Storage",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 45,
+        "url": "https://www.semanticscholar.org/paper/debbe94eddc66b7be99a20cf34a002736e40343b",
+        "externalIds": {
+          "DOI": "10.1016/j.est.2026.125234"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.01087207251855179,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "f8c05f97f214b324c05a1b4d52fecbefda76df72",
+        "title": "An explainable generative machine learning framework for accelerating CO2 methanation catalyst discovery",
+        "authors": [
+          {
+            "id": "2260439117",
+            "name": "Xiao-Guo Zhang"
+          },
+          {
+            "id": "2300995493",
+            "name": "Zi-Yi He"
+          },
+          {
+            "id": "2319087860",
+            "name": "Xin Peng"
+          },
+          {
+            "id": "2470135033",
+            "name": "Chun-Qiu Zhang"
+          },
+          {
+            "id": "2395206815",
+            "name": "Meng Yang"
+          },
+          {
+            "id": "2325090683",
+            "name": "Jin-Bo Yan"
+          },
+          {
+            "id": "92849227",
+            "name": "Shen-Fu Yuan"
+          }
+        ],
+        "year": 2027,
+        "venue": "Applied Energy",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 52,
+        "url": "https://www.semanticscholar.org/paper/f8c05f97f214b324c05a1b4d52fecbefda76df72",
+        "externalIds": {
+          "DOI": "10.1016/j.apenergy.2026.128913"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.006913459727459779,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "dffed23fd7f2de433073f2453ab65ebc2954863a",
+        "title": "Attention over Heads: A Multi-Hop Attention for Neural Machine Translation",
+        "authors": [
+          {
+            "id": "101333187",
+            "name": "Shohei Iida"
+          },
+          {
+            "id": "2076057629",
+            "name": "Ryuichiro Kimura"
+          },
+          {
+            "id": "40454494",
+            "name": "Hongyi Cui"
+          },
+          {
+            "id": "150260485",
+            "name": "Po-Hsuan Hung"
+          },
+          {
+            "id": "1732417",
+            "name": "T. Utsuro"
+          },
+          {
+            "id": "2364073",
+            "name": "Masaaki Nagata"
+          }
+        ],
+        "year": 2019,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "abstract": "In this paper, we propose a multi-hop attention for the Transformer. It refines the attention for an output symbol by integrating that of each head, and consists of two hops. The first hop attention is the scaled dot-product attention which is the same attention mechanism used in the original Transformer. The second hop attention is a combination of multi-layer perceptron (MLP) attention and head gate, which efficiently increases the complexity of the model by adding dependencies between heads. We demonstrate that the translation accuracy of the proposed multi-hop attention outperforms the baseline Transformer significantly, +0.85 BLEU point for the IWSLT-2017 German-to-English task and +2.58 BLEU point for the WMT-2017 German-to-English task. We also find that the number of parameters required for a multi-hop attention is smaller than that for stacking another self-attention layer and the proposed model converges significantly faster than the original Transformer.",
+        "citationCount": 15,
+        "referenceCount": 14,
+        "url": "https://www.semanticscholar.org/paper/dffed23fd7f2de433073f2453ab65ebc2954863a",
+        "externalIds": {
+          "DOI": "10.18653/v1/P19-2030"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 20,
+      "textSimilarity": 0.2350203878524115,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "70665bff663b010226f3e018fbc147ec146e2f57",
+        "title": "Automated safety interpretation of crack-aperture for concrete dams using mutation-aware visual-sensor fusion and knowledge-augmented reasoning",
+        "authors": [
+          {
+            "id": "2363292634",
+            "name": "Hao Gu"
+          },
+          {
+            "id": "2507494754",
+            "name": "Jia-Le Wang"
+          },
+          {
+            "id": "2305154265",
+            "name": "Yi-Xiang Fang"
+          },
+          {
+            "id": "2118918547",
+            "name": "Yi-Fan He"
+          },
+          {
+            "id": "2157691823",
+            "name": "Jun Shen"
+          },
+          {
+            "id": "52223634",
+            "name": "Chen-Fei Shao"
+          }
+        ],
+        "year": 2027,
+        "venue": "Automation in Construction",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 48,
+        "url": "https://www.semanticscholar.org/paper/70665bff663b010226f3e018fbc147ec146e2f57",
+        "externalIds": {
+          "DOI": "10.1016/j.autcon.2026.107291"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "068398a1f0023710efe3d20904197a3ae295fab7",
+        "title": "Bidirectional Multi-Stack RNNs with Attention for Machine Translation",
+        "authors": [
+          {
+            "id": "2491853136",
+            "name": "Zhi-Ren Chen"
+          },
+          {
+            "id": "2284888797",
+            "name": "Ziyu Qiu"
+          },
+          {
+            "id": "2287928041",
+            "name": "Nuo Chen"
+          }
+        ],
+        "year": 2023,
+        "venue": "2023 IEEE 2nd Industrial Electronics Society Annual On-Line Conference (ONCON)",
+        "abstract": "This project developed a novel attention algorithm for multi-stack bidirectional encoder-decoder RNN (including GRU and LSTM) sequence-to-sequence models, particularly for language translation tasks. The attention mechanism utilizes matrix rearranging and multiplication to compute the significance of the vectors in the encoder output to the vectors in the current decoder hidden states when predicting each word. Our approach achieved 98% of the performance of fine-tuned pretrained T5-small, with 30% to 50% fewer parameters depending on vocabulary size, making our model an ideal choice in cases of single-processor training, low processor resource, limited memory, small dataset, or tasks not supported by pretrained transformers.",
+        "citationCount": 1,
+        "referenceCount": 12,
+        "url": "https://www.semanticscholar.org/paper/068398a1f0023710efe3d20904197a3ae295fab7",
+        "externalIds": {
+          "DOI": "10.1109/ONCON60463.2023.10430889"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 13,
+      "textSimilarity": 0.20586286870158374,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "0b44fcbeea9415d400c5f5789d6b892b6f98daff",
+        "title": "Building a Large Annotated Corpus of English: The Penn Treebank",
+        "authors": [
+          {
+            "id": "1734174",
+            "name": "Mitchell P. Marcus"
+          },
+          {
+            "id": "2063206",
+            "name": "M. Marcinkiewicz"
+          },
+          {
+            "id": "2424234",
+            "name": "Beatrice Santorini"
+          }
+        ],
+        "year": 1993,
+        "venue": "International Conference on Computational Logic",
+        "abstract": null,
+        "citationCount": 9321,
+        "referenceCount": 28,
+        "url": "https://www.semanticscholar.org/paper/0b44fcbeea9415d400c5f5789d6b892b6f98daff",
+        "externalIds": {},
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.06988308539838749,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+        "title": "Can Active Memory Replace Attention?",
+        "authors": [
+          {
+            "id": "40527594",
+            "name": "Lukasz Kaiser"
+          },
+          {
+            "id": "1751569",
+            "name": "Samy Bengio"
+          }
+        ],
+        "year": 2016,
+        "venue": "Neural Information Processing Systems",
+        "abstract": null,
+        "citationCount": 61,
+        "referenceCount": 27,
+        "url": "https://www.semanticscholar.org/paper/735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+        "externalIds": {
+          "ArXiv": "1610.08613"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.061806903474875406,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "ffc3d0d217a187754723f450b6e67d25111bf451",
+        "title": "Causally informed framework for metro track defect diagnosis, degradation prediction, and maintenance prioritization",
+        "authors": [
+          {
+            "id": "2258301282",
+            "name": "Yi Wang"
+          },
+          {
+            "id": "2258299354",
+            "name": "Xiao-Pei Cai"
+          },
+          {
+            "id": "2257884808",
+            "name": "Xue-Yang Tang"
+          },
+          {
+            "id": "2516242854",
+            "name": "Yi-Yang Li"
+          },
+          {
+            "id": "2257894479",
+            "name": "Yue Hou"
+          },
+          {
+            "id": "2343087694",
+            "name": "Shu-Wei Fang"
+          },
+          {
+            "id": "2516253568",
+            "name": "Bo-Yuan Zhang"
+          }
+        ],
+        "year": 2027,
+        "venue": "Automation in Construction",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 52,
+        "url": "https://www.semanticscholar.org/paper/ffc3d0d217a187754723f450b6e67d25111bf451",
+        "externalIds": {
+          "DOI": "10.1016/j.autcon.2026.107310"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "a1adb1eb39b7b97399220503080556737bae6d1d",
+        "title": "Conductor: Dynamically orchestrating pipeline parallelism with multi-granularity control",
+        "authors": [
+          {
+            "id": "2358189458",
+            "name": "Xingbo Dong"
+          },
+          {
+            "id": "2458997847",
+            "name": "Zi-Yuan Liu"
+          },
+          {
+            "id": "2342914899",
+            "name": "Yuezhe Yang"
+          },
+          {
+            "id": "3401020",
+            "name": "Yenlung Lai"
+          },
+          {
+            "id": "2185947941",
+            "name": "Zhe Jin"
+          }
+        ],
+        "year": 2027,
+        "venue": "Future generations computer systems",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 19,
+        "url": "https://www.semanticscholar.org/paper/a1adb1eb39b7b97399220503080556737bae6d1d",
+        "externalIds": {
+          "DOI": "10.1016/j.future.2026.108762"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+        "title": "Convolutional Sequence to Sequence Learning",
+        "authors": [
+          {
+            "id": "2401865",
+            "name": "Jonas Gehring"
+          },
+          {
+            "id": "2325985",
+            "name": "M. Auli"
+          },
+          {
+            "id": "2529182",
+            "name": "D. Grangier"
+          },
+          {
+            "id": "13759615",
+            "name": "D. Yarats"
+          },
+          {
+            "id": "2921469",
+            "name": "Y. Dauphin"
+          }
+        ],
+        "year": 2017,
+        "venue": "International Conference on Machine Learning",
+        "abstract": null,
+        "citationCount": 3580,
+        "referenceCount": 51,
+        "url": "https://www.semanticscholar.org/paper/43428880d75b3a14257c3ee9bda054e61eb869c0",
+        "externalIds": {
+          "ArXiv": "1705.03122"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.08387887336634615,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "b60abe57bc195616063be10638c6437358c81d1e",
+        "title": "Deep Recurrent Models with Fast-Forward Connections for Neural Machine Translation",
+        "authors": [
+          {
+            "id": "49178343",
+            "name": "Jie Zhou"
+          },
+          {
+            "id": "2112866139",
+            "name": "Ying Cao"
+          },
+          {
+            "id": "2108084524",
+            "name": "Xu-Guang Wang"
+          },
+          {
+            "id": "144326610",
+            "name": "Peng Li"
+          },
+          {
+            "id": "145738410",
+            "name": "Wei Xu"
+          }
+        ],
+        "year": 2016,
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "abstract": null,
+        "citationCount": 228,
+        "referenceCount": 32,
+        "url": "https://www.semanticscholar.org/paper/b60abe57bc195616063be10638c6437358c81d1e",
+        "externalIds": {
+          "DOI": "10.1162/tacl_a_00105",
+          "ArXiv": "1606.04199"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.1269568907189795,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+        "title": "Deep Residual Learning for Image Recognition",
+        "authors": [
+          {
+            "id": "39353098",
+            "name": "Kaiming He"
+          },
+          {
+            "id": "1771551",
+            "name": "X. Zhang"
+          },
+          {
+            "id": "3080683",
+            "name": "Shaoqing Ren"
+          },
+          {
+            "id": "2032184078",
+            "name": "Jian Sun"
+          }
+        ],
+        "year": 2015,
+        "venue": "Computer Vision and Pattern Recognition",
+        "abstract": null,
+        "citationCount": 243734,
+        "referenceCount": 54,
+        "url": "https://www.semanticscholar.org/paper/2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+        "externalIds": {
+          "DOI": "10.1109/cvpr.2016.90",
+          "ArXiv": "1512.03385"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "8f58a4ad03d218d8790a370f02a698cc9906c6ea",
+        "title": "Degradation-consistent measurement learning for robust low-sampling single-pixel recognition",
+        "authors": [
+          {
+            "id": "5420613",
+            "name": "Ze-Min Zhou"
+          },
+          {
+            "id": "2346721927",
+            "name": "Li-Zhen Qin"
+          },
+          {
+            "id": "3458362",
+            "name": "Yong-Kai Yin"
+          },
+          {
+            "id": "5608623",
+            "name": "Xiu-Lun Yang"
+          },
+          {
+            "id": "2150589546",
+            "name": "Xiang-Feng Meng"
+          }
+        ],
+        "year": 2027,
+        "venue": "Optics and lasers in engineering",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 31,
+        "url": "https://www.semanticscholar.org/paper/8f58a4ad03d218d8790a370f02a698cc9906c6ea",
+        "externalIds": {
+          "DOI": "10.1016/j.optlaseng.2026.110154"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.021190906306756553,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "34f25a8704614163c4095b3ee2fc969b60de4698",
+        "title": "Dropout: a simple way to prevent neural networks from overfitting",
+        "authors": [
+          {
+            "id": "2897313",
+            "name": "Nitish Srivastava"
+          },
+          {
+            "id": "1695689",
+            "name": "Geoffrey E. Hinton"
+          },
+          {
+            "id": "2064160",
+            "name": "A. Krizhevsky"
+          },
+          {
+            "id": "1701686",
+            "name": "I. Sutskever"
+          },
+          {
+            "id": "145124475",
+            "name": "R. Salakhutdinov"
+          }
+        ],
+        "year": 2014,
+        "venue": "Journal of machine learning research",
+        "abstract": null,
+        "citationCount": 44827,
+        "referenceCount": 37,
+        "url": "https://www.semanticscholar.org/paper/34f25a8704614163c4095b3ee2fc969b60de4698",
+        "externalIds": {
+          "DOI": "10.5555/2627435.2670313"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.04743065573409377,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "11bcb4d82499a44d78bfd27caf1dff390246cba7",
+        "title": "Edge-deployable and interpretable KAN-based lightweight neural filter for wavelength modulation spectral denoising",
+        "authors": [
+          {
+            "id": "2404470869",
+            "name": "Zi-Yi Guo"
+          },
+          {
+            "id": "2505781707",
+            "name": "Yu-Ting Lu"
+          },
+          {
+            "id": "2509894135",
+            "name": "Xiao-Tian Fan"
+          },
+          {
+            "id": "2403967822",
+            "name": "Yuan Du"
+          },
+          {
+            "id": "2353031936",
+            "name": "Jia-Cheng Dong"
+          },
+          {
+            "id": "2311075261",
+            "name": "Pei-Jie Xu"
+          },
+          {
+            "id": "2352834276",
+            "name": "Xi Lan"
+          },
+          {
+            "id": "2353107812",
+            "name": "Yi-Cong Jiang"
+          },
+          {
+            "id": "2278219359",
+            "name": "Shou-Zheng Zhu"
+          },
+          {
+            "id": "2392817838",
+            "name": "Zhao Cui"
+          },
+          {
+            "id": "2278164161",
+            "name": "Xin He"
+          },
+          {
+            "id": "2274069491",
+            "name": "Chun-Lai Li"
+          },
+          {
+            "id": "2278200240",
+            "name": "Sen-Yuan Wang"
+          },
+          {
+            "id": "2290732118",
+            "name": "Hong-Xing Qi"
+          },
+          {
+            "id": "2352881492",
+            "name": "Yu-Wei Chen"
+          }
+        ],
+        "year": 2027,
+        "venue": "Sensors and actuators. B, Chemical",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 57,
+        "url": "https://www.semanticscholar.org/paper/11bcb4d82499a44d78bfd27caf1dff390246cba7",
+        "externalIds": {
+          "DOI": "10.1016/j.snb.2026.141071"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.025159941963119277,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "93499a7c7f699b6630a86fad964536f9423bb6d0",
+        "title": "Effective Approaches to Attention-based Neural Machine Translation",
+        "authors": [
+          {
+            "id": "1821711",
+            "name": "Thang Luong"
+          },
+          {
+            "id": "143950636",
+            "name": "Hieu Pham"
+          },
+          {
+            "id": "144783904",
+            "name": "Christopher D. Manning"
+          }
+        ],
+        "year": 2015,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "abstract": null,
+        "citationCount": 8514,
+        "referenceCount": 19,
+        "url": "https://www.semanticscholar.org/paper/93499a7c7f699b6630a86fad964536f9423bb6d0",
+        "externalIds": {
+          "DOI": "10.18653/v1/D15-1166",
+          "ArXiv": "1508.04025"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.1686056343581916,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "78a9513e70f596077179101f6cb6eadc51602039",
+        "title": "Effective Self-Training for Parsing",
+        "authors": [
+          {
+            "id": "2240597",
+            "name": "D. Mcclosky"
+          },
+          {
+            "id": "1749837",
+            "name": "E. Charniak"
+          },
+          {
+            "id": "145177220",
+            "name": "Mark Johnson"
+          }
+        ],
+        "year": 2006,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "abstract": null,
+        "citationCount": 701,
+        "referenceCount": 22,
+        "url": "https://www.semanticscholar.org/paper/78a9513e70f596077179101f6cb6eadc51602039",
+        "externalIds": {
+          "DOI": "10.3115/1220835.1220855"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.13575284166644647,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "4a41a98d40fab83a2ac9010ca097e3b2cff4b6da",
+        "title": "Efficient Inference For Neural Machine Translation",
+        "authors": [
+          {
+            "id": "2069602159",
+            "name": "Y. Hsu"
+          },
+          {
+            "id": "31264049",
+            "name": "Sarthak Garg"
+          },
+          {
+            "id": "2114121573",
+            "name": "Yi-Hsiu Liao"
+          },
+          {
+            "id": "1988185137",
+            "name": "Ilya Chatsviorkin"
+          }
+        ],
+        "year": 2020,
+        "venue": "SUSTAINLP",
+        "abstract": "Large Transformer models have achieved state-of-the-art results in neural machine translation and have become standard in the field. In this work, we look for the optimal combination of known techniques to optimize inference speed without sacrificing translation quality. We conduct an empirical study that stacks various approaches and demonstrates that combination of replacing decoder self-attention with simplified recurrent units, adopting a deep encoder and a shallow decoder architecture and multi-head attention pruning can achieve up to 109% and 84% speedup on CPU and GPU respectively and reduce the number of parameters by 25% while maintaining the same translation quality in terms of BLEU.",
+        "citationCount": 14,
+        "referenceCount": 19,
+        "url": "https://www.semanticscholar.org/paper/4a41a98d40fab83a2ac9010ca097e3b2cff4b6da",
+        "externalIds": {
+          "DOI": "10.18653/v1/2020.sustainlp-1.7",
+          "ArXiv": "2010.02416"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 15,
+      "textSimilarity": 0.19547882553064766,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "6b92f54cca437d77a4ba3232f351da13e72eff7c",
+        "title": "Efficient Machine Translation with a BiLSTM-Attention Approach",
+        "authors": [
+          {
+            "id": "2371086627",
+            "name": "Yuxuan Wu"
+          },
+          {
+            "id": "2379744727",
+            "name": "Yi Xing"
+          }
+        ],
+        "year": 2024,
+        "venue": "arXiv.org",
+        "abstract": "With the rapid development of Natural Language Processing (NLP) technology, the accuracy and efficiency of machine translation have become hot topics of research. This paper proposes a novel Seq2Seq model aimed at improving translation quality while reducing the storage space required by the model. The model employs a Bidirectional Long Short-Term Memory network (Bi-LSTM) as the encoder to capture the context information of the input sequence; the decoder incorporates an attention mechanism, enhancing the model's ability to focus on key information during the translation process. Compared to the current mainstream Transformer model, our model achieves superior performance on the WMT14 machine translation dataset while maintaining a smaller size. The study first introduces the design principles and innovative points of the model architecture, followed by a series of experiments to verify the effectiveness of the model. The experimental includes an assessment of the model's performance on different language pairs, as well as comparative analysis with traditional Seq2Seq models. The results show that while maintaining translation accuracy, our model significantly reduces the storage requirements, which is of great significance for translation applications in resource-constrained scenarios. our code are available at https://github.com/mindspore-lab/models/tree/master/research/arxiv_papers/miniformer. Thanks for the support provided by MindSpore Community.",
+        "citationCount": 5,
+        "referenceCount": 23,
+        "url": "https://www.semanticscholar.org/paper/6b92f54cca437d77a4ba3232f351da13e72eff7c",
+        "externalIds": {
+          "DOI": "10.48550/arXiv.2410.22335",
+          "ArXiv": "2410.22335"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 16,
+      "textSimilarity": 0.24085696124561098,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "ff3f89978e24dda3f7eea1b1b88161a58ad6d180",
+        "title": "Efficient transient simulation paradigm for system-wide natural gas networks: A Boundary-Condition-Informed Fourier Neural Operator in the Time-Frequency Domain",
+        "authors": [
+          {
+            "id": "2292297489",
+            "name": "Yu-Qian Wang"
+          },
+          {
+            "id": "2487353681",
+            "name": "Gang Liu"
+          },
+          {
+            "id": "2515991939",
+            "name": "Ji-Kai Xu"
+          },
+          {
+            "id": "2510266859",
+            "name": "Shi-Yuan Liu"
+          },
+          {
+            "id": "2289911636",
+            "name": "Lei Chen"
+          }
+        ],
+        "year": 2027,
+        "venue": "Gas Science and Engineering",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 25,
+        "url": "https://www.semanticscholar.org/paper/ff3f89978e24dda3f7eea1b1b88161a58ad6d180",
+        "externalIds": {
+          "DOI": "10.1016/j.jgsce.2026.206037"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.024747093853795768,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "99914e009aed4c686bb893c875f25268631e819a",
+        "title": "Electrochemical-guided time-frequency transformer for battery state-of-health estimation",
+        "authors": [
+          {
+            "id": "47217766",
+            "name": "Hong-Yu Sun"
+          },
+          {
+            "id": "2504040375",
+            "name": "Pei-Dong Zheng"
+          },
+          {
+            "id": "2516786383",
+            "name": "Jun-Ying Wei"
+          },
+          {
+            "id": "2516802968",
+            "name": "Teng-Xi Wang"
+          },
+          {
+            "id": "2516806223",
+            "name": "Qiang Liu"
+          }
+        ],
+        "year": 2027,
+        "venue": "Applied Energy",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 72,
+        "url": "https://www.semanticscholar.org/paper/99914e009aed4c686bb893c875f25268631e819a",
+        "externalIds": {
+          "DOI": "10.1016/j.apenergy.2026.129042"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.062168990273484825,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "ac3ee98020251797c2b401e1389461df88e52e62",
+        "title": "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling",
+        "authors": [
+          {
+            "id": "8270717",
+            "name": "Junyoung Chung"
+          },
+          {
+            "id": "1854385",
+            "name": "Çaglar Gülçehre"
+          },
+          {
+            "id": "1979489",
+            "name": "Kyunghyun Cho"
+          },
+          {
+            "id": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "year": 2014,
+        "venue": "arXiv.org",
+        "abstract": null,
+        "citationCount": 15293,
+        "referenceCount": 20,
+        "url": "https://www.semanticscholar.org/paper/ac3ee98020251797c2b401e1389461df88e52e62",
+        "externalIds": {
+          "ArXiv": "1412.3555"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.05825855116498594,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "4f10b9f47c5bb6b54dd4f5ca8d9fa2c0bbd7ec5e",
+        "title": "End-To-End Memory Networks",
+        "authors": [
+          {
+            "id": "2265067",
+            "name": "Sainbayar Sukhbaatar"
+          },
+          {
+            "id": "3149531",
+            "name": "A. Szlam"
+          },
+          {
+            "id": "145183709",
+            "name": "J. Weston"
+          },
+          {
+            "id": "2276554",
+            "name": "R. Fergus"
+          }
+        ],
+        "year": 2015,
+        "venue": "Neural Information Processing Systems",
+        "abstract": null,
+        "citationCount": 2796,
+        "referenceCount": 25,
+        "url": "https://www.semanticscholar.org/paper/4f10b9f47c5bb6b54dd4f5ca8d9fa2c0bbd7ec5e",
+        "externalIds": {},
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.014171304659820846,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "269284a95874aef7f0b167f1e6f3e0512bfe2f4a",
+        "title": "Entropic risk-aware end-to-end learning for stochastic optimization of renewable-rich integrated energy systems",
+        "authors": [
+          {
+            "id": "2157757882",
+            "name": "Wan-Bing Zhao"
+          },
+          {
+            "id": "2506535428",
+            "name": "Yan Xu"
+          },
+          {
+            "id": "2397701273",
+            "name": "Zhao Yuan"
+          },
+          {
+            "id": "2261675137",
+            "name": "Qiang Yang"
+          }
+        ],
+        "year": 2027,
+        "venue": "Applied Energy",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 39,
+        "url": "https://www.semanticscholar.org/paper/269284a95874aef7f0b167f1e6f3e0512bfe2f4a",
+        "externalIds": {
+          "DOI": "10.1016/j.apenergy.2026.129096"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "6766e026351be13a71921141a95b197c90113a30",
+        "title": "Entropy– and Distance-Regularized Attention Improves Low-Resource Neural Machine Translation",
+        "authors": [
+          {
+            "id": "2007665955",
+            "name": "Ali Araabi"
+          },
+          {
+            "id": "2264431013",
+            "name": "Vlad Niculae"
+          },
+          {
+            "id": "2062908179",
+            "name": "C. Monz"
+          }
+        ],
+        "year": 2024,
+        "venue": "Conference of the Association for Machine Translation in the Americas",
+        "abstract": null,
+        "citationCount": 10,
+        "referenceCount": 44,
+        "url": "https://www.semanticscholar.org/paper/6766e026351be13a71921141a95b197c90113a30",
+        "externalIds": {},
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 19,
+      "textSimilarity": 0.0837239169782548,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "abb7e296d5fa7f444929da595a0b867d934583d7",
+        "title": "Evaluation of artificial neural network-based dose estimation models for emergency dose assessment in external exposure scenarios",
+        "authors": [
+          {
+            "id": "2393453929",
+            "name": "Hyoungtae Kim"
+          },
+          {
+            "id": "2331880319",
+            "name": "Yoomi Choi"
+          },
+          {
+            "id": "51415209",
+            "name": "Min Chae Kim"
+          }
+        ],
+        "year": 2027,
+        "venue": "Radiation Physics and Chemistry",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 26,
+        "url": "https://www.semanticscholar.org/paper/abb7e296d5fa7f444929da595a0b867d934583d7",
+        "externalIds": {
+          "DOI": "10.1016/j.radphyschem.2026.114346"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.072214859410398,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "2f2d8f8072e5cc9b296fad551f65f183bdbff7aa",
+        "title": "Exploring the Limits of Language Modeling",
+        "authors": [
+          {
+            "id": "1944541",
+            "name": "R. Józefowicz"
+          },
+          {
+            "id": "1689108",
+            "name": "O. Vinyals"
+          },
+          {
+            "id": "144927151",
+            "name": "Mike Schuster"
+          },
+          {
+            "id": "1846258",
+            "name": "Noam Shazeer"
+          },
+          {
+            "id": "48607963",
+            "name": "Yong-Hui Wu"
+          }
+        ],
+        "year": 2016,
+        "venue": "arXiv.org",
+        "abstract": null,
+        "citationCount": 1198,
+        "referenceCount": 54,
+        "url": "https://www.semanticscholar.org/paper/2f2d8f8072e5cc9b296fad551f65f183bdbff7aa",
+        "externalIds": {
+          "ArXiv": "1602.02410"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "79baf48bd560060549998d7b61751286de062e2a",
+        "title": "Factorization tricks for LSTM networks",
+        "authors": [
+          {
+            "id": "2787022",
+            "name": "Oleksii Kuchaiev"
+          },
+          {
+            "id": "31963005",
+            "name": "Boris Ginsburg"
+          }
+        ],
+        "year": 2017,
+        "venue": "International Conference on Learning Representations",
+        "abstract": null,
+        "citationCount": 123,
+        "referenceCount": 18,
+        "url": "https://www.semanticscholar.org/paper/79baf48bd560060549998d7b61751286de062e2a",
+        "externalIds": {
+          "ArXiv": "1703.10722"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.016634723948747376,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "174bbdb96252454cbb40a9c4e53335996235a008",
+        "title": "Fast and Accurate Shift-Reduce Constituent Parsing",
+        "authors": [
+          {
+            "id": "145490067",
+            "name": "Muhua Zhu"
+          },
+          {
+            "id": "2145912727",
+            "name": "Yue Zhang"
+          },
+          {
+            "id": "2463750",
+            "name": "Wenliang Chen"
+          },
+          {
+            "id": "1390813134",
+            "name": "Min Zhang"
+          },
+          {
+            "id": "1728004",
+            "name": "Jing-Bo Zhu"
+          }
+        ],
+        "year": 2013,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "abstract": null,
+        "citationCount": 222,
+        "referenceCount": 35,
+        "url": "https://www.semanticscholar.org/paper/174bbdb96252454cbb40a9c4e53335996235a008",
+        "externalIds": {},
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.028609769045546626,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "aae37df0c8c7d3f25b0a40726ed478e5351d1d3b",
+        "title": "FrameDiT: A dual-stream conditional diffusion Transformer for component layout design of steel braced frame structures",
+        "authors": [
+          {
+            "id": null,
+            "name": "Jiang Li"
+          },
+          {
+            "id": null,
+            "name": "Wei Wang"
+          },
+          {
+            "id": null,
+            "name": "Yu-Qing Gao"
+          }
+        ],
+        "year": 2027,
+        "venue": "Advanced Engineering Informatics",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 35,
+        "url": "https://www.semanticscholar.org/paper/aae37df0c8c7d3f25b0a40726ed478e5351d1d3b",
+        "externalIds": {
+          "DOI": "10.1016/j.aei.2026.105389"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.01763676697527712,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "1840fc46dda42826e12075041566e51dca938a95",
+        "title": "From natural language to interoperable BIM: Extensible framework for compliance-aware generative design",
+        "authors": [
+          {
+            "id": "2468177352",
+            "name": "Bo Pang"
+          },
+          {
+            "id": "2292211088",
+            "name": "Jian-Song Zhang"
+          },
+          {
+            "id": "2293354815",
+            "name": "Jing-Yi Lai"
+          },
+          {
+            "id": "2506850357",
+            "name": "Bernard Nartey"
+          }
+        ],
+        "year": 2027,
+        "venue": "Automation in Construction",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 62,
+        "url": "https://www.semanticscholar.org/paper/1840fc46dda42826e12075041566e51dca938a95",
+        "externalIds": {
+          "DOI": "10.1016/j.autcon.2026.107267"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "78c8d97686c08ef2695227e87f60bc467bea3038",
+        "title": "GADS-SLAM: A robust underground visual slam system integrating grayscale-aware enhancement, deep feature association, and scale-decoupled optimization",
+        "authors": [
+          {
+            "id": "2116276888",
+            "name": "Dai-Xian Zhu"
+          },
+          {
+            "id": "2509357773",
+            "name": "Yi-Min Wu"
+          },
+          {
+            "id": "2505578399",
+            "name": "Nan Wu"
+          }
+        ],
+        "year": 2027,
+        "venue": "Robotics and Autonomous Systems",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 42,
+        "url": "https://www.semanticscholar.org/paper/78c8d97686c08ef2695227e87f60bc467bea3038",
+        "externalIds": {
+          "DOI": "10.1016/j.robot.2026.105790"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "6471fd1cbc081fb3b7b5b14d6ab9eaaba02b5c17",
+        "title": "Generating Sequences With Recurrent Neural Networks",
+        "authors": [
+          {
+            "id": "1753223",
+            "name": "Alex Graves"
+          }
+        ],
+        "year": 2013,
+        "venue": "arXiv.org",
+        "abstract": null,
+        "citationCount": 4363,
+        "referenceCount": 38,
+        "url": "https://www.semanticscholar.org/paper/6471fd1cbc081fb3b7b5b14d6ab9eaaba02b5c17",
+        "externalIds": {
+          "ArXiv": "1308.0850"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.04761441592416735,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+        "title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation",
+        "authors": [
+          {
+            "id": "48607963",
+            "name": "Yong-Hui Wu"
+          },
+          {
+            "id": "144927151",
+            "name": "Mike Schuster"
+          },
+          {
+            "id": "2545358",
+            "name": "Z. Chen"
+          },
+          {
+            "id": "2827616",
+            "name": "Quoc V. Le"
+          },
+          {
+            "id": "144739074",
+            "name": "Mohammad Norouzi"
+          },
+          {
+            "id": "3153147",
+            "name": "Wolfgang Macherey"
+          },
+          {
+            "id": "2048712",
+            "name": "M. Krikun"
+          },
+          {
+            "id": "145144022",
+            "name": "Yuan Cao"
+          },
+          {
+            "id": "145312180",
+            "name": "Qin Gao"
+          },
+          {
+            "id": "113439369",
+            "name": "Klaus Macherey"
+          },
+          {
+            "id": "2367620",
+            "name": "J. Klingner"
+          },
+          {
+            "id": "145825976",
+            "name": "Apurva Shah"
+          },
+          {
+            "id": "145657834",
+            "name": "Melvin Johnson"
+          },
+          {
+            "id": "2109059862",
+            "name": "Xiao-Bing Liu"
+          },
+          {
+            "id": "40527594",
+            "name": "Lukasz Kaiser"
+          },
+          {
+            "id": "2776283",
+            "name": "S. Gouws"
+          },
+          {
+            "id": "2739610",
+            "name": "Yoshikiyo Kato"
+          },
+          {
+            "id": "1765329",
+            "name": "Taku Kudo"
+          },
+          {
+            "id": "1754386",
+            "name": "Hideto Kazawa"
+          },
+          {
+            "id": "144077726",
+            "name": "K. Stevens"
+          },
+          {
+            "id": "1753079661",
+            "name": "George Kurian"
+          },
+          {
+            "id": "2056800684",
+            "name": "Nishant Patil"
+          },
+          {
+            "id": "49337181",
+            "name": "Wei Wang"
+          },
+          {
+            "id": "39660914",
+            "name": "Cliff Young"
+          },
+          {
+            "id": "2119125158",
+            "name": "Jason Smith"
+          },
+          {
+            "id": "2909504",
+            "name": "Jason Riesa"
+          },
+          {
+            "id": "29951847",
+            "name": "Alex Rudnick"
+          },
+          {
+            "id": "1689108",
+            "name": "O. Vinyals"
+          },
+          {
+            "id": "102388768",
+            "name": "G. Corrado"
+          },
+          {
+            "id": "48342565",
+            "name": "Macduff Hughes"
+          },
+          {
+            "id": "49959210",
+            "name": "Jeffrey Dean"
+          }
+        ],
+        "year": 2016,
+        "venue": "arXiv.org",
+        "abstract": null,
+        "citationCount": 7444,
+        "referenceCount": 54,
+        "url": "https://www.semanticscholar.org/paper/c6850869aa5e78a107c378d2e8bfa39633158c0c",
+        "externalIds": {
+          "ArXiv": "1609.08144"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.07255375519577617,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "2e5f2b57f4c476dd69dc22ccdf547e48f40a994c",
+        "title": "Gradient Flow in Recurrent Nets: the Difficulty of Learning Long-Term Dependencies",
+        "authors": [
+          {
+            "id": "3308557",
+            "name": "S. Hochreiter"
+          },
+          {
+            "id": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "year": 2001,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 2104,
+        "referenceCount": 28,
+        "url": "https://www.semanticscholar.org/paper/2e5f2b57f4c476dd69dc22ccdf547e48f40a994c",
+        "externalIds": {},
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.012508617972010331,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+        "title": "Grammar as a Foreign Language",
+        "authors": [
+          {
+            "id": "1689108",
+            "name": "O. Vinyals"
+          },
+          {
+            "id": "40527594",
+            "name": "Lukasz Kaiser"
+          },
+          {
+            "id": "2060101052",
+            "name": "Terry Koo"
+          },
+          {
+            "id": "1754497",
+            "name": "Slav Petrov"
+          },
+          {
+            "id": "1701686",
+            "name": "I. Sutskever"
+          },
+          {
+            "id": "1695689",
+            "name": "Geoffrey E. Hinton"
+          }
+        ],
+        "year": 2014,
+        "venue": "Neural Information Processing Systems",
+        "abstract": null,
+        "citationCount": 944,
+        "referenceCount": 36,
+        "url": "https://www.semanticscholar.org/paper/47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+        "externalIds": {
+          "ArXiv": "1412.7449"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "cc5458e7b19ee5d61aea03ec112f2e2931f479d8",
+        "title": "Heterogeneous SAR–optical fusion for near-real-time land use and land cover mapping under cloud contamination: A novel framework and global benchmark dataset",
+        "authors": [
+          {
+            "id": "2110629117",
+            "name": "Jian-Gong Xu"
+          },
+          {
+            "id": "2317805783",
+            "name": "Wei-Bao Xue"
+          },
+          {
+            "id": "2282307752",
+            "name": "Xiao-Yu Yu"
+          },
+          {
+            "id": "2330152414",
+            "name": "Jun Pan"
+          },
+          {
+            "id": "2302173708",
+            "name": "Xin-Lian Liang"
+          },
+          {
+            "id": null,
+            "name": "Mi Wang"
+          }
+        ],
+        "year": 2027,
+        "venue": "Isprs Journal of Photogrammetry and Remote Sensing",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 59,
+        "url": "https://www.semanticscholar.org/paper/cc5458e7b19ee5d61aea03ec112f2e2931f479d8",
+        "externalIds": {
+          "DOI": "10.1016/j.isprsjprs.2026.10.025"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.011151182758377934,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "310513d5bb385aae5439a6e66c3ba05e5dd91e8f",
+        "title": "Hierarchical Graph-Transformer for inverse dynamics modeling of multiple deformable linear objects in robotic manipulation",
+        "authors": [
+          {
+            "id": "2362863497",
+            "name": "Jia-Kang Wang"
+          },
+          {
+            "id": "2331740056",
+            "name": "Hong'an Yang"
+          },
+          {
+            "id": "2514773761",
+            "name": "Xiao Lai"
+          },
+          {
+            "id": "2356548602",
+            "name": "Zi-Mao Sheng"
+          },
+          {
+            "id": "2352091544",
+            "name": "Peng Song"
+          }
+        ],
+        "year": 2027,
+        "venue": "Robotics and Autonomous Systems",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 39,
+        "url": "https://www.semanticscholar.org/paper/310513d5bb385aae5439a6e66c3ba05e5dd91e8f",
+        "externalIds": {
+          "DOI": "10.1016/j.robot.2026.105819"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.0187572159147458,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "5414e48bf75add557188dade4cb056ccf3b6337f",
+        "title": "Injective attention neural operators for partial differential equations on large-scale problems",
+        "authors": [
+          {
+            "id": "2281108032",
+            "name": "Ming Zhong"
+          },
+          {
+            "id": "2149373363",
+            "name": "Lu Lu"
+          },
+          {
+            "id": "2120636289",
+            "name": "Wei-Fang Weng"
+          },
+          {
+            "id": "2243334116",
+            "name": "Zhen-Ya Yan"
+          }
+        ],
+        "year": 2027,
+        "venue": "Journal of Computational Physics",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 81,
+        "url": "https://www.semanticscholar.org/paper/5414e48bf75add557188dade4cb056ccf3b6337f",
+        "externalIds": {
+          "DOI": "10.1016/j.jcp.2026.115457"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.06446051333685164,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "97fb4e3d45bb098e27e0071448b6152217bd35a5",
+        "title": "Layer Normalization",
+        "authors": [
+          {
+            "id": "2503659",
+            "name": "Jimmy Ba"
+          },
+          {
+            "id": "51131802",
+            "name": "J. Kiros"
+          },
+          {
+            "id": "1695689",
+            "name": "Geoffrey E. Hinton"
+          }
+        ],
+        "year": 2016,
+        "venue": "arXiv.org",
+        "abstract": null,
+        "citationCount": 13427,
+        "referenceCount": 33,
+        "url": "https://www.semanticscholar.org/paper/97fb4e3d45bb098e27e0071448b6152217bd35a5",
+        "externalIds": {
+          "ArXiv": "1607.06450"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "f52de7242e574b70410ca6fb70b79c811919fc00",
+        "title": "Learning Accurate, Compact, and Interpretable Tree Annotation",
+        "authors": [
+          {
+            "id": "1754497",
+            "name": "Slav Petrov"
+          },
+          {
+            "id": "37157794",
+            "name": "Leon Barrett"
+          },
+          {
+            "id": "3323298",
+            "name": "R. Thibaux"
+          },
+          {
+            "id": "38666915",
+            "name": "D. Klein"
+          }
+        ],
+        "year": 2006,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "abstract": null,
+        "citationCount": 994,
+        "referenceCount": 20,
+        "url": "https://www.semanticscholar.org/paper/f52de7242e574b70410ca6fb70b79c811919fc00",
+        "externalIds": {
+          "DOI": "10.3115/1220175.1220230"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "0b544dfe355a5070b60986319a3f51fb45d1348e",
+        "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+        "authors": [
+          {
+            "id": "1979489",
+            "name": "Kyunghyun Cho"
+          },
+          {
+            "id": "2309395471",
+            "name": "Bart van Merriënboer"
+          },
+          {
+            "id": "1854385",
+            "name": "Çaglar Gülçehre"
+          },
+          {
+            "id": "3335364",
+            "name": "D. Bahdanau"
+          },
+          {
+            "id": "2076086",
+            "name": "F. Bougares"
+          },
+          {
+            "id": "144518416",
+            "name": "Holger Schwenk"
+          },
+          {
+            "id": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "year": 2014,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "abstract": null,
+        "citationCount": 28139,
+        "referenceCount": 33,
+        "url": "https://www.semanticscholar.org/paper/0b544dfe355a5070b60986319a3f51fb45d1348e",
+        "externalIds": {
+          "DOI": "10.3115/v1/D14-1179",
+          "ArXiv": "1406.1078"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.1109158171467743,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "68ad11d6e3645fb78020ae1939cdb864eb25f7ef",
+        "title": "LLM-assisted dynamic graph reconfiguration for post-disaster compute-power collaborative resilience in energy-informatics systems",
+        "authors": [
+          {
+            "id": "2276980583",
+            "name": "Jun-Qiu Fan"
+          },
+          {
+            "id": "2278445960",
+            "name": "Ming-Shun Liu"
+          },
+          {
+            "id": "2508866556",
+            "name": "Ming-Yang Wang"
+          },
+          {
+            "id": "31339176",
+            "name": "Qin-Feng Ma"
+          },
+          {
+            "id": "2502596102",
+            "name": "Qi-Di Wu"
+          },
+          {
+            "id": "2512062953",
+            "name": "An Su"
+          },
+          {
+            "id": "38184885",
+            "name": "Can-Bing Li"
+          }
+        ],
+        "year": 2027,
+        "venue": "Advanced Engineering Informatics",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 27,
+        "url": "https://www.semanticscholar.org/paper/68ad11d6e3645fb78020ae1939cdb864eb25f7ef",
+        "externalIds": {
+          "DOI": "10.1016/j.aei.2026.105343"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "de3e0e049d0da862ada30ca1122f0f928a9fd8be",
+        "title": "LLM-based Structured Intermediate Representation for building regulation encoding",
+        "authors": [
+          {
+            "id": "2509892213",
+            "name": "Pin-Zhang Wu"
+          },
+          {
+            "id": "2040030",
+            "name": "Avinash Malik"
+          },
+          {
+            "id": "1737321",
+            "name": "P. Roop"
+          },
+          {
+            "id": "144003396",
+            "name": "R. Amor"
+          }
+        ],
+        "year": 2027,
+        "venue": "Automation in Construction",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 30,
+        "url": "https://www.semanticscholar.org/paper/de3e0e049d0da862ada30ca1122f0f928a9fd8be",
+        "externalIds": {
+          "DOI": "10.1016/j.autcon.2026.107295"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.025487381531160914,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "2e9d221c206e9503ceb452302d68d10e293f2a10",
+        "title": "Long Short-Term Memory",
+        "authors": [
+          {
+            "id": "3308557",
+            "name": "S. Hochreiter"
+          },
+          {
+            "id": "2467624663",
+            "name": "J. Schmidhuber"
+          }
+        ],
+        "year": 1997,
+        "venue": "Neural Computation",
+        "abstract": null,
+        "citationCount": 112433,
+        "referenceCount": 48,
+        "url": "https://www.semanticscholar.org/paper/2e9d221c206e9503ceb452302d68d10e293f2a10",
+        "externalIds": {
+          "DOI": "10.1162/neco.1997.9.8.1735"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "13fe71da009484f240c46f14d9330e932f8de210",
+        "title": "Long Short-Term Memory-Networks for Machine Reading",
+        "authors": [
+          {
+            "id": "1941442",
+            "name": "Jian-Peng Cheng"
+          },
+          {
+            "id": "145307652",
+            "name": "Li Dong"
+          },
+          {
+            "id": "1747893",
+            "name": "Mirella Lapata"
+          }
+        ],
+        "year": 2016,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "abstract": null,
+        "citationCount": 1193,
+        "referenceCount": 70,
+        "url": "https://www.semanticscholar.org/paper/13fe71da009484f240c46f14d9330e932f8de210",
+        "externalIds": {
+          "DOI": "10.18653/v1/D16-1053",
+          "ArXiv": "1601.06733"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.02589975752517216,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "e05ef78a6a718b03d05cc639f50fa9375284ed3c",
+        "title": "Machine learning-based diagnosis and health monitoring of solid oxide fuel cells using electrochemical impedance spectroscopy under multiple failure modes",
+        "authors": [
+          {
+            "id": "2298118826",
+            "name": "Z. Salehi"
+          },
+          {
+            "id": "73840954",
+            "name": "S. Sobhi"
+          },
+          {
+            "id": "2375064637",
+            "name": "Saeed Hanifi"
+          },
+          {
+            "id": "2298760556",
+            "name": "Daniel J. Smith"
+          },
+          {
+            "id": "4964746",
+            "name": "A. Hanifi"
+          },
+          {
+            "id": "2240893018",
+            "name": "Mahdi Shahbakhti"
+          }
+        ],
+        "year": 2027,
+        "venue": "Journal of Power Sources",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 62,
+        "url": "https://www.semanticscholar.org/paper/e05ef78a6a718b03d05cc639f50fa9375284ed3c",
+        "externalIds": {
+          "DOI": "10.1016/j.jpowsour.2026.241580"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.022887297763488062,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "4550a4c714920ef57d19878e31c9ebae37b049b2",
+        "title": "Massive Exploration of Neural Machine Translation Architectures",
+        "authors": [
+          {
+            "id": "3908643",
+            "name": "Denny Britz"
+          },
+          {
+            "id": "46684455",
+            "name": "Anna Goldie"
+          },
+          {
+            "id": "1707242",
+            "name": "Minh-Thang Luong"
+          },
+          {
+            "id": "2827616",
+            "name": "Quoc V. Le"
+          }
+        ],
+        "year": 2017,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "abstract": null,
+        "citationCount": 551,
+        "referenceCount": 33,
+        "url": "https://www.semanticscholar.org/paper/4550a4c714920ef57d19878e31c9ebae37b049b2",
+        "externalIds": {
+          "DOI": "10.18653/v1/D17-1151",
+          "ArXiv": "1703.03906"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.0546542751941428,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "a661ccd817fb1a86f4ff3e44459d10ac9c009263",
+        "title": "MIST-Net: A market–identity–spatial–temporal network for stock return prediction",
+        "authors": [
+          {
+            "id": "2514854639",
+            "name": "Hang-Yu Liu"
+          },
+          {
+            "id": "2470334317",
+            "name": "Xing Lu"
+          },
+          {
+            "id": "2494206196",
+            "name": "Xiao-Ju Jia"
+          },
+          {
+            "id": "2329172753",
+            "name": "Jiao-Jiao Yu"
+          },
+          {
+            "id": "2364970137",
+            "name": "Hao Tian"
+          }
+        ],
+        "year": 2027,
+        "venue": "Engineering analysis with boundary elements",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 40,
+        "url": "https://www.semanticscholar.org/paper/a661ccd817fb1a86f4ff3e44459d10ac9c009263",
+        "externalIds": {
+          "DOI": "10.1016/j.enganabound.2026.107087"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.013579348978105638,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "528b5f5356bc7ad91edc4dc074b0273e1e55fb03",
+        "title": "Modeling Recurrence for Transformer",
+        "authors": [
+          {
+            "id": "145485967",
+            "name": "Jie Hao"
+          },
+          {
+            "id": "48631170",
+            "name": "Xing Wang"
+          },
+          {
+            "id": "21299583",
+            "name": "Baosong Yang"
+          },
+          {
+            "id": "2111542852",
+            "name": "Long-Yue Wang"
+          },
+          {
+            "id": "49050568",
+            "name": "Jinfeng Zhang"
+          },
+          {
+            "id": "2909321",
+            "name": "Zhaopeng Tu"
+          }
+        ],
+        "year": 2019,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "abstract": "Recently, the Transformer model that is based solely on attention mechanisms, has advanced the state-of-the-art on various machine translation tasks. However, recent studies reveal that the lack of recurrence modeling hinders its further improvement of translation capacity. In response to this problem, we propose to directly model recurrence for Transformer with an additional recurrence encoder. In addition to the standard recurrent neural network, we introduce a novel attentive recurrent network to leverage the strengths of both attention models and recurrent networks. Experimental results on the widely-used WMT14 English⇒German and WMT17 Chinese⇒English translation tasks demonstrate the effectiveness of the proposed approach. Our studies also reveal that the proposed model benefits from a short-cut that bridges the source and target sequences with a single recurrent layer, which outperforms its deep counterpart.",
+        "citationCount": 87,
+        "referenceCount": 32,
+        "url": "https://www.semanticscholar.org/paper/528b5f5356bc7ad91edc4dc074b0273e1e55fb03",
+        "externalIds": {
+          "DOI": "10.18653/v1/N19-1122",
+          "ArXiv": "1904.03092"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 8,
+      "textSimilarity": 0.2787856153161779,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "dc96cf9352dbc2edaca17624e21089bc8b223649",
+        "title": "Multi-channel Encoder for Neural Machine Translation",
+        "authors": [
+          {
+            "id": "2054473960",
+            "name": "Hao Xiong"
+          },
+          {
+            "id": "37985966",
+            "name": "Zhong-Jun He"
+          },
+          {
+            "id": "2109752359",
+            "name": "Xiaoguang Hu"
+          },
+          {
+            "id": "40354707",
+            "name": "Hua Wu"
+          }
+        ],
+        "year": 2017,
+        "venue": "AAAI Conference on Artificial Intelligence",
+        "abstract": "Attention-based Encoder-Decoder has the effective architecture for neural machine translation (NMT), which typically relies on recurrent neural networks (RNN) to build the blocks that will be lately called by attentive reader during the decoding process. This design of encoder yields relatively uniform composition on source sentence, despite the gating mechanism employed in encoding RNN. On the other hand, we often hope the decoder to take pieces of source sentence at varying levels suiting its own linguistic structure: for example, we may want to take the entity name in its raw form while taking an idiom as a perfectly composed unit. Motivated by this demand, we propose Multi-channel Encoder (MCE), which enhances encoding components with different levels of composition. More specifically, in addition to the hidden state of encoding RNN, MCE takes 1) the original word embedding for raw encoding with no composition, and 2) a particular design of external memory in Neural Turing Machine NTM) for more complex composition, while all three encoding strategies are properly blended during decoding. Empirical study on Chinese-English translation shows that our model can improve by 6.52 BLEU points upon a strong open source NMT system: DL4MT1. On the WMT14 English-French task, our single shallow system achieves BLEU=38.8, comparable with the state-of-the-art deep models.",
+        "citationCount": 34,
+        "referenceCount": 23,
+        "url": "https://www.semanticscholar.org/paper/dc96cf9352dbc2edaca17624e21089bc8b223649",
+        "externalIds": {
+          "DOI": "10.1609/aaai.v32i1.11929",
+          "ArXiv": "1712.02109"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 18,
+      "textSimilarity": 0.18395262643257823,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "d76c07211479e233f7c6a6f32d5346c983c5598f",
+        "title": "Multi-task Sequence to Sequence Learning",
+        "authors": [
+          {
+            "id": "1707242",
+            "name": "Minh-Thang Luong"
+          },
+          {
+            "id": "2827616",
+            "name": "Quoc V. Le"
+          },
+          {
+            "id": "1701686",
+            "name": "I. Sutskever"
+          },
+          {
+            "id": "1689108",
+            "name": "O. Vinyals"
+          },
+          {
+            "id": "40527594",
+            "name": "Lukasz Kaiser"
+          }
+        ],
+        "year": 2015,
+        "venue": "International Conference on Learning Representations",
+        "abstract": null,
+        "citationCount": 843,
+        "referenceCount": 34,
+        "url": "https://www.semanticscholar.org/paper/d76c07211479e233f7c6a6f32d5346c983c5598f",
+        "externalIds": {
+          "ArXiv": "1511.06114"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.10251261806990491,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "2a5c611d6a4cfc0ed66562bd754f1cbb5426f702",
+        "title": "Multi-Unit Transformer for Neural Machine Translation",
+        "authors": [
+          {
+            "id": "134233854",
+            "name": "Jianhao Yan"
+          },
+          {
+            "id": "33427918",
+            "name": "Fan-Dong Meng"
+          },
+          {
+            "id": "48128428",
+            "name": "Jie Zhou"
+          }
+        ],
+        "year": 2020,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 28,
+        "url": "https://www.semanticscholar.org/paper/2a5c611d6a4cfc0ed66562bd754f1cbb5426f702",
+        "externalIds": {},
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 9,
+      "textSimilarity": 0.11234753743675346,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "8f8701e17f1b14f5a0a69fa2b24e7d8515f6d711",
+        "title": "Multi-Unit Transformers for Neural Machine Translation",
+        "authors": [
+          {
+            "id": "134233854",
+            "name": "Jianhao Yan"
+          },
+          {
+            "id": "33427918",
+            "name": "Fan-Dong Meng"
+          },
+          {
+            "id": "48128428",
+            "name": "Jie Zhou"
+          }
+        ],
+        "year": 2020,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "Transformer models achieve remarkable success in Neural Machine Translation. Many efforts have been devoted to deepening the Transformer by stacking several units (i.e., a combination of Multihead Attentions and FFN) in a cascade, while the investigation over multiple parallel units draws little attention. In this paper, we propose the Multi-Unit Transformers (MUTE), which aim to promote the expressiveness of the Transformer by introducing diverse and complementary units. Specifically, we use several parallel units and show that modeling with multiple units improves model performance and introduces diversity. Further, to better leverage the advantage of the multi-unit setting, we design biased module and sequential dependency that guide and encourage complementariness among different units. Experimental results on three machine translation tasks, the NIST Chinese-to-English, WMT'14 English-to-German and WMT'18 Chinese-to-English, show that the MUTE models significantly outperform the Transformer-Base, by up to +1.52, +1.90 and +1.10 BLEU points, with only a mild drop in inference speed (about 3.1%). In addition, our methods also surpass the Transformer-Big model, with only 54\\% of its parameters. These results demonstrate the effectiveness of the MUTE, as well as its efficiency in both the inference process and parameter usage.",
+        "citationCount": 19,
+        "referenceCount": 35,
+        "url": "https://www.semanticscholar.org/paper/8f8701e17f1b14f5a0a69fa2b24e7d8515f6d711",
+        "externalIds": {
+          "DOI": "10.18653/v1/2020.emnlp-main.77",
+          "ArXiv": "2010.10743"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 10,
+      "textSimilarity": 0.19916177641089955,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "5e4eb58d5b47ac1c73f4cf189497170e75ae6237",
+        "title": "Neural GPUs Learn Algorithms",
+        "authors": [
+          {
+            "id": "40527594",
+            "name": "Lukasz Kaiser"
+          },
+          {
+            "id": "1701686",
+            "name": "I. Sutskever"
+          }
+        ],
+        "year": 2015,
+        "venue": "International Conference on Learning Representations",
+        "abstract": null,
+        "citationCount": 411,
+        "referenceCount": 36,
+        "url": "https://www.semanticscholar.org/paper/5e4eb58d5b47ac1c73f4cf189497170e75ae6237",
+        "externalIds": {
+          "ArXiv": "1511.08228"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.06090736733739981,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "authors": [
+          {
+            "id": "3335364",
+            "name": "D. Bahdanau"
+          },
+          {
+            "id": "1979489",
+            "name": "Kyunghyun Cho"
+          },
+          {
+            "id": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "year": 2014,
+        "venue": "International Conference on Learning Representations",
+        "abstract": null,
+        "citationCount": 30295,
+        "referenceCount": 33,
+        "url": "https://www.semanticscholar.org/paper/fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+        "externalIds": {
+          "ArXiv": "1409.0473"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.050418561577983655,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "98445f4172659ec5e891e031d8202c102135c644",
+        "title": "Neural Machine Translation in Linear Time",
+        "authors": [
+          {
+            "id": "2583391",
+            "name": "N. Kalchbrenner"
+          },
+          {
+            "id": "2311318",
+            "name": "L. Espeholt"
+          },
+          {
+            "id": "34838386",
+            "name": "K. Simonyan"
+          },
+          {
+            "id": "1382719406",
+            "name": "A. van den Oord"
+          },
+          {
+            "id": "1753223",
+            "name": "Alex Graves"
+          },
+          {
+            "id": "2645384",
+            "name": "K. Kavukcuoglu"
+          }
+        ],
+        "year": 2016,
+        "venue": "arXiv.org",
+        "abstract": null,
+        "citationCount": 594,
+        "referenceCount": 40,
+        "url": "https://www.semanticscholar.org/paper/98445f4172659ec5e891e031d8202c102135c644",
+        "externalIds": {
+          "ArXiv": "1610.10099"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.10649635787746903,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "1518039b5001f1836565215eb047526b3ac7f462",
+        "title": "Neural Machine Translation of Rare Words with Subword Units",
+        "authors": [
+          {
+            "id": "2082372",
+            "name": "Rico Sennrich"
+          },
+          {
+            "id": "2259100",
+            "name": "B. Haddow"
+          },
+          {
+            "id": "2539211",
+            "name": "Alexandra Birch"
+          }
+        ],
+        "year": 2015,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "abstract": null,
+        "citationCount": 9167,
+        "referenceCount": 40,
+        "url": "https://www.semanticscholar.org/paper/1518039b5001f1836565215eb047526b3ac7f462",
+        "externalIds": {
+          "DOI": "10.18653/v1/P16-1162",
+          "ArXiv": "1508.07909"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.049902826980925075,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "8f7b53e1446c838aa5d343ebd19324b2637b5f3b",
+        "title": "Neural Machine Translation with CARU-Embedding Layer and CARU-Gated Attention Layer",
+        "authors": [
+          {
+            "id": "2176943",
+            "name": "S. Im"
+          },
+          {
+            "id": "36462679",
+            "name": "Ka‐Hou Chan"
+          }
+        ],
+        "year": 2024,
+        "venue": "Mathematics",
+        "abstract": "The attention mechanism performs well for the Neural Machine Translation (NMT) task, but heavily depends on the context vectors generated by the attention network to predict target words. This reliance raises the issue of long-term dependencies. Indeed, it is very common to combine predicates with postpositions in sentences, and the same predicate may have different meanings when combined with different postpositions. This usually poses an additional challenge to the NMT study. In this work, we observe that the embedding vectors of different target tokens can be classified by part-of-speech, thus we analyze the Natural Language Processing (NLP) related Content-Adaptive Recurrent Unit (CARU) unit and apply it to our attention model (CAAtt) and embedding layer (CAEmbed). By encoding the source sentence with the current decoded feature through the CARU, CAAtt is capable of achieving translation content-adaptive representations, which attention weights are contributed and enhanced by our proposed L1expNx normalization. Furthermore, CAEmbed aims to alleviate long-term dependencies in the target language through partial recurrent design, performing the feature extraction in a local perspective. Experiments on the WMT14, WMT17, and Multi30k translation tasks show that the proposed model achieves improvements in BLEU scores and enhancement of convergence over the attention-based plain NMT model. We also investigate the attention weights generated by the proposed approaches, which indicate that refinement over the different combinations of adposition can lead to different interpretations. Specifically, this work provides local attention to some specific phrases translated in our experiment. The results demonstrate that our approach is effective in improving performance and achieving a more reasonable attention distribution compared to the state-of-the-art models.",
+        "citationCount": 12,
+        "referenceCount": 20,
+        "url": "https://www.semanticscholar.org/paper/8f7b53e1446c838aa5d343ebd19324b2637b5f3b",
+        "externalIds": {
+          "DOI": "10.3390/math12070997"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 12,
+      "textSimilarity": 0.18038708464736666,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "ebaec77783e89b881c318e73036fdbdec927d159",
+        "title": "Orchard worker detection using spatial-context attention on 2D LiDAR data",
+        "authors": [
+          {
+            "id": "2266513922",
+            "name": "Jintack Jeon"
+          },
+          {
+            "id": "2115929316",
+            "name": "H. Chung"
+          },
+          {
+            "id": "71993680",
+            "name": "Gookhwan Kim"
+          },
+          {
+            "id": "2506420589",
+            "name": "Seungyun Baek"
+          },
+          {
+            "id": "3046293",
+            "name": "Dae-Hyun Lee"
+          }
+        ],
+        "year": 2027,
+        "venue": "Biosystems Engineering",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 67,
+        "url": "https://www.semanticscholar.org/paper/ebaec77783e89b881c318e73036fdbdec927d159",
+        "externalIds": {
+          "DOI": "10.1016/j.biosystemseng.2026.104604"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.05456647290687127,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "510e26733aaff585d65701b9f1be7ca9d5afc586",
+        "title": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+        "authors": [
+          {
+            "id": "1846258",
+            "name": "Noam Shazeer"
+          },
+          {
+            "id": "1861312",
+            "name": "Azalia Mirhoseini"
+          },
+          {
+            "id": "2275364713",
+            "name": "Krzysztof Maziarz"
+          },
+          {
+            "id": "36347083",
+            "name": "Andy Davis"
+          },
+          {
+            "id": "2827616",
+            "name": "Quoc V. Le"
+          },
+          {
+            "id": "1695689",
+            "name": "Geoffrey E. Hinton"
+          },
+          {
+            "id": "48448318",
+            "name": "J. Dean"
+          }
+        ],
+        "year": 2017,
+        "venue": "International Conference on Learning Representations",
+        "abstract": null,
+        "citationCount": 6084,
+        "referenceCount": 45,
+        "url": "https://www.semanticscholar.org/paper/510e26733aaff585d65701b9f1be7ca9d5afc586",
+        "externalIds": {
+          "ArXiv": "1701.06538"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.04020106946916859,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "2e7ddc611c414a0bf26e546f8dc743a5ac5842cf",
+        "title": "Parallel Attention Mechanisms in Neural Machine Translation",
+        "authors": [
+          {
+            "id": "144932816",
+            "name": "Julian R. Medina"
+          },
+          {
+            "id": "34694214",
+            "name": "J. Kalita"
+          }
+        ],
+        "year": 2018,
+        "venue": "International Conference on Machine Learning and Applications",
+        "abstract": "Recent papers in neural machine translation have proposed the strict use of attention mechanisms over previous standards such as recurrent and convolutional neural networks (RNNs and CNNs). We propose that by running traditionally? stacked encoding branches from encoder-decoder attention-focused architectures in parallel, that even more sequential operations can be removed from the model and thereby decrease training time. In particular, we modify the recently published attention-based architecture called Transformer by Google, by replacing sequential attention modules with parallel ones, reducing the amount of training time and substantially improving BLEU scores at the same time. Experiments over the English to German and English to French translation tasks show that our model establishes a new state of the art.",
+        "citationCount": 22,
+        "referenceCount": 19,
+        "url": "https://www.semanticscholar.org/paper/2e7ddc611c414a0bf26e546f8dc743a5ac5842cf",
+        "externalIds": {
+          "DOI": "10.1109/ICMLA.2018.00088",
+          "ArXiv": "1810.12427"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 2,
+      "textSimilarity": 0.3568922882259097,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "7736a7bc95af64d6200525f6f007200bb7a60651",
+        "title": "PF-HDiffBEV: Bird’s eye view feature enhancement mechanism based on potential field-guided hierarchical conditional diffusion model for autonomous driving",
+        "authors": [
+          {
+            "id": "2351815993",
+            "name": "Bing Zhu"
+          },
+          {
+            "id": "2515060310",
+            "name": "Wei-Guang Cao"
+          },
+          {
+            "id": "1491634246",
+            "name": "Dong-Jian Song"
+          },
+          {
+            "id": "4539079",
+            "name": "Jia-Yi Han"
+          },
+          {
+            "id": "2375709432",
+            "name": "Jian Zhao"
+          },
+          {
+            "id": "2514970064",
+            "name": "Jing-Wei Xue"
+          },
+          {
+            "id": "2515136561",
+            "name": "Ming-Hui Yao"
+          }
+        ],
+        "year": 2027,
+        "venue": "Advanced Engineering Informatics",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 36,
+        "url": "https://www.semanticscholar.org/paper/7736a7bc95af64d6200525f6f007200bb7a60651",
+        "externalIds": {
+          "DOI": "10.1016/j.aei.2026.105370"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.05516435148550567,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "ed758547ff806b913525aba901d4279acf4d6c93",
+        "title": "Phrase-Based Attentions",
+        "authors": [
+          {
+            "id": "41181713",
+            "name": "P. Nguyen"
+          },
+          {
+            "id": "2708940",
+            "name": "Shafiq R. Joty"
+          }
+        ],
+        "year": 2018,
+        "venue": "arXiv.org",
+        "abstract": "Most state-of-the-art neural machine translation systems, despite being different in architectural skeletons (e.g. recurrence, convolutional), share an indispensable feature: the Attention. However, most existing attention methods are token-based and ignore the importance of phrasal alignments, the key ingredient for the success of phrase-based statistical machine translation. In this paper, we propose novel phrase-based attention methods to model n-grams of tokens as attention entities. We incorporate our phrase-based attentions into the recently proposed Transformer network, and demonstrate that our approach yields improvements of 1.3 BLEU for English-to-German and 0.5 BLEU for German-to-English translation tasks on WMT newstest2014 using WMT'16 training data.",
+        "citationCount": 8,
+        "referenceCount": 21,
+        "url": "https://www.semanticscholar.org/paper/ed758547ff806b913525aba901d4279acf4d6c93",
+        "externalIds": {
+          "ArXiv": "1810.03444"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 17,
+      "textSimilarity": 0.2688622126133234,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "94c74ab0932c12abd291c9e9451a0b08964dfa86",
+        "title": "Physics-Informed Neural Networks for process systems: Estimating the unknown dynamics",
+        "authors": [
+          {
+            "id": "2204064755",
+            "name": "Farshad Moayedi"
+          },
+          {
+            "id": "2154327734",
+            "name": "Aswin Chandrasekar"
+          },
+          {
+            "id": "2320002602",
+            "name": "Prashant Mhaskar"
+          }
+        ],
+        "year": 2027,
+        "venue": "Computers &amp; Chemical Engineering",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 47,
+        "url": "https://www.semanticscholar.org/paper/94c74ab0932c12abd291c9e9451a0b08964dfa86",
+        "externalIds": {
+          "DOI": "10.1016/j.compchemeng.2026.109906"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.01902328631931251,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "f09348252e77f616bae49993bf64eca7799a82ca",
+        "title": "Physics-informed Perceiver IO: Scalable mesh-free solving of partial differential equations without supervision",
+        "authors": [
+          {
+            "id": "47795814",
+            "name": "Y. Yang"
+          },
+          {
+            "id": "2212903426",
+            "name": "E. Lee"
+          }
+        ],
+        "year": 2027,
+        "venue": "Journal of Computational Physics",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 38,
+        "url": "https://www.semanticscholar.org/paper/f09348252e77f616bae49993bf64eca7799a82ca",
+        "externalIds": {
+          "DOI": "10.1016/j.jcp.2026.115455"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "01f78a869988614631bc3a6231b87617d3a3ff77",
+        "title": "Prior-guided learning for ordered battery degradation trajectory prediction from partial charging observations under variable protocols",
+        "authors": [
+          {
+            "id": "2309945093",
+            "name": "Yong-Jiang Yu"
+          },
+          {
+            "id": "2248971438",
+            "name": "Shun-Feng Yang"
+          },
+          {
+            "id": "2441751492",
+            "name": "Zi-Jian Ge"
+          },
+          {
+            "id": "2516231979",
+            "name": "Ming-Jun Chen"
+          },
+          {
+            "id": "2482768906",
+            "name": "Wei-Cong Huang"
+          }
+        ],
+        "year": 2027,
+        "venue": "Journal of Power Sources",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 44,
+        "url": "https://www.semanticscholar.org/paper/01f78a869988614631bc3a6231b87617d3a3ff77",
+        "externalIds": {
+          "DOI": "10.1016/j.jpowsour.2026.241668"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "903fb78627f336841e7689c84d7b2576e9331f0a",
+        "title": "Recurrent Attention for Neural Machine Translation",
+        "authors": [
+          {
+            "id": "50409899",
+            "name": "Jia-Li Zeng"
+          },
+          {
+            "id": "2362902",
+            "name": "Shuang-Zhi Wu"
+          },
+          {
+            "id": "79701068",
+            "name": "Yong-Jing Yin"
+          },
+          {
+            "id": "2299066139",
+            "name": "Yu-Fan Jiang"
+          },
+          {
+            "id": "2135228973",
+            "name": "Mu Li"
+          }
+        ],
+        "year": 2021,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "abstract": "Recent research questions the importance of the dot-product self-attention in Transformer models and shows that most attention heads learn simple positional patterns. In this paper, we push further in this research line and propose a novel substitute mechanism for self-attention: Recurrent AtteNtion (RAN) . RAN directly learns attention weights without any token-to-token interaction and further improves their capacity by layer-to-layer interaction. Across an extensive set of experiments on 10 machine translation tasks, we find that RAN models are competitive and outperform their Transformer counterpart in certain scenarios, with fewer parameters and inference time. Particularly, when apply RAN to the decoder of Transformer, there brings consistent improvements by about +0.5 BLEU on 6 translation tasks and +1.0 BLEU on Turkish-English translation task. In addition, we conduct extensive analysis on the attention weights of RAN to confirm their reasonableness. Our RAN is a promising alternative to build more effective and efficient NMT models.",
+        "citationCount": 11,
+        "referenceCount": 29,
+        "url": "https://www.semanticscholar.org/paper/903fb78627f336841e7689c84d7b2576e9331f0a",
+        "externalIds": {
+          "DOI": "10.18653/v1/2021.emnlp-main.258"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 5,
+      "textSimilarity": 0.23671027892624708,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "7ba27e1644a7abc57613554021da2ff7b33346c2",
+        "title": "Recurrent Attention for the Transformer",
+        "authors": [
+          {
+            "id": "24905818",
+            "name": "Jan Rosendahl"
+          },
+          {
+            "id": "1474566597",
+            "name": "Christian Herold"
+          },
+          {
+            "id": "2138520328",
+            "name": "Frithjof Petrick"
+          },
+          {
+            "id": "145322333",
+            "name": "H. Ney"
+          }
+        ],
+        "year": 2021,
+        "venue": "First Workshop on Insights from Negative Results in NLP",
+        "abstract": "In this work, we conduct a comprehensive investigation on one of the centerpieces of modern machine translation systems: the encoder-decoder attention mechanism. Motivated by the concept of first-order alignments, we extend the (cross-)attention mechanism by a recurrent connection, allowing direct access to previous attention/alignment decisions. We propose several ways to include such a recurrency into the attention mechanism. Verifying their performance across different translation tasks we conclude that these extensions and dependencies are not beneficial for the translation performance of the Transformer architecture.",
+        "citationCount": 3,
+        "referenceCount": 16,
+        "url": "https://www.semanticscholar.org/paper/7ba27e1644a7abc57613554021da2ff7b33346c2",
+        "externalIds": {
+          "DOI": "10.18653/v1/2021.insights-1.10"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 11,
+      "textSimilarity": 0.20799630952655884,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "7345843e87c81e24e42264859b214d26042f8d51",
+        "title": "Recurrent Neural Network Grammars",
+        "authors": [
+          {
+            "id": "1745899",
+            "name": "Chris Dyer"
+          },
+          {
+            "id": "3376845",
+            "name": "Adhiguna Kuncoro"
+          },
+          {
+            "id": "143668305",
+            "name": "Miguel Ballesteros"
+          },
+          {
+            "id": "144365875",
+            "name": "Noah A. Smith"
+          }
+        ],
+        "year": 2016,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "abstract": null,
+        "citationCount": 558,
+        "referenceCount": 56,
+        "url": "https://www.semanticscholar.org/paper/7345843e87c81e24e42264859b214d26042f8d51",
+        "externalIds": {
+          "DOI": "10.18653/v1/N16-1024",
+          "ArXiv": "1602.07776"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.06677547845729503,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "21483a97604e81e9b0943b87179ef888f20a9307",
+        "title": "Regeneration-aware online SOH estimation framework for liquid metal batteries based on fragmented data",
+        "authors": [
+          {
+            "id": "2029337090",
+            "name": "Jia-Qi Qu"
+          },
+          {
+            "id": "2465111190",
+            "name": "Meng-Zhao Fang"
+          },
+          {
+            "id": "2260437642",
+            "name": "Xiao-Gang Wu"
+          },
+          {
+            "id": "2179589620",
+            "name": "Qiong-Lin Shi"
+          },
+          {
+            "id": "2255476491",
+            "name": "Kai Jiang"
+          },
+          {
+            "id": "153645343",
+            "name": "Wei-Gui Zhang"
+          },
+          {
+            "id": "2267193470",
+            "name": "Qiang Sun"
+          },
+          {
+            "id": "2509714315",
+            "name": "Zhao-Yang Dong"
+          },
+          {
+            "id": "2313468780",
+            "name": "Bin Li"
+          }
+        ],
+        "year": 2027,
+        "venue": "Applied Energy",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 59,
+        "url": "https://www.semanticscholar.org/paper/21483a97604e81e9b0943b87179ef888f20a9307",
+        "externalIds": {
+          "DOI": "10.1016/j.apenergy.2026.129024"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.03756483162266932,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "23ffaa0fe06eae05817f527a47ac3291077f9e58",
+        "title": "Rethinking the Inception Architecture for Computer Vision",
+        "authors": [
+          {
+            "id": "2574060",
+            "name": "C. Szegedy"
+          },
+          {
+            "id": "2657155",
+            "name": "Vincent Vanhoucke"
+          },
+          {
+            "id": "2054165706",
+            "name": "S. Ioffe"
+          },
+          {
+            "id": "1789737",
+            "name": "Jonathon Shlens"
+          },
+          {
+            "id": "3282833",
+            "name": "Z. Wojna"
+          }
+        ],
+        "year": 2015,
+        "venue": "Computer Vision and Pattern Recognition",
+        "abstract": null,
+        "citationCount": 32371,
+        "referenceCount": 24,
+        "url": "https://www.semanticscholar.org/paper/23ffaa0fe06eae05817f527a47ac3291077f9e58",
+        "externalIds": {
+          "DOI": "10.1109/CVPR.2016.308",
+          "ArXiv": "1512.00567"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.021119142746509022,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "d3b4ade23da1b10a48431cfc0115608dd55e83d9",
+        "title": "Review of AI agents in engineering design workflows",
+        "authors": [
+          {
+            "id": "2421688273",
+            "name": "Zoie McCreery"
+          },
+          {
+            "id": "2378234151",
+            "name": "M. Naser"
+          }
+        ],
+        "year": 2027,
+        "venue": "Automation in Construction",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 92,
+        "url": "https://www.semanticscholar.org/paper/d3b4ade23da1b10a48431cfc0115608dd55e83d9",
+        "externalIds": {
+          "DOI": "10.1016/j.autcon.2026.107305"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "ea9284bf22e43518b2e49e99c1b17820d7a87637",
+        "title": "Same meaning, different words: Automated item paraphrasing in ESP reading assessment",
+        "authors": [
+          {
+            "id": "2128276955",
+            "name": "S. Yildirim-erbasli"
+          },
+          {
+            "id": "116482891",
+            "name": "Münevver Ilgün Dibek"
+          },
+          {
+            "id": "51128569",
+            "name": "Okan Bulut"
+          }
+        ],
+        "year": 2027,
+        "venue": "English for Specific Purposes",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 34,
+        "url": "https://www.semanticscholar.org/paper/ea9284bf22e43518b2e49e99c1b17820d7a87637",
+        "externalIds": {
+          "DOI": "10.1016/j.esp.2026.09.003"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "5bfd8d40bc071fffaf93685a46974b122ee4239d",
+        "title": "Self-Training PCFG Grammars with Latent Annotations Across Languages",
+        "authors": [
+          {
+            "id": "34227637",
+            "name": "Zhongqiang Huang"
+          },
+          {
+            "id": "1999488",
+            "name": "M. Harper"
+          }
+        ],
+        "year": 2009,
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "abstract": null,
+        "citationCount": 104,
+        "referenceCount": 24,
+        "url": "https://www.semanticscholar.org/paper/5bfd8d40bc071fffaf93685a46974b122ee4239d",
+        "externalIds": {
+          "DOI": "10.3115/1699571.1699621"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.05325581350855367,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "cea967b59209c6be22829699f05b8b1ac4dc092d",
+        "title": "Sequence to Sequence Learning with Neural Networks",
+        "authors": [
+          {
+            "id": "1701686",
+            "name": "I. Sutskever"
+          },
+          {
+            "id": "1689108",
+            "name": "O. Vinyals"
+          },
+          {
+            "id": "2827616",
+            "name": "Quoc V. Le"
+          }
+        ],
+        "year": 2014,
+        "venue": "Neural Information Processing Systems",
+        "abstract": null,
+        "citationCount": 22572,
+        "referenceCount": 40,
+        "url": "https://www.semanticscholar.org/paper/cea967b59209c6be22829699f05b8b1ac4dc092d",
+        "externalIds": {
+          "ArXiv": "1409.3215"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.0796326558278065,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "13d9323a8716131911bfda048a40e2cde1a76a46",
+        "title": "Structured Attention Networks",
+        "authors": [
+          {
+            "id": "38367242",
+            "name": "Yoon Kim"
+          },
+          {
+            "id": "47472547",
+            "name": "Carl Denton"
+          },
+          {
+            "id": "144294755",
+            "name": "Luong Hoang"
+          },
+          {
+            "id": "2531268",
+            "name": "Alexander M. Rush"
+          }
+        ],
+        "year": 2017,
+        "venue": "International Conference on Learning Representations",
+        "abstract": null,
+        "citationCount": 500,
+        "referenceCount": 66,
+        "url": "https://www.semanticscholar.org/paper/13d9323a8716131911bfda048a40e2cde1a76a46",
+        "externalIds": {
+          "ArXiv": "1702.00887"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.1136099221326639,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "855fe13fa6474d48761d8398199707d81e1bf9f2",
+        "title": "SYNAPSE: Framework for neuron analysis and perturbation in sequence encoding",
+        "authors": [
+          {
+            "id": "1403868991",
+            "name": "J. Sánchez-Ochoa"
+          },
+          {
+            "id": "2123592273",
+            "name": "Enrique Tomás Martínez Beltrán"
+          },
+          {
+            "id": "123959865",
+            "name": "Alberto Huertas Celdrán"
+          }
+        ],
+        "year": 2027,
+        "venue": "Applied Soft Computing",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 29,
+        "url": "https://www.semanticscholar.org/paper/855fe13fa6474d48761d8398199707d81e1bf9f2",
+        "externalIds": {
+          "DOI": "10.1016/j.asoc.2026.116705"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.01660437370904833,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "7a7fa90f9bed03b7e3070445547c66137c38f9f5",
+        "title": "Syntax-Based Attention Masking for Neural Machine Translation",
+        "authors": [
+          {
+            "id": "1852864398",
+            "name": "Colin McDonald"
+          },
+          {
+            "id": "145287425",
+            "name": "David Chiang"
+          }
+        ],
+        "year": 2021,
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "abstract": "We present a simple method for extending transformers to source-side trees. We define a number of masks that limit self-attention based on relationships among tree nodes, and we allow each attention head to learn which mask or masks to use. On translation from English to various low-resource languages, and translation in both directions between English and German, our method always improves over simple linearization of the source-side parse tree and almost always improves over a sequence-to-sequence baseline, by up to +2.1 BLEU.",
+        "citationCount": 9,
+        "referenceCount": 17,
+        "url": "https://www.semanticscholar.org/paper/7a7fa90f9bed03b7e3070445547c66137c38f9f5",
+        "externalIds": {
+          "DOI": "10.18653/v1/2021.naacl-srw.7"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 3,
+      "textSimilarity": 0.17812055894667045,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "fcfe8f7e1d27069d141ecb1d8082c6991af3af86",
+        "title": "TE-SDNet: Temporally Enhanced Sequential Dependency Network for photovoltaic power forecasting",
+        "authors": [
+          {
+            "id": "2509370777",
+            "name": "Jie Zhang"
+          },
+          {
+            "id": "2449159771",
+            "name": "Jing Wang"
+          },
+          {
+            "id": "2509298202",
+            "name": "Shi-Long Ye"
+          },
+          {
+            "id": "2509339291",
+            "name": "Ming-Wang Dong"
+          },
+          {
+            "id": "2367761269",
+            "name": "Huan Wang"
+          }
+        ],
+        "year": 2027,
+        "venue": "Advanced Engineering Informatics",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 41,
+        "url": "https://www.semanticscholar.org/paper/fcfe8f7e1d27069d141ecb1d8082c6991af3af86",
+        "externalIds": {
+          "DOI": "10.1016/j.aei.2026.105311"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.013787225975633926,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "ec376dd5d9b3157ed530caf4d505341007ced207",
+        "title": "Toward a Framework for Assessing Patient-Facing Gen AI Tools in Mental Healthcare.",
+        "authors": [
+          {
+            "id": "2357425193",
+            "name": "Polina Durneva"
+          },
+          {
+            "id": "2506192457",
+            "name": "Hedieh Ghorbanie"
+          }
+        ],
+        "year": 2026,
+        "venue": "International Journal of Medical Informatics",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 92,
+        "url": "https://www.semanticscholar.org/paper/ec376dd5d9b3157ed530caf4d505341007ced207",
+        "externalIds": {
+          "DOI": "10.1016/j.ijmedinf.2026.106741"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "df7f7b32f464616ca54f35c160c2ec333aee2454",
+        "title": "Tranformer in Semantic Parsing",
+        "authors": [
+          {
+            "id": "143699251",
+            "name": "M. Greene"
+          }
+        ],
+        "year": 2018,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 23,
+        "url": "https://www.semanticscholar.org/paper/df7f7b32f464616ca54f35c160c2ec333aee2454",
+        "externalIds": {},
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 6,
+      "textSimilarity": 0.03993933688023921,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "ef9c4947e646b9b106349b60e5a609c608785bb9",
+        "title": "Transformer-based structural identification in molecular dynamics simulations",
+        "authors": [
+          {
+            "id": "2142527332",
+            "name": "Aoi Watanabe"
+          },
+          {
+            "id": "2330206702",
+            "name": "Ryuhei Sato"
+          },
+          {
+            "id": "2261556276",
+            "name": "Yasushi Shibuta"
+          }
+        ],
+        "year": 2027,
+        "venue": "Computational materials science",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 25,
+        "url": "https://www.semanticscholar.org/paper/ef9c4947e646b9b106349b60e5a609c608785bb9",
+        "externalIds": {
+          "DOI": "10.1016/j.commatsci.2026.115172"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.05382913196239281,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "e42e3e09af8a56381c65aa8a8ddaee63fb321936",
+        "title": "Transformer++",
+        "authors": [
+          {
+            "id": "1557931630",
+            "name": "Prakhar Thapak"
+          },
+          {
+            "id": "1557917362",
+            "name": "P. Hore"
+          }
+        ],
+        "year": 2020,
+        "venue": "arXiv.org",
+        "abstract": "Recent advancements in attention mechanisms have replaced recurrent neural networks and its variants for machine translation tasks. Transformer using attention mechanism solely achieved state-of-the-art results in sequence modeling. Neural machine translation based on the attention mechanism is parallelizable and addresses the problem of handling long-range dependencies among words in sentences more effectively than recurrent neural networks. One of the key concepts in attention is to learn three matrices, query, key, and value, where global dependencies among words are learned through linearly projecting word embeddings through these matrices. Multiple query, key, value matrices can be learned simultaneously focusing on a different subspace of the embedded dimension, which is called multi-head in Transformer. We argue that certain dependencies among words could be learned better through an intermediate context than directly modeling word-word dependencies. This could happen due to the nature of certain dependencies or lack of patterns that lend them difficult to be modeled globally using multi-head self-attention. In this work, we propose a new way of learning dependencies through a context in multi-head using convolution. This new form of multi-head attention along with the traditional form achieves better results than Transformer on the WMT 2014 English-to-German and English-to-French translation tasks. We also introduce a framework to learn POS tagging and NER information during the training of encoder which further improves results achieving a new state-of-the-art of 32.1 BLEU, better than existing best by 1.4 BLEU, on the WMT 2014 English-to-German and 44.6 BLEU, better than existing best by 1.1 BLEU, on the WMT 2014 English-to-French translation tasks. We call this Transformer++.",
+        "citationCount": 0,
+        "referenceCount": 37,
+        "url": "https://www.semanticscholar.org/paper/e42e3e09af8a56381c65aa8a8ddaee63fb321936",
+        "externalIds": {
+          "ArXiv": "2003.04974"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 1,
+      "textSimilarity": 0.3473987445880522,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "ac4dafdef1d2b685b7f28a11837414573d39ff4e",
+        "title": "Universal Transformers",
+        "authors": [
+          {
+            "id": "3226635",
+            "name": "Mostafa Dehghani"
+          },
+          {
+            "id": "2776283",
+            "name": "S. Gouws"
+          },
+          {
+            "id": "1689108",
+            "name": "O. Vinyals"
+          },
+          {
+            "id": "39328010",
+            "name": "J. Uszkoreit"
+          },
+          {
+            "id": "40527594",
+            "name": "Lukasz Kaiser"
+          }
+        ],
+        "year": 2018,
+        "venue": "International Conference on Learning Representations",
+        "abstract": "Recurrent neural networks (RNNs) sequentially process data by updating their state with each new data point, and have long been the de facto choice for sequence modeling tasks. However, their inherently sequential computation makes them slow to train. Feed-forward and convolutional architectures have recently been shown to achieve superior results on some sequence modeling tasks such as machine translation, with the added advantage that they concurrently process all inputs in the sequence, leading to easy parallelization and faster training times. Despite these successes, however, popular feed-forward sequence models like the Transformer fail to generalize in many simple tasks that recurrent models handle with ease, e.g. copying strings or even simple logical inference when the string or formula lengths exceed those observed at training time. We propose the Universal Transformer (UT), a parallel-in-time self-attentive recurrent sequence model which can be cast as a generalization of the Transformer model and which addresses these issues. UTs combine the parallelizability and global receptive field of feed-forward sequence models like the Transformer with the recurrent inductive bias of RNNs. We also add a dynamic per-position halting mechanism and find that it improves accuracy on several tasks. In contrast to the standard Transformer, under certain assumptions, UTs can be shown to be Turing-complete. Our experiments show that UTs outperform standard Transformers on a wide range of algorithmic and language understanding tasks, including the challenging LAMBADA language modeling task where UTs achieve a new state of the art, and machine translation where UTs achieve a 0.9 BLEU improvement over Transformers on the WMT14 En-De dataset.",
+        "citationCount": 1167,
+        "referenceCount": 36,
+        "url": "https://www.semanticscholar.org/paper/ac4dafdef1d2b685b7f28a11837414573d39ff4e",
+        "externalIds": {
+          "ArXiv": "1807.03819"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 7,
+      "textSimilarity": 0.23786271184092395,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "0973f1601a1186595eb0b158466dddc37edef326",
+        "title": "Using conditional diffusion models for data-driven ground motion identification of structural dynamic systems under uncertainty",
+        "authors": [
+          {
+            "id": "2283301829",
+            "name": "Ji-Chuan Tang"
+          },
+          {
+            "id": "2331614752",
+            "name": "De-Lin An"
+          },
+          {
+            "id": "50878380",
+            "name": "P. Brewick"
+          },
+          {
+            "id": "48586275",
+            "name": "Chao-Li Wang"
+          }
+        ],
+        "year": 2027,
+        "venue": "Advanced Engineering Informatics",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 52,
+        "url": "https://www.semanticscholar.org/paper/0973f1601a1186595eb0b158466dddc37edef326",
+        "externalIds": {
+          "DOI": "10.1016/j.aei.2026.105330"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.058877692377456756,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "63e39cdf1ad884da6bc69096bb3413b5b1100559",
+        "title": "Using the Output Embedding to Improve Language Models",
+        "authors": [
+          {
+            "id": "40170001",
+            "name": "Ofir Press"
+          },
+          {
+            "id": "145128145",
+            "name": "Lior Wolf"
+          }
+        ],
+        "year": 2016,
+        "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
+        "abstract": null,
+        "citationCount": 871,
+        "referenceCount": 45,
+        "url": "https://www.semanticscholar.org/paper/63e39cdf1ad884da6bc69096bb3413b5b1100559",
+        "externalIds": {
+          "DOI": "10.18653/V1/E17-2025",
+          "ArXiv": "1608.05859"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.0700519682960036,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "f59a2a725878ddc75a059d3c21d78af9cd091a94",
+        "title": "WaveFusionNet: frequency-gated spatial modulation and Wavelet Energy-Guided Contrastive Learning for dual-branch malaria cell classification",
+        "authors": [
+          {
+            "id": "2350094987",
+            "name": "Naif Alzahrani"
+          },
+          {
+            "id": "2383198489",
+            "name": "S. Thota"
+          },
+          {
+            "id": "2329404591",
+            "name": "A. Alarood"
+          },
+          {
+            "id": "2334279324",
+            "name": "Kemal Polat"
+          }
+        ],
+        "year": 2027,
+        "venue": "Computers & electrical engineering",
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 53,
+        "url": "https://www.semanticscholar.org/paper/f59a2a725878ddc75a059d3c21d78af9cd091a94",
+        "externalIds": {
+          "DOI": "10.1016/j.compeleceng.2026.111595"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "citing"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "2ecb9944ff5ab08924729a6e87d90a9ff3662851",
+        "title": "We start by defining the recurrent architecture as implemented in S OCKEYE , following",
+        "authors": [
+          {
+            "id": "2521764",
+            "name": "F. Hieber"
+          },
+          {
+            "id": "2120874",
+            "name": "Tobias Domhan"
+          },
+          {
+            "id": "2157958",
+            "name": "M. Denkowski"
+          },
+          {
+            "id": "145088328",
+            "name": "David Vilar"
+          },
+          {
+            "id": "2297341",
+            "name": "Artem Sokolov"
+          },
+          {
+            "id": "39304653",
+            "name": "Ann Clifton"
+          },
+          {
+            "id": "38842528",
+            "name": "Matt Post"
+          }
+        ],
+        "year": 2018,
+        "venue": null,
+        "abstract": null,
+        "citationCount": 0,
+        "referenceCount": 36,
+        "url": "https://www.semanticscholar.org/paper/2ecb9944ff5ab08924729a6e87d90a9ff3662851",
+        "externalIds": {},
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 4,
+      "textSimilarity": 0.03163141199376675,
+      "similarityCoverage": "title-only"
+    },
+    {
+      "paper": {
+        "id": "3861ae2a6bdd2a759c2d901a6583e63a216bc2fc",
+        "title": "Weighted Transformer Network for Machine Translation",
+        "authors": [
+          {
+            "id": "145329413",
+            "name": "Karim Ahmed"
+          },
+          {
+            "id": "2844898",
+            "name": "N. Keskar"
+          },
+          {
+            "id": "2166511",
+            "name": "R. Socher"
+          }
+        ],
+        "year": 2017,
+        "venue": "arXiv.org",
+        "abstract": "State-of-the-art results on neural machine translation often use attentional sequence-to-sequence models with some form of convolution or recursion. Vaswani et al. (2017) propose a new architecture that avoids recurrence and convolution completely. Instead, it uses only self-attention and feed-forward layers. While the proposed architecture achieves state-of-the-art results on several machine translation tasks, it requires a large number of parameters and training iterations to converge. We propose Weighted Transformer, a Transformer with modified attention layers, that not only outperforms the baseline network in BLEU score but also converges 15-40% faster. Specifically, we replace the multi-head attention by multiple self-attention branches that the model learns to combine during the training process. Our model improves the state-of-the-art performance by 0.5 BLEU points on the WMT 2014 English-to-German translation task and by 0.4 on the English-to-French translation task.",
+        "citationCount": 143,
+        "referenceCount": 36,
+        "url": "https://www.semanticscholar.org/paper/3861ae2a6bdd2a759c2d901a6583e63a216bc2fc",
+        "externalIds": {
+          "ArXiv": "1711.02132"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "recommended"
+      ],
+      "recommendationRank": 14,
+      "textSimilarity": 0.38262267516067133,
+      "similarityCoverage": "title+abstract"
+    },
+    {
+      "paper": {
+        "id": "5b6ec746d309b165f9f9def873a2375b6fb40f3d",
+        "title": "Xception: Deep Learning with Depthwise Separable Convolutions",
+        "authors": [
+          {
+            "id": "1565641737",
+            "name": "François Chollet"
+          }
+        ],
+        "year": 2016,
+        "venue": "Computer Vision and Pattern Recognition",
+        "abstract": null,
+        "citationCount": 18788,
+        "referenceCount": 27,
+        "url": "https://www.semanticscholar.org/paper/5b6ec746d309b165f9f9def873a2375b6fb40f3d",
+        "externalIds": {
+          "DOI": "10.1109/CVPR.2017.195",
+          "ArXiv": "1610.02357"
+        },
+        "source": "semantic-scholar",
+        "fetchedAt": "2026-10-28T18:18:08.978Z"
+      },
+      "memberships": [
+        "reference"
+      ],
+      "recommendationRank": null,
+      "textSimilarity": 0.03856786586361702,
+      "similarityCoverage": "title-only"
+    }
+  ],
+  "edges": [
+    {
+      "id": "cit:01f78a869988614631bc3a6231b87617d3a3ff77->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "01f78a869988614631bc3a6231b87617d3a3ff77",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:0973f1601a1186595eb0b158466dddc37edef326->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "0973f1601a1186595eb0b158466dddc37edef326",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:11bcb4d82499a44d78bfd27caf1dff390246cba7->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "11bcb4d82499a44d78bfd27caf1dff390246cba7",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:1840fc46dda42826e12075041566e51dca938a95->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "1840fc46dda42826e12075041566e51dca938a95",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->032274e57f7d8b456bd255fe76b909b2c1d7458e",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "032274e57f7d8b456bd255fe76b909b2c1d7458e",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->0b44fcbeea9415d400c5f5789d6b892b6f98daff",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "0b44fcbeea9415d400c5f5789d6b892b6f98daff",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->0b544dfe355a5070b60986319a3f51fb45d1348e",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "0b544dfe355a5070b60986319a3f51fb45d1348e",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->13d9323a8716131911bfda048a40e2cde1a76a46",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "13d9323a8716131911bfda048a40e2cde1a76a46",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->13fe71da009484f240c46f14d9330e932f8de210",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "13fe71da009484f240c46f14d9330e932f8de210",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->1518039b5001f1836565215eb047526b3ac7f462",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "1518039b5001f1836565215eb047526b3ac7f462",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->174bbdb96252454cbb40a9c4e53335996235a008",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "174bbdb96252454cbb40a9c4e53335996235a008",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->204a4a70428f3938d2c538a4d74c7ae0416306d8",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "204a4a70428f3938d2c538a4d74c7ae0416306d8",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->23ffaa0fe06eae05817f527a47ac3291077f9e58",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "23ffaa0fe06eae05817f527a47ac3291077f9e58",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->2e5f2b57f4c476dd69dc22ccdf547e48f40a994c",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "2e5f2b57f4c476dd69dc22ccdf547e48f40a994c",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->2e9d221c206e9503ceb452302d68d10e293f2a10",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "2e9d221c206e9503ceb452302d68d10e293f2a10",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->2f2d8f8072e5cc9b296fad551f65f183bdbff7aa",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "2f2d8f8072e5cc9b296fad551f65f183bdbff7aa",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->34f25a8704614163c4095b3ee2fc969b60de4698",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "34f25a8704614163c4095b3ee2fc969b60de4698",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->4550a4c714920ef57d19878e31c9ebae37b049b2",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "4550a4c714920ef57d19878e31c9ebae37b049b2",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->4f10b9f47c5bb6b54dd4f5ca8d9fa2c0bbd7ec5e",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "4f10b9f47c5bb6b54dd4f5ca8d9fa2c0bbd7ec5e",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->510e26733aaff585d65701b9f1be7ca9d5afc586",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "510e26733aaff585d65701b9f1be7ca9d5afc586",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->5b6ec746d309b165f9f9def873a2375b6fb40f3d",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "5b6ec746d309b165f9f9def873a2375b6fb40f3d",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->5bfd8d40bc071fffaf93685a46974b122ee4239d",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "5bfd8d40bc071fffaf93685a46974b122ee4239d",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->5e4eb58d5b47ac1c73f4cf189497170e75ae6237",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "5e4eb58d5b47ac1c73f4cf189497170e75ae6237",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->63e39cdf1ad884da6bc69096bb3413b5b1100559",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "63e39cdf1ad884da6bc69096bb3413b5b1100559",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->6471fd1cbc081fb3b7b5b14d6ab9eaaba02b5c17",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "6471fd1cbc081fb3b7b5b14d6ab9eaaba02b5c17",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->7345843e87c81e24e42264859b214d26042f8d51",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "7345843e87c81e24e42264859b214d26042f8d51",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->78a9513e70f596077179101f6cb6eadc51602039",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "78a9513e70f596077179101f6cb6eadc51602039",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->79baf48bd560060549998d7b61751286de062e2a",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "79baf48bd560060549998d7b61751286de062e2a",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->93499a7c7f699b6630a86fad964536f9423bb6d0",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "93499a7c7f699b6630a86fad964536f9423bb6d0",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->97fb4e3d45bb098e27e0071448b6152217bd35a5",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "97fb4e3d45bb098e27e0071448b6152217bd35a5",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->98445f4172659ec5e891e031d8202c102135c644",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "98445f4172659ec5e891e031d8202c102135c644",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->a6cb366736791bcccc5c8639de5a8f9636bf87e8",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "a6cb366736791bcccc5c8639de5a8f9636bf87e8",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->ac3ee98020251797c2b401e1389461df88e52e62",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "ac3ee98020251797c2b401e1389461df88e52e62",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->b60abe57bc195616063be10638c6437358c81d1e",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "b60abe57bc195616063be10638c6437358c81d1e",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->cea967b59209c6be22829699f05b8b1ac4dc092d",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "cea967b59209c6be22829699f05b8b1ac4dc092d",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->d76c07211479e233f7c6a6f32d5346c983c5598f",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "d76c07211479e233f7c6a6f32d5346c983c5598f",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->f52de7242e574b70410ca6fb70b79c811919fc00",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "f52de7242e574b70410ca6fb70b79c811919fc00",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:204e3073870fae3d05bcbc2f6a8e263d9b72e776->fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+      "kind": "citation",
+      "evidence": "references-endpoint"
+    },
+    {
+      "id": "cit:21483a97604e81e9b0943b87179ef888f20a9307->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "21483a97604e81e9b0943b87179ef888f20a9307",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:269284a95874aef7f0b167f1e6f3e0512bfe2f4a->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "269284a95874aef7f0b167f1e6f3e0512bfe2f4a",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:310513d5bb385aae5439a6e66c3ba05e5dd91e8f->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "310513d5bb385aae5439a6e66c3ba05e5dd91e8f",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:5414e48bf75add557188dade4cb056ccf3b6337f->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "5414e48bf75add557188dade4cb056ccf3b6337f",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:68ad11d6e3645fb78020ae1939cdb864eb25f7ef->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "68ad11d6e3645fb78020ae1939cdb864eb25f7ef",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:6a842f57c9871bf023c82709ef3193cae55f045a->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "6a842f57c9871bf023c82709ef3193cae55f045a",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:70665bff663b010226f3e018fbc147ec146e2f57->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "70665bff663b010226f3e018fbc147ec146e2f57",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:7736a7bc95af64d6200525f6f007200bb7a60651->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "7736a7bc95af64d6200525f6f007200bb7a60651",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:78c8d97686c08ef2695227e87f60bc467bea3038->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "78c8d97686c08ef2695227e87f60bc467bea3038",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:855fe13fa6474d48761d8398199707d81e1bf9f2->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "855fe13fa6474d48761d8398199707d81e1bf9f2",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:8f58a4ad03d218d8790a370f02a698cc9906c6ea->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "8f58a4ad03d218d8790a370f02a698cc9906c6ea",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:94c74ab0932c12abd291c9e9451a0b08964dfa86->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "94c74ab0932c12abd291c9e9451a0b08964dfa86",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:99914e009aed4c686bb893c875f25268631e819a->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "99914e009aed4c686bb893c875f25268631e819a",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:a1adb1eb39b7b97399220503080556737bae6d1d->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "a1adb1eb39b7b97399220503080556737bae6d1d",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:a1e6868c04eeab2bc9ab9ea5ef6d597377f23e75->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "a1e6868c04eeab2bc9ab9ea5ef6d597377f23e75",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:a661ccd817fb1a86f4ff3e44459d10ac9c009263->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "a661ccd817fb1a86f4ff3e44459d10ac9c009263",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:aae37df0c8c7d3f25b0a40726ed478e5351d1d3b->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "aae37df0c8c7d3f25b0a40726ed478e5351d1d3b",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:abb7e296d5fa7f444929da595a0b867d934583d7->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "abb7e296d5fa7f444929da595a0b867d934583d7",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:c394412647888d6c8ab80c32a332d35033c27fa4->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "c394412647888d6c8ab80c32a332d35033c27fa4",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:c45e35f786a4812493ddf5b76aa09ee97f56e15d->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "c45e35f786a4812493ddf5b76aa09ee97f56e15d",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:cc5458e7b19ee5d61aea03ec112f2e2931f479d8->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "cc5458e7b19ee5d61aea03ec112f2e2931f479d8",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:d3b4ade23da1b10a48431cfc0115608dd55e83d9->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "d3b4ade23da1b10a48431cfc0115608dd55e83d9",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:d92d5b1764c01e6d5e1998371111f1a6536f93d6->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "d92d5b1764c01e6d5e1998371111f1a6536f93d6",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:de3e0e049d0da862ada30ca1122f0f928a9fd8be->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "de3e0e049d0da862ada30ca1122f0f928a9fd8be",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:debbe94eddc66b7be99a20cf34a002736e40343b->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "debbe94eddc66b7be99a20cf34a002736e40343b",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:e05ef78a6a718b03d05cc639f50fa9375284ed3c->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "e05ef78a6a718b03d05cc639f50fa9375284ed3c",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:ea9284bf22e43518b2e49e99c1b17820d7a87637->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "ea9284bf22e43518b2e49e99c1b17820d7a87637",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:ebaec77783e89b881c318e73036fdbdec927d159->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "ebaec77783e89b881c318e73036fdbdec927d159",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:ec376dd5d9b3157ed530caf4d505341007ced207->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "ec376dd5d9b3157ed530caf4d505341007ced207",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:ef9c4947e646b9b106349b60e5a609c608785bb9->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "ef9c4947e646b9b106349b60e5a609c608785bb9",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:f09348252e77f616bae49993bf64eca7799a82ca->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "f09348252e77f616bae49993bf64eca7799a82ca",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:f59a2a725878ddc75a059d3c21d78af9cd091a94->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "f59a2a725878ddc75a059d3c21d78af9cd091a94",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:f8c05f97f214b324c05a1b4d52fecbefda76df72->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "f8c05f97f214b324c05a1b4d52fecbefda76df72",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:fcfe8f7e1d27069d141ecb1d8082c6991af3af86->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "fcfe8f7e1d27069d141ecb1d8082c6991af3af86",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:ff3f89978e24dda3f7eea1b1b88161a58ad6d180->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "ff3f89978e24dda3f7eea1b1b88161a58ad6d180",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    },
+    {
+      "id": "cit:ffc3d0d217a187754723f450b6e67d25111bf451->204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "ffc3d0d217a187754723f450b6e67d25111bf451",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "kind": "citation",
+      "evidence": "citations-endpoint"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->e42e3e09af8a56381c65aa8a8ddaee63fb321936",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "e42e3e09af8a56381c65aa8a8ddaee63fb321936",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 1
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->2e7ddc611c414a0bf26e546f8dc743a5ac5842cf",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "2e7ddc611c414a0bf26e546f8dc743a5ac5842cf",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 2
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->7a7fa90f9bed03b7e3070445547c66137c38f9f5",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "7a7fa90f9bed03b7e3070445547c66137c38f9f5",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 3
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->2ecb9944ff5ab08924729a6e87d90a9ff3662851",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "2ecb9944ff5ab08924729a6e87d90a9ff3662851",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 4
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->903fb78627f336841e7689c84d7b2576e9331f0a",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "903fb78627f336841e7689c84d7b2576e9331f0a",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 5
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->df7f7b32f464616ca54f35c160c2ec333aee2454",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "df7f7b32f464616ca54f35c160c2ec333aee2454",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 6
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->ac4dafdef1d2b685b7f28a11837414573d39ff4e",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "ac4dafdef1d2b685b7f28a11837414573d39ff4e",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 7
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->528b5f5356bc7ad91edc4dc074b0273e1e55fb03",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "528b5f5356bc7ad91edc4dc074b0273e1e55fb03",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 8
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->2a5c611d6a4cfc0ed66562bd754f1cbb5426f702",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "2a5c611d6a4cfc0ed66562bd754f1cbb5426f702",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 9
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->8f8701e17f1b14f5a0a69fa2b24e7d8515f6d711",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "8f8701e17f1b14f5a0a69fa2b24e7d8515f6d711",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 10
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->7ba27e1644a7abc57613554021da2ff7b33346c2",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "7ba27e1644a7abc57613554021da2ff7b33346c2",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 11
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->8f7b53e1446c838aa5d343ebd19324b2637b5f3b",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "8f7b53e1446c838aa5d343ebd19324b2637b5f3b",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 12
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->068398a1f0023710efe3d20904197a3ae295fab7",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "068398a1f0023710efe3d20904197a3ae295fab7",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 13
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->3861ae2a6bdd2a759c2d901a6583e63a216bc2fc",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "3861ae2a6bdd2a759c2d901a6583e63a216bc2fc",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 14
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->4a41a98d40fab83a2ac9010ca097e3b2cff4b6da",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "4a41a98d40fab83a2ac9010ca097e3b2cff4b6da",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 15
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->6b92f54cca437d77a4ba3232f351da13e72eff7c",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "6b92f54cca437d77a4ba3232f351da13e72eff7c",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 16
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->ed758547ff806b913525aba901d4279acf4d6c93",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "ed758547ff806b913525aba901d4279acf4d6c93",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 17
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->dc96cf9352dbc2edaca17624e21089bc8b223649",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "dc96cf9352dbc2edaca17624e21089bc8b223649",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 18
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->6766e026351be13a71921141a95b197c90113a30",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "6766e026351be13a71921141a95b197c90113a30",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 19
+    },
+    {
+      "id": "rec:204e3073870fae3d05bcbc2f6a8e263d9b72e776->dffed23fd7f2de433073f2453ab65ebc2954863a",
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "dffed23fd7f2de433073f2453ab65ebc2954863a",
+      "kind": "recommendation",
+      "pool": "all-cs",
+      "rank": 20
+    }
+  ],
+  "mode": "snapshot",
+  "provider": "semantic-scholar",
+  "fetchedAt": "2026-10-28T18:18:07.655Z",
+  "recommendationPool": "all-cs",
+  "coverage": {
+    "references": {
+      "status": "ok",
+      "requestedLimit": 40,
+      "receivedEntries": 39,
+      "validDistinctPapers": 39,
+      "skippedEntries": 0,
+      "nextOffset": null
+    },
+    "citing": {
+      "status": "ok",
+      "requestedLimit": 40,
+      "receivedEntries": 40,
+      "validDistinctPapers": 40,
+      "skippedEntries": 0,
+      "nextOffset": 40
+    },
+    "recommended": {
+      "status": "ok",
+      "requestedLimit": 20,
+      "receivedEntries": 20,
+      "validDistinctPapers": 20,
+      "skippedEntries": 0,
+      "nextOffset": null
+    }
+  },
+  "warnings": [
+    "This is a bounded live sample: up to 40 references, 40 citing papers, and 20 recommendations. It is not a complete citation graph.",
+    "Provider citation totals and retrieved neighbor counts are shown separately in Data info."
+  ],
+  "similarity": {
+    "algorithm": "tfidf-cosine",
+    "version": "1.0.0",
+    "corpusIds": [
+      "01f78a869988614631bc3a6231b87617d3a3ff77",
+      "032274e57f7d8b456bd255fe76b909b2c1d7458e",
+      "068398a1f0023710efe3d20904197a3ae295fab7",
+      "0973f1601a1186595eb0b158466dddc37edef326",
+      "0b44fcbeea9415d400c5f5789d6b892b6f98daff",
+      "0b544dfe355a5070b60986319a3f51fb45d1348e",
+      "11bcb4d82499a44d78bfd27caf1dff390246cba7",
+      "13d9323a8716131911bfda048a40e2cde1a76a46",
+      "13fe71da009484f240c46f14d9330e932f8de210",
+      "1518039b5001f1836565215eb047526b3ac7f462",
+      "174bbdb96252454cbb40a9c4e53335996235a008",
+      "1840fc46dda42826e12075041566e51dca938a95",
+      "204a4a70428f3938d2c538a4d74c7ae0416306d8",
+      "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "21483a97604e81e9b0943b87179ef888f20a9307",
+      "23ffaa0fe06eae05817f527a47ac3291077f9e58",
+      "269284a95874aef7f0b167f1e6f3e0512bfe2f4a",
+      "2a5c611d6a4cfc0ed66562bd754f1cbb5426f702",
+      "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+      "2e5f2b57f4c476dd69dc22ccdf547e48f40a994c",
+      "2e7ddc611c414a0bf26e546f8dc743a5ac5842cf",
+      "2e9d221c206e9503ceb452302d68d10e293f2a10",
+      "2ecb9944ff5ab08924729a6e87d90a9ff3662851",
+      "2f2d8f8072e5cc9b296fad551f65f183bdbff7aa",
+      "310513d5bb385aae5439a6e66c3ba05e5dd91e8f",
+      "34f25a8704614163c4095b3ee2fc969b60de4698",
+      "3861ae2a6bdd2a759c2d901a6583e63a216bc2fc",
+      "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "4550a4c714920ef57d19878e31c9ebae37b049b2",
+      "47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+      "4a41a98d40fab83a2ac9010ca097e3b2cff4b6da",
+      "4f10b9f47c5bb6b54dd4f5ca8d9fa2c0bbd7ec5e",
+      "510e26733aaff585d65701b9f1be7ca9d5afc586",
+      "528b5f5356bc7ad91edc4dc074b0273e1e55fb03",
+      "5414e48bf75add557188dade4cb056ccf3b6337f",
+      "5b6ec746d309b165f9f9def873a2375b6fb40f3d",
+      "5bfd8d40bc071fffaf93685a46974b122ee4239d",
+      "5e4eb58d5b47ac1c73f4cf189497170e75ae6237",
+      "63e39cdf1ad884da6bc69096bb3413b5b1100559",
+      "6471fd1cbc081fb3b7b5b14d6ab9eaaba02b5c17",
+      "6766e026351be13a71921141a95b197c90113a30",
+      "68ad11d6e3645fb78020ae1939cdb864eb25f7ef",
+      "6a842f57c9871bf023c82709ef3193cae55f045a",
+      "6b92f54cca437d77a4ba3232f351da13e72eff7c",
+      "70665bff663b010226f3e018fbc147ec146e2f57",
+      "7345843e87c81e24e42264859b214d26042f8d51",
+      "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "7736a7bc95af64d6200525f6f007200bb7a60651",
+      "78a9513e70f596077179101f6cb6eadc51602039",
+      "78c8d97686c08ef2695227e87f60bc467bea3038",
+      "79baf48bd560060549998d7b61751286de062e2a",
+      "7a7fa90f9bed03b7e3070445547c66137c38f9f5",
+      "7ba27e1644a7abc57613554021da2ff7b33346c2",
+      "855fe13fa6474d48761d8398199707d81e1bf9f2",
+      "8f58a4ad03d218d8790a370f02a698cc9906c6ea",
+      "8f7b53e1446c838aa5d343ebd19324b2637b5f3b",
+      "8f8701e17f1b14f5a0a69fa2b24e7d8515f6d711",
+      "903fb78627f336841e7689c84d7b2576e9331f0a",
+      "93499a7c7f699b6630a86fad964536f9423bb6d0",
+      "94c74ab0932c12abd291c9e9451a0b08964dfa86",
+      "97fb4e3d45bb098e27e0071448b6152217bd35a5",
+      "98445f4172659ec5e891e031d8202c102135c644",
+      "99914e009aed4c686bb893c875f25268631e819a",
+      "a1adb1eb39b7b97399220503080556737bae6d1d",
+      "a1e6868c04eeab2bc9ab9ea5ef6d597377f23e75",
+      "a661ccd817fb1a86f4ff3e44459d10ac9c009263",
+      "a6cb366736791bcccc5c8639de5a8f9636bf87e8",
+      "aae37df0c8c7d3f25b0a40726ed478e5351d1d3b",
+      "abb7e296d5fa7f444929da595a0b867d934583d7",
+      "ac3ee98020251797c2b401e1389461df88e52e62",
+      "ac4dafdef1d2b685b7f28a11837414573d39ff4e",
+      "b60abe57bc195616063be10638c6437358c81d1e",
+      "c394412647888d6c8ab80c32a332d35033c27fa4",
+      "c45e35f786a4812493ddf5b76aa09ee97f56e15d",
+      "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "cc5458e7b19ee5d61aea03ec112f2e2931f479d8",
+      "cea967b59209c6be22829699f05b8b1ac4dc092d",
+      "d3b4ade23da1b10a48431cfc0115608dd55e83d9",
+      "d76c07211479e233f7c6a6f32d5346c983c5598f",
+      "d92d5b1764c01e6d5e1998371111f1a6536f93d6",
+      "dc96cf9352dbc2edaca17624e21089bc8b223649",
+      "de3e0e049d0da862ada30ca1122f0f928a9fd8be",
+      "debbe94eddc66b7be99a20cf34a002736e40343b",
+      "df7f7b32f464616ca54f35c160c2ec333aee2454",
+      "dffed23fd7f2de433073f2453ab65ebc2954863a",
+      "e05ef78a6a718b03d05cc639f50fa9375284ed3c",
+      "e42e3e09af8a56381c65aa8a8ddaee63fb321936",
+      "ea9284bf22e43518b2e49e99c1b17820d7a87637",
+      "ebaec77783e89b881c318e73036fdbdec927d159",
+      "ec376dd5d9b3157ed530caf4d505341007ced207",
+      "ed758547ff806b913525aba901d4279acf4d6c93",
+      "ef9c4947e646b9b106349b60e5a609c608785bb9",
+      "f09348252e77f616bae49993bf64eca7799a82ca",
+      "f52de7242e574b70410ca6fb70b79c811919fc00",
+      "f59a2a725878ddc75a059d3c21d78af9cd091a94",
+      "f8c05f97f214b324c05a1b4d52fecbefda76df72",
+      "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+      "fcfe8f7e1d27069d141ecb1d8082c6991af3af86",
+      "ff3f89978e24dda3f7eea1b1b88161a58ad6d180",
+      "ffc3d0d217a187754723f450b6e67d25111bf451"
+    ],
+    "computedAt": "2026-10-28T18:18:07.655Z"
+  }
+}

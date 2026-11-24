@@ -1,0 +1,31 @@
+{
+  "capturedAt": "2026-10-28T21:45:56.818Z",
+  "checks": [
+    {
+      "check": "modal opens with focus inside the open dialog",
+      "pass": true,
+      "detail": "Close dialog"
+    },
+    {
+      "check": "Escape closes data dialog",
+      "pass": true
+    },
+    {
+      "check": "focus returns to Data info trigger",
+      "pass": true
+    },
+    {
+      "check": "Escape closes mobile filter drawer",
+      "pass": true
+    },
+    {
+      "check": "focus returns to mobile filter toggle",
+      "pass": true
+    },
+    {
+      "check": "no console errors in focus checks",
+      "pass": true
+    }
+  ],
+  "consoleErrors": []
+}

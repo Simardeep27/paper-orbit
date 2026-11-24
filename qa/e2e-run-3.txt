@@ -1,0 +1,106 @@
+
+> paper-orbit@1.0.0 test:e2e
+> playwright test
+
+
+Running 15 tests using 1 worker
+
+  ✓   1 tests/e2e/demo-flow.spec.ts:19:5 › demo search opens the center neighborhood in every view (1.4s)
+  ✓   2 tests/e2e/demo-flow.spec.ts:66:5 › filters keep graph, list, counts, and histogram in agreement (481ms)
+  ✓   3 tests/e2e/demo-flow.spec.ts:103:5 › recenter stores history and restores the previous filters on back (368ms)
+  ✓   4 tests/e2e/demo-flow.spec.ts:144:5 › unavailable demo center preserves the old graph and explains why (370ms)
+  ✓   5 tests/e2e/demo-flow.spec.ts:173:5 › comparison keeps at most two candidates and supports accessible removal (512ms)
+  ✓   6 tests/e2e/provider-errors.spec.ts:3:5 › live rate limiting is an actionable error, not an empty result (275ms)
+  ✓   7 tests/e2e/provider-errors.spec.ts:41:5 › a failed recommendation branch is labeled as partial, not empty (827ms)
+  ✓   8 tests/e2e/reading-list.spec.ts:6:5 › reading list survives reload and exports only saved papers as JSON (480ms)
+  ✘   9 tests/e2e/resilience.spec.ts:35:5 › forced WebGL failure switches to 2D and keeps analysis usable (10.4s)
+  ✓  10 tests/e2e/resilience.spec.ts:54:5 › mobile layout has no horizontal overflow and keeps core actions reachable (761ms)
+  ✓  11 tests/e2e/resilience.spec.ts:106:5 › reduced motion disables automatic rotation (815ms)
+  ✓  12 tests/e2e/resilience.spec.ts:123:5 › a keyboard-only user can search and open a result (815ms)
+  ✓  13 tests/e2e/resilience.spec.ts:149:5 › a keyboard-only user can filter, select, save, and recenter (780ms)
+  ✘  14 tests/e2e/snapshots.spec.ts:6:5 › stored snapshots are searchable and recenter to linked real centers (10.2s)
+  ✓  15 tests/e2e/snapshots.spec.ts:64:5 › an unstored snapshot paper preserves the graph and explains the limit (544ms)
+
+
+  1) tests/e2e/resilience.spec.ts:35:5 › forced WebGL failure switches to 2D and keeps analysis usable 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.paper-row')
+    Expected: 15
+    Received: 12
+    Timeout:  10000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('.paper-row') with timeout 10000ms
+      - waiting for locator('.paper-row')
+        24 × locator resolved to 12 elements
+           - unexpected value "12"
+
+
+      47 |
+      48 |   await page.getByRole("checkbox", { name: /^Recommended/ }).uncheck();
+    > 49 |   await expect(page.locator(".paper-row")).toHaveCount(15);
+         |                                            ^
+      50 |   await page.getByRole("button", { name: "List", exact: true }).click();
+      51 |   await expect(page.locator(".paper-row")).toHaveCount(15);
+      52 | });
+        at /Users/ssethi/Documents/build/paper-orbit/tests/e2e/resilience.spec.ts:49:44
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/resilience-forced-WebGL-fa-50446-D-and-keeps-analysis-usable/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/resilience-forced-WebGL-fa-50446-D-and-keeps-analysis-usable/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/resilience-forced-WebGL-fa-50446-D-and-keeps-analysis-usable/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/resilience-forced-WebGL-fa-50446-D-and-keeps-analysis-usable/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/e2e/snapshots.spec.ts:6:5 › stored snapshots are searchable and recenter to linked real centers 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  getByRole('button', { name: 'Snapshot', exact: true })
+    Expected: "true"
+    Received: "false"
+    Timeout:  10000ms
+
+    Call log:
+      - Expect "toHaveAttribute" getByRole('button', { name: 'Snapshot', exact: true }) with timeout 10000ms
+      - waiting for getByRole('button', { name: 'Snapshot', exact: true })
+        24 × locator resolved to <button type="button" aria-pressed="false" title="Search stored Semantic Scholar snapshots">Snapshot</button>
+           - unexpected value "false"
+
+
+      13 |   await expect(
+      14 |     page.getByRole("button", { name: "Snapshot", exact: true }),
+    > 15 |   ).toHaveAttribute("aria-pressed", "true");
+         |     ^
+      16 |
+      17 |   const search = page.getByRole("searchbox", {
+      18 |     name: /Search papers, paste a DOI, or enter an arXiv ID/,
+        at /Users/ssethi/Documents/build/paper-orbit/tests/e2e/snapshots.spec.ts:15:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/snapshots-stored-snapshots-5db9d-nter-to-linked-real-centers/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/snapshots-stored-snapshots-5db9d-nter-to-linked-real-centers/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/snapshots-stored-snapshots-5db9d-nter-to-linked-real-centers/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/snapshots-stored-snapshots-5db9d-nter-to-linked-real-centers/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests/e2e/resilience.spec.ts:35:5 › forced WebGL failure switches to 2D and keeps analysis usable 
+    tests/e2e/snapshots.spec.ts:6:5 › stored snapshots are searchable and recenter to linked real centers 
+  13 passed (35.2s)
