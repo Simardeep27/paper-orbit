@@ -29,7 +29,7 @@ export const paperSchema = z.object({
       ArXiv: z.string().max(512).optional(),
     })
     .default({}),
-  source: z.enum(["semantic-scholar", "synthetic-test"]),
+  source: z.enum(["semantic-scholar", "openalex", "synthetic-test"]),
   fetchedAt: z.string().min(1).max(64),
 });
 
@@ -97,7 +97,7 @@ export const neighborhoodSchema = z.object({
   edges: z.array(citationEdgeSchema),
   recommendations: z.array(recommendationLinkSchema),
   mode: z.enum(["live", "snapshot", "synthetic-demo"]),
-  provider: z.enum(["semantic-scholar", "synthetic-test"]),
+  provider: z.enum(["semantic-scholar", "openalex", "synthetic-test"]),
   fetchedAt: z.string(),
   recommendationPool: z.enum(["recent", "all-cs"]),
   coverage: z.object({

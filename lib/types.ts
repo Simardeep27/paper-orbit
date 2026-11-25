@@ -7,7 +7,7 @@ export type Membership = "reference" | "citing" | "recommended";
 export type BranchStatus = "ok" | "empty" | "error" | "unavailable";
 export type DataMode = "live" | "snapshot" | "synthetic-demo";
 export type SourceMode = "live" | "demo" | "snapshot";
-export type ProviderName = "semantic-scholar" | "synthetic-test";
+export type ProviderName = "semantic-scholar" | "openalex" | "synthetic-test";
 export type RecommendationPool = "recent" | "all-cs";
 export type ViewMode = "3d" | "2d" | "list";
 export type LayoutMode = "similarity-radius" | "even-shell";
@@ -168,6 +168,7 @@ export interface ResolveResult {
 export interface HealthResult {
   ok: true;
   liveConfigured: boolean;
+  liveProvider?: "semantic-scholar" | "openalex";
   liveKeyConfigured: boolean;
   demoAvailable: boolean;
   snapshotAvailable: boolean;

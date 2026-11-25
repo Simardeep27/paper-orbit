@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ArrowRight, CircleAlert, LoaderCircle } from "lucide-react";
 import type { Paper, SearchResultSet, SourceMode } from "@/lib/types";
+import { providerLabel } from "@/lib/providers/labels";
 
 interface SearchResultsProps {
   results: SearchResultSet | null;
@@ -49,7 +50,9 @@ export function SearchResults({
       ? "Synthetic demo catalog"
       : mode === "snapshot"
         ? "Stored Semantic Scholar snapshot"
-        : "Semantic Scholar";
+        : results?.papers[0]
+          ? `Live ${providerLabel(results.papers[0].source)}`
+          : "Live provider";
 
   if (loading) {
     return (
@@ -155,7 +158,7 @@ export function SearchResults({
             ? "All records are synthetic and must not be cited."
             : mode === "snapshot"
               ? "Stored from the Semantic Scholar API; bounded samples, not a complete graph."
-              : "Bounded live results; availability depends on the provider."}
+              : "Bounded live results from OpenAlex; availability depends on the provider."}
         </span>
         {results.nextOffset !== null ? (
           <button

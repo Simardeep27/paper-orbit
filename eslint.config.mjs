@@ -7,6 +7,8 @@ export default defineConfig([
   ...nextTs,
   globalIgnores([
     ".next/**",
+    ".vercel/**",
+    "out/**",
     "node_modules/**",
     "playwright-report/**",
     "test-results/**",

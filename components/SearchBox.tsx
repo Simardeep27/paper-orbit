@@ -274,7 +274,7 @@ export function SearchBox({
       ? "Synthetic interaction demo — every title is fictional. No live request is made."
       : sourceMode === "snapshot"
         ? "Stored Semantic Scholar snapshots — bounded real-data samples; no live request is made."
-        : "Live Semantic Scholar mode — sampled branches, provider rate limits apply.";
+        : "Live OpenAlex mode — key-free; sampled branches, provider rate limits apply.";
 
   return (
     <div
@@ -309,7 +309,7 @@ export function SearchBox({
               type="button"
               aria-pressed={sourceMode === "live"}
               onClick={() => resetResults("live")}
-              title="Search Semantic Scholar live"
+              title="Search OpenAlex live"
             >
               Live
             </button>

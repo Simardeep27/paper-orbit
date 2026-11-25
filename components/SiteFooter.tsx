@@ -15,6 +15,13 @@ export function SiteFooter() {
             Synthetic demo
           </Link>
           <a
+            href="https://openalex.org/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            OpenAlex
+          </a>
+          <a
             href="https://www.semanticscholar.org/?utm_source=api"
             target="_blank"
             rel="noreferrer noopener"

@@ -4,7 +4,63 @@ Paper Orbit has three explicit data modes. They share the same normalized paper,
 relationship, graph, and scoring contracts but are never substituted for one
 another silently.
 
-## 1. Live mode — Semantic Scholar
+## 1. Live mode — OpenAlex (public) and Semantic Scholar (optional)
+
+The public Vercel deployment and the static GitHub Pages mirror use
+[key-free OpenAlex](https://openalex.org/) for Live mode. Semantic Scholar
+remains available as an optional keyed server provider and is the source of the
+stored snapshots in section 2. The two providers are never mixed within one
+loaded neighborhood; the provider name is stored on every paper and on the
+neighborhood.
+
+### OpenAlex (public deployment)
+
+**Provider:** [OpenAlex](https://openalex.org/), OurResearch. OpenAlex data is
+available under CC0.
+
+**Official references:**
+
+- [OpenAlex API documentation](https://docs.openalex.org/)
+- [OpenAlex about and attribution](https://openalex.org/about)
+
+**Endpoints used:**
+
+```text
+GET https://api.openalex.org/works
+    ?search=<query>&per-page=10&page=<n>&select=<metadata fields>
+
+GET https://api.openalex.org/works
+    ?filter=openalex_id:<W...>|openalex_id:<W...>&per-page=<n>&select=<metadata fields>
+
+GET https://api.openalex.org/works
+    ?filter=cites:<W...>&per-page=40&select=<metadata fields>
+
+GET https://api.openalex.org/works
+    ?filter=doi:<doi>&per-page=1&select=<metadata fields>
+```
+
+OpenAlex work IDs are normalized to `W…` strings. DOI and arXiv input is mapped
+to a DOI lookup (`10.48550/arxiv.…` for arXiv) and then to the canonical OpenAlex
+work ID. The center record supplies the reference list and the related-works
+list; those IDs are fetched in bounded batches. Citation edges follow the same
+rules as the rest of the app: references point from the center to the cited
+work, citing papers point to the center, and related works are association-only,
+not citation edges. OpenAlex "related works" are algorithmic associations, so
+the UI labels them as related works rather than quality-ranked recommendations.
+
+The center request includes `abstract_inverted_index`, which is reconstructed
+into plain text. Neighbor batches request title/metadata fields only, so local
+text similarity is title-only for those records. OpenAlex requires no API key;
+the public deployment does not ask for one. Public rate limits and transient
+upstream failures are handled with bounded retries and branch-level provenance.
+
+**Verified public sample:** November 24, 2026, against
+`https://paper-orbit-live.vercel.app`: search returned 10 results with
+*Attention Is All You Need* first; DOI and arXiv resolution both returned
+`W2626778328`; the neighborhood contained 91 nodes and 80 edges (40 references,
+40 citing papers, 10 related works), all branches `ok`.
+
+### Semantic Scholar (optional keyed provider)
 
 **Provider:** [Semantic Scholar](https://www.semanticscholar.org/?utm_source=api),
 Allen Institute for AI.

@@ -327,9 +327,9 @@ export function ExplorerShell({ initialState }: ExplorerShellProps) {
             <h1>Explore a paper neighborhood</h1>
             <p>
               Search for a title or author, paste a DOI, or enter an arXiv ID.
-              Live mode uses Semantic Scholar; snapshot mode searches stored
-              real-data samples; demo mode uses a clearly labeled fictional
-              catalog.
+              Live mode queries OpenAlex; snapshot mode searches stored
+              Semantic Scholar samples; demo mode uses a clearly labeled
+              fictional catalog.
             </p>
             <SearchBox
               variant="hero"

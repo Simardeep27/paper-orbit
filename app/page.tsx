@@ -144,9 +144,9 @@ export default function HomePage() {
                 cited.
               </p>
               <p>
-                Live mode queries Semantic Scholar through server-side routes.
-                A stored-snapshot mode replays three real, bounded samples
-                captured from the API. Coverage is still bounded, citation
+                Live mode queries OpenAlex through server-side routes on the
+                public deployment. A stored-snapshot mode replays three real,
+                bounded Semantic Scholar samples captured from the API. Coverage is still bounded, citation
                 indexing favors older papers, and local text similarity can miss
                 conceptual relationships.
               </p>

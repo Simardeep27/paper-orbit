@@ -54,25 +54,26 @@ export default function AboutPage() {
               </div>
               <h3>Live provider mode</h3>
               <p>
-                Server-side routes query the Semantic Scholar Academic Graph API
-                and Recommendations API. The browser never receives an API key.
-                Results depend on network access, provider availability, and the
-                rate limit assigned to the configured key.
+                Server-side routes query OpenAlex, a key-free scholarly graph.
+                The public deployment does not need a browser or server API key;
+                results depend on network access, provider availability, and
+                OpenAlex&apos;s public rate limits. A keyed Semantic Scholar
+                provider remains available for server builds.
               </p>
               <ul>
                 <li>Search: title or keyword query</li>
-                <li>Resolve: DOI, arXiv ID, or their URLs</li>
+                <li>Resolve: DOI, arXiv ID, or OpenAlex ID</li>
                 <li>Up to 40 references and 40 citing papers</li>
-                <li>Up to 20 recommendations from the all-cs pool</li>
+                <li>Up to 20 related works (algorithmic associations)</li>
                 <li>At most 101 nodes including the center</li>
               </ul>
               <p className="about-mode-link">
                 <a
-                  href="https://api.semanticscholar.org/api-docs/graphs"
+                  href="https://docs.openalex.org/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  Semantic Scholar API documentation
+                  OpenAlex API documentation
                   <ExternalLink size={12} aria-hidden="true" />
                 </a>
               </p>
@@ -241,10 +242,11 @@ export default function AboutPage() {
               experienced on a larger screen.
             </li>
             <li>
-              Live provider access was verified on October 28, 2026 with a
-              server-side API key. Unauthenticated access was rate limited
-              (HTTP 429) during this build. The stored snapshots and synthetic
-              demo require neither network access nor credentials.
+              The public live deployment uses OpenAlex&apos;s key-free public
+              API. Semantic Scholar&apos;s free key was frequently rate limited
+              (HTTP 429) during this build, so it is not the default for the
+              public demo. The stored snapshots and synthetic demo require
+              neither network access nor credentials.
             </li>
           </ul>
 
@@ -254,18 +256,18 @@ export default function AboutPage() {
               <div>
                 <strong>Provider attribution</strong>
                 <p>
-                  Live metadata is retrieved from Semantic Scholar. Use of the
-                  API is subject to the provider&apos;s license and attribution
-                  requirements.
+                  Live metadata is retrieved from OpenAlex. Stored snapshots
+                  were captured from Semantic Scholar. Use is subject to each
+                  provider&apos;s license and attribution requirements.
                 </p>
               </div>
             </div>
             <a
-              href="https://www.semanticscholar.org/?utm_source=api"
+              href="https://openalex.org/"
               target="_blank"
               rel="noreferrer noopener"
             >
-              Semantic Scholar
+              OpenAlex
               <ExternalLink size={13} aria-hidden="true" />
             </a>
           </div>

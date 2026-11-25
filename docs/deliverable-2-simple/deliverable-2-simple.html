@@ -64,11 +64,11 @@
     <div class="course">COMPSCI 571 · Data Visualization &amp; Exploration · Fall 2026</div>
     <h1>Deliverable 2: Visualization/Dashboard Prototype</h1>
     <p class="subtitle"><strong>Paper Orbit:</strong> exploring the research around a paper</p>
-    <div class="meta">November 24, 2026 · 15 points · <strong>Live prototype:</strong> <a href="https://simardeep27.github.io/paper-orbit/">simardeep27.github.io/paper-orbit/</a><br>
-    The public demo runs the stored-snapshot and synthetic-demo modes without a key. Live provider queries run from the repository's Next.js server. Source: <a href="https://github.com/Simardeep27/paper-orbit">github.com/Simardeep27/paper-orbit</a>.</div>
+    <div class="meta"><strong>Simardeep Sethi</strong> · November 24, 2026<br>
+    <strong>Live demo:</strong> <a href="https://paper-orbit-live.vercel.app/">paper-orbit-live.vercel.app</a> · <strong>Code:</strong> <a href="https://github.com/Simardeep27/paper-orbit">github.com/Simardeep27/paper-orbit</a></div>
   </div>
 
-  <h2><span class="q">Q1</span> Views and Visual Representations <span class="qnote">(4 pts)</span></h2>
+  <h2><span class="q">Q1</span> Views and Visual Representations</h2>
   <p>Paper Orbit is a coordinated multiple-view explorer, not a set of separate dashboards. One canonical neighborhood state drives every view: the same nodes, links, recommendation associations, selection, filters, counts, and URL state. The views trade overview for precision deliberately.</p>
 
   <table>
@@ -86,8 +86,8 @@
   <p><strong>Encoding contract.</strong> Membership is categorical: reference is cyan, citing amber, recommended violet; a paper in multiple sets gets a white outline and multiple badges. Citation arrows preserve direction (center → reference; citing paper → center); recommendation associations are dashed, never citation edges. Citation count uses a log scale and is labeled provider metadata, not quality. Radius is local TF-IDF cosine to the center when text exists; unknown similarity goes on a distinct outer shell, never a fabricated value. Angle and peripheral distance are layout, not meaning: they do not encode topic, influence, rank, or quality. Textual legends, badges, and labels ensure color is never the only channel.</p>
   <p><strong>Missing data is a visual state.</strong> Unknown year, unknown citation count, and unavailable abstract/similarity have separate filters and labels. A missing abstract never becomes zero, and an empty citation branch never becomes “no citations.”</p>
 
-  <h2><span class="q">Q2</span> Interaction and Navigation <span class="qnote">(4 pts)</span></h2>
-  <p><strong>Start and load.</strong> A reader searches by title or keyword, or resolves a DOI, arXiv ID, or URL. Demo, Snapshot, and Live are visibly separate modes; a selected result loads at most 40 references, 40 citing papers, and 20 recommendations (at most 101 nodes). The public static demo exposes only Demo and Snapshot; live mode requires the server build and is never silently substituted.</p>
+  <h2><span class="q">Q2</span> Interaction and Navigation</h2>
+  <p><strong>Start and load.</strong> A reader searches by title or keyword, or resolves a DOI, arXiv ID, or URL. Demo, Snapshot, and Live are visibly separate modes; a selected result loads at most 40 references, 40 citing papers, and 20 recommendations (at most 101 nodes). The public deployment exposes all three modes; live mode uses OpenAlex's key-free API and is never silently substituted.</p>
   <p><strong>Filters are coordinated, not destructive.</strong> Relationship checkboxes are OR; year range, minimum citations, minimum similarity, and loaded-text search are AND. Unknown-year, unknown-citation, and unavailable-similarity controls decide whether those records stay visible. The center remains visible and is excluded from neighbor counts. Filters update graph, list, histogram, and counts together without recomputing scores, relayouting nodes, or issuing provider requests. Resetting filters leaves camera, history, and reading list intact; resetting the camera leaves filters intact.</p>
 
   <table>
@@ -109,8 +109,8 @@
 
 <!-- PAGE 2: Q3 + Q4 -->
 <section class="page">
-  <h2><span class="q">Q3</span> Prototype Figures <span class="qnote">(3 pts)</span></h2>
-  <p>Figures 1–6 on pages 3–5 are actual screenshots of the running prototype, not mockups. Stored-snapshot figures use the real, timestamped Semantic Scholar samples; figures labeled synthetic use the explicitly fictional demo. The small interface text is intentionally paired with numbered regions and captions rather than enlarged into a fictional redesign.</p>
+  <h2><span class="q">Q3</span> Prototype Figures</h2>
+  <p>Figures 1–6 on pages 3–5 are actual screenshots of the running prototype, not mockups. Stored-snapshot figures use the real, timestamped Semantic Scholar samples; figures labeled synthetic use the explicitly fictional demo; live mode uses OpenAlex. The small interface text is intentionally paired with numbered regions and captions rather than enlarged into a fictional redesign.</p>
 
   <table>
     <thead><tr><th style="width:12%">Figure</th><th style="width:48%">What it shows</th><th>Source mode</th></tr></thead>
@@ -125,7 +125,7 @@
   </table>
   <p class="caption"><strong>Table 3.</strong> Figure guide and data-mode labels.</p>
 
-  <h2><span class="q">Q4</span> Design Rationale and Fit to Deliverable 1 Tasks <span class="qnote">(4 pts)</span></h2>
+  <h2><span class="q">Q4</span> Design Rationale and Fit to Deliverable 1 Tasks</h2>
   <p>The design is organized around the literature-review tasks identified in Deliverable 1, not around a generic graph-drawing checklist. Overview is useful for orientation; precise values and directed relationships remain in the 2D view, list, details, and provenance dialog. That division is the core rationale.</p>
 
   <table>
@@ -146,9 +146,9 @@
   <p><strong>Why the sample stays visible.</strong> The provider returns bounded branches, indexing is uneven, and most stored neighbors lack abstracts. A polished graph could imply completeness, so the interface exposes requested versus received counts, failed branches, missing-value counts, and the local-similarity run in Data info. An errored references branch is preserved as an error, never rendered as zero. Citation counts are labeled as indexed counts, not quality.</p>
   <p><strong>Why recentering is explicit.</strong> Following a paper is the central navigation act, but replacing the graph in place loses the thread. The current graph remains during loading; only the latest response can commit; success updates history and URL atomically; failure leaves the old view usable. This supports B3 and makes the URL a shareable, restorable state rather than a transient screen.</p>
 
-  <p class="lim"><strong>Limitations and tradeoffs.</strong> The sphere is an overview, not a precise comparison surface; 2D/list and details carry exact values. Angles and peripheral distance are arrangement only. The sample is bounded, not a complete citation graph; citation indexing favors older work, many abstracts are missing, recommendations are candidates in an ordering rather than a measured semantic distance, and citation counts are not quality. The public static link runs stored snapshots and the synthetic demo; live mode needs the server build and provider access. No formal user study has been completed, so the personas and task fit remain design assumptions rather than measured claims.</p>
+  <p class="lim"><strong>Limitations and tradeoffs.</strong> The sphere is an overview, not a precise comparison surface; 2D/list and details carry exact values. Angles and peripheral distance are arrangement only. The sample is bounded, not a complete citation graph; citation indexing favors older work, many abstracts are missing, recommendations are candidates in an ordering rather than a measured semantic distance, and citation counts are not quality. The public deployment runs stored Semantic Scholar snapshots and the synthetic demo key-free; live mode uses OpenAlex's key-free API, and provider rate limits still apply. No formal user study has been completed, so the personas and task fit remain design assumptions rather than measured claims.</p>
 
-  <div class="source"><strong>Sources and provenance.</strong> Semantic Scholar <a href="https://api.semanticscholar.org/api-docs/graphs">Graph API</a>, <a href="https://api.semanticscholar.org/api-docs/recommendations">Recommendations API</a>, and <a href="https://api.semanticscholar.org/license/">license</a>. Stored snapshots were retrieved October 28, 2026. The synthetic catalog is fictional and must not be cited.</div>
+  <div class="source"><strong>Sources and provenance.</strong> Live metadata from <a href="https://docs.openalex.org/">OpenAlex</a> (CC0). Stored snapshots from Semantic Scholar <a href="https://api.semanticscholar.org/api-docs/graphs">Graph API</a>, <a href="https://api.semanticscholar.org/api-docs/recommendations">Recommendations API</a>, and <a href="https://api.semanticscholar.org/license/">license</a>, retrieved October 28, 2026. The synthetic catalog is fictional and must not be cited.</div>
   <div class="page-num">2</div>
 </section>
 

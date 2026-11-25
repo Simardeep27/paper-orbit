@@ -39,6 +39,11 @@ import {
   type LiveBranch,
   type LiveRecommendationBranch,
 } from "@/lib/providers/semantic-scholar";
+import {
+  getOpenAlexNeighborhood,
+  resolveOpenAlex,
+  searchOpenAlex,
+} from "@/lib/providers/openalex";
 
 const SCHEMA_VERSION = 1;
 
@@ -91,6 +96,28 @@ export async function searchPapers(
       "Live search is disabled by ENABLE_LIVE_API. Use the offline demo or enable live access.",
     );
   }
+  if (config.liveProvider === "openalex") {
+    const cache = liveCache<SearchResultSet>("live-search");
+    const key = buildCacheKey(
+      "openalex",
+      "paper-search",
+      { query: query.trim().toLowerCase(), offset },
+      ["paperId"],
+      SCHEMA_VERSION,
+    );
+    const cached = cache.get(key);
+    if (cached) return cached;
+    const result = await searchOpenAlex(query, offset);
+    const response: SearchResultSet = {
+      papers: result.papers,
+      nextOffset: result.nextOffset,
+      sourceMode: "live",
+      fetchedAt: result.fetchedAt,
+    };
+    cache.set(key, response, CACHE_TTL.search);
+    return response;
+  }
+
   const cache = liveCache<SearchResultSet>("live-search");
   const key = buildCacheKey(
     "semantic-scholar",
@@ -182,6 +209,22 @@ export async function resolvePaper(
       "Live lookup is disabled by ENABLE_LIVE_API. Use the offline demo or enable live access.",
     );
   }
+  if (config.liveProvider === "openalex") {
+    const cache = liveCache<Paper>("live-paper");
+    const key = buildCacheKey(
+      "openalex",
+      "paper-resolve",
+      { kind: canonical.kind, value: canonical.value.toLowerCase() },
+      ["paperId"],
+      SCHEMA_VERSION,
+    );
+    const cached = cache.get(key);
+    if (cached) return { paper: cached, sourceMode: "live" };
+    const paper = await resolveOpenAlex(canonical);
+    cache.set(key, paper, CACHE_TTL.metadata);
+    return { paper, sourceMode: "live" };
+  }
+
   const cache = liveCache<Paper>("live-paper");
   const key = buildCacheKey(
     "semantic-scholar",
@@ -296,6 +339,26 @@ export async function getNeighborhood(
     );
   }
 
+  if (config.liveProvider === "openalex") {
+    const cache = liveCache<Neighborhood>("live-neighborhood");
+    const cacheKey = buildCacheKey(
+      "openalex",
+      "neighborhood",
+      { paperId },
+      ["paperId"],
+      SCHEMA_VERSION,
+      { pool: config.recommendationPool },
+    );
+    const cached = cache.get(cacheKey);
+    if (cached) return cached;
+    const neighborhood = await getOpenAlexNeighborhood(
+      paperId,
+      config.recommendationPool,
+    );
+    cache.set(cacheKey, neighborhood, CACHE_TTL.neighborhood);
+    return neighborhood;
+  }
+
   const cache = liveCache<Neighborhood>("live-neighborhood");
   const cacheKey = buildCacheKey(
     "semantic-scholar",
@@ -381,7 +444,9 @@ export async function getHealth() {
   return {
     ok: true as const,
     liveConfigured: config.liveEnabled,
-    liveKeyConfigured: Boolean(config.apiKey),
+    liveProvider: config.liveProvider,
+    liveKeyConfigured:
+      config.liveProvider === "openalex" ? false : Boolean(config.apiKey),
     demoAvailable,
     snapshotAvailable,
   };

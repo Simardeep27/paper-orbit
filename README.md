@@ -2,13 +2,24 @@
 
 **Explore the research around a paper.**
 
-Paper Orbit is a local, single-user research-neighborhood explorer built for the
+Paper Orbit is a single-user research-neighborhood explorer built for the
 UMass Amherst COMPSCI 571 project. Start from a known paper, then inspect a
-bounded sample of its references, citing papers, and Semantic Scholar
-recommendations in a coordinated 3D sphere, SVG radial map, sortable list,
+bounded sample of its references, citing papers, and provider recommendations
+in a coordinated 3D sphere, SVG radial map, sortable list,
 publication-year histogram, details panel, comparison view, and reading list.
 
 ![Stored snapshot explorer](qa/screenshots/snapshot-3d.png)
+
+## Public deployment
+
+- **Live site:** [paper-orbit-live.vercel.app](https://paper-orbit-live.vercel.app/)
+- **Static mirror:** [simardeep27.github.io/paper-orbit](https://simardeep27.github.io/paper-orbit/)
+
+The Vercel deployment runs the full Next.js app. Its live mode uses OpenAlex's
+key-free public API, so live search, resolution, and neighborhoods work without
+asking a reader for credentials. The GitHub Pages mirror uses the same OpenAlex
+calls from the browser for live mode and keeps stored snapshots and the
+synthetic demo offline.
 
 ## What works
 
@@ -23,8 +34,8 @@ publication-year histogram, details panel, comparison view, and reading list.
 - Paper details, two-paper comparison, explicit recenter, bounded history, URL
   restoration, and stale-request protection.
 - Local `localStorage` reading list with Markdown/JSON export and safe filenames.
-- Three clearly separated data modes: live provider, stored real snapshots, and
-  a visibly fictional synthetic demo.
+- Three clearly separated data modes: live OpenAlex, stored Semantic Scholar
+  snapshots, and a visibly fictional synthetic demo.
 - Responsive layout, keyboard-only flows, reduced-motion handling, and automated
   unit/component/end-to-end checks.
 
@@ -41,18 +52,17 @@ cd /Users/ssethi/Documents/build/paper-orbit
 npm ci
 ```
 
-Optional live provider setup:
+Live mode uses OpenAlex and needs no key:
 
 ```bash
-cp .env.example .env.local
-# Edit .env.local and set SEMANTIC_SCHOLAR_API_KEY.
-# Never use a NEXT_PUBLIC_ prefix for the key.
+LIVE_PROVIDER=openalex npm run dev
+# open http://localhost:3000
 ```
 
-Unauthenticated live mode uses Semantic Scholar's shared quota. Search may work
-intermittently, but a neighborhood needs several upstream calls and will usually
-return `429` quickly. Use Stored snapshot mode for the bundled real-data demo, or
-set a server-side key and restart the server.
+To use the optional server-side Semantic Scholar provider instead, copy
+`.env.example` to `.env.local`, set `LIVE_PROVIDER=semantic-scholar` and
+`SEMANTIC_SCHOLAR_API_KEY`, then restart. Never use a `NEXT_PUBLIC_` prefix for
+the key. The public Vercel deployment sets `LIVE_PROVIDER=openalex`.
 
 Start the app:
 
@@ -75,7 +85,7 @@ API key.
 
 | Mode | Source | Network | Purpose |
 |---|---|---|---|
-| **Live** | Semantic Scholar Academic Graph + Recommendations APIs through server routes | Yes | Current provider data; subject to rate limits and bounded samples |
+| **Live** | OpenAlex public API (or keyed Semantic Scholar when configured) | Yes | Current provider data; key-free on the public deployment; bounded sample |
 | **Stored snapshot** | Three normalized neighborhoods in `data/snapshots/` | No | Reliable review/demo of real Semantic Scholar metadata |
 | **Synthetic demo** | 42 fictional papers and 3 neighborhoods in `data/demo/` | No | Deterministic interaction, partial-branch, and unavailable-recenter tests |
 
@@ -123,8 +133,11 @@ file. The app never runs `demo:fetch` during build, tests, or normal startup.
 
 See `.env.example`. Values are server-only:
 
-- `SEMANTIC_SCHOLAR_API_KEY` — leave blank for unauthenticated live attempts or
-  offline/snapshot-only operation.
+- `LIVE_PROVIDER` — `openalex` for the key-free public deployment, or
+  `semantic-scholar` for the optional keyed provider. Defaults to
+  `semantic-scholar` for local/backward-compatible server runs.
+- `SEMANTIC_SCHOLAR_API_KEY` — only needed when
+  `LIVE_PROVIDER=semantic-scholar`; leave blank otherwise.
 - `UPSTREAM_MIN_INTERVAL_MS` — upstream scheduler interval, default 1100 ms.
 - `UPSTREAM_TIMEOUT_MS` — per-request timeout, default 8000 ms.
 - `ENABLE_LIVE_API` — set `false` to force offline/snapshot-only behavior.
@@ -149,7 +162,7 @@ Browser
                  │
       Zod validation → LRU cache → rate-limited adapter
                  │
-      Semantic Scholar APIs   |   local snapshot / synthetic providers
+      OpenAlex live API  |  Semantic Scholar snapshots  |  synthetic demo
 ```
 
 Key directories:
@@ -157,8 +170,8 @@ Key directories:
 - `app/` — App Router pages and four server routes.
 - `components/` — search, explorer, Three.js, SVG, histogram, list, details,
   comparison, provenance, reading list.
-- `lib/providers/` — Semantic Scholar adapter, stored snapshot provider,
-  synthetic demo provider, shared offline catalog search.
+- `lib/providers/` — OpenAlex live adapter, optional Semantic Scholar adapter,
+  stored snapshot provider, synthetic demo provider, shared catalog search.
 - `lib/graph/` — normalization, graph invariants, TF-IDF, layout, selectors,
   export.
 - `lib/state/` — Zustand store, URL state, reading-list persistence.
@@ -179,9 +192,9 @@ Measured on October 28, 2026 on the local review machine:
 - `npm run build` — pass
 - Desktop, mobile, keyboard-only, reduced-motion, WebGL fallback, filter
   synchronization, comparison, unavailability, and console checks — pass
-- Live search, DOI/arXiv resolution, and a complete 100-node live neighborhood
-  were verified separately with a server-side key; see
-  `qa/live-verification.json`.
+- Live OpenAlex search, DOI/arXiv resolution, and a 91-node live neighborhood
+  were verified on the Vercel production URL on November 24, 2026. The earlier
+  keyed Semantic Scholar live checks are in `qa/live-verification.json`.
 - 100-node stored-snapshot 3D drag: median 60.0 FPS in headless Chromium at
   1440×900; filter-to-DOM update median 16.1 ms. See `qa/perf.json`.
 
@@ -190,12 +203,13 @@ Exact commands, test evidence, screenshots, and limitations are in
 
 ## Data provenance and license
 
-Live metadata and stored snapshots come from the
+Live metadata comes from [OpenAlex](https://openalex.org/), whose data is
+available under CC0. Stored snapshots come from the
 [Semantic Scholar API](https://www.semanticscholar.org/?utm_source=api). The
-[API license](https://api.semanticscholar.org/license/) limits use to internal
-research/education and requires public displays of data to point back to
-Semantic Scholar with `utm_source=api` and include the Semantic Scholar name and
-logo. This local course prototype includes the name and link in its provenance
+[Semantic Scholar API license](https://api.semanticscholar.org/license/) limits
+use to internal research/education and requires public displays of data to point
+back to Semantic Scholar with `utm_source=api` and include the Semantic Scholar
+name and logo. This local course prototype includes the name and link in its provenance
 panel, footer, and about page; it does **not** bundle an official logo. Review the
 license and add the permitted official logo/asset before any public deployment.
 Do not publicly redistribute the snapshots or abstracts without confirming the
@@ -207,11 +221,12 @@ must not be cited.
 ## Known limitations
 
 - Neighborhoods are bounded samples, not complete citation graphs.
-- Live provider access is subject to a 1 request/second credentialed limit and
-  transient 429/partial-branch failures. The app preserves partial data rather
-  than converting a failed branch into an empty one.
-- Many Semantic Scholar neighbor records lack abstracts; local text similarity
-  is then title-only or unavailable.
+- Live OpenAlex access is subject to public rate limits and transient upstream
+  failures. The optional Semantic Scholar provider has a much tighter
+  credentialed limit. The app preserves partial data rather than converting a
+  failed branch into an empty one.
+- Live neighbor requests retrieve title and metadata fields, so local text
+  similarity is title-only; some stored neighbors also lack abstracts.
 - The third stored snapshot intentionally preserves a failed references branch
   from acquisition; it is not “zero references.”
 - The app stores normalized metadata and abstracts only; no PDFs or full text.

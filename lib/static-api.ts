@@ -12,16 +12,29 @@ import {
   searchCatalog,
   type CatalogEntry,
 } from "@/lib/providers/catalog";
+import {
+  getOpenAlexNeighborhood,
+  resolveOpenAlex,
+  searchOpenAlex,
+} from "@/lib/providers/openalex";
+import { AppError, errorBody } from "@/lib/server/errors";
 
 /**
  * Static-host fallback for the read-only demo on GitHub Pages. The normal
  * Next.js build never enables this module; server routes remain authoritative
  * when the app is deployed to a host that can run them.
+ *
+ * Live mode on a static host calls OpenAlex directly from the browser. OpenAlex
+ * is key-free and CORS-enabled, so the same live contract works on Pages.
  */
 const STATIC_DEMO = process.env.NEXT_PUBLIC_STATIC_DEMO === "1";
 const BASE = process.env.NEXT_PUBLIC_STATIC_BASE_PATH ?? "";
 const API_MARKER = "/api/";
 const DATA_PREFIX = `${BASE}/app-data/`;
+
+export function isStaticDemoEnabled(): boolean {
+  return STATIC_DEMO;
+}
 
 interface StaticManifest {
   generatedAt: string;
@@ -77,13 +90,19 @@ function parseMode(value: string | null): SourceMode {
   return value === "snapshot" || value === "demo" ? value : "live";
 }
 
-function assertStaticMode(mode: SourceMode): Response | null {
-  if (mode !== "live") return null;
-  return errorResponse(
-    "PROVIDER_CONFIGURATION",
-    "Live mode is unavailable in this static demo. Use Demo or Snapshot mode.",
-    503,
-  );
+async function liveResponse<T>(action: () => Promise<T>): Promise<Response> {
+  try {
+    return jsonResponse(await action());
+  } catch (error) {
+    if (error instanceof AppError) {
+      return jsonResponse(errorBody(error), error.httpStatus);
+    }
+    return errorResponse(
+      "PROVIDER_UNAVAILABLE",
+      "Live mode could not complete this request. Try again or use Snapshot mode.",
+      503,
+    );
+  }
 }
 
 async function loadManifest(
@@ -134,8 +153,12 @@ async function handleSearch(
     return errorResponse("INVALID_INPUT", "Invalid search offset.", 400);
   }
 
-  const liveError = assertStaticMode(mode);
-  if (liveError) return liveError;
+  if (mode === "live") {
+    return liveResponse(async () => {
+      const result = await searchOpenAlex(query, offset);
+      return { ...result, sourceMode: "live" } satisfies SearchResultSet;
+    });
+  }
 
   const manifest = await loadManifest(mode, nativeFetch);
   return jsonResponse(
@@ -154,11 +177,16 @@ async function handleResolve(
     return errorResponse("INVALID_INPUT", "Enter a paper identifier.", 400);
   }
 
-  const liveError = assertStaticMode(mode);
-  if (liveError) return liveError;
+  const canonical = canonicalizeIdentifier(input);
+
+  if (mode === "live") {
+    return liveResponse(async () => {
+      const paper = await resolveOpenAlex(canonical);
+      return { paper, sourceMode: "live" } satisfies ResolveResult;
+    });
+  }
 
   const manifest = await loadManifest(mode, nativeFetch);
-  const canonical = canonicalizeIdentifier(input);
   if (canonical.kind === "query") {
     const page = searchCatalog(manifest.catalog, canonical.value, 0, 1);
     const paper = page.papers[0];
@@ -196,8 +224,9 @@ async function handleNeighborhood(
     return errorResponse("INVALID_INPUT", "A paper ID is required.", 400);
   }
 
-  const liveError = assertStaticMode(mode);
-  if (liveError) return liveError;
+  if (mode === "live") {
+    return liveResponse(() => getOpenAlexNeighborhood(paperId));
+  }
 
   const manifest = await loadManifest(mode, nativeFetch);
   const center = manifest.centers.find((entry) => entry.id === paperId);
@@ -270,7 +299,8 @@ async function handle(
     case "health":
       return jsonResponse({
         ok: true,
-        liveConfigured: false,
+        liveConfigured: true,
+        liveProvider: "openalex",
         liveKeyConfigured: false,
         demoAvailable: true,
         snapshotAvailable: true,
@@ -307,13 +337,16 @@ export function installStaticApi(): () => void {
     if (!url || endpointFrom(url) === null) {
       return nativeFetch(input, init);
     }
-    return handle(url, nativeFetch).catch(() =>
-      errorResponse(
+    return handle(url, nativeFetch).catch((error) => {
+      if (error instanceof AppError) {
+        return jsonResponse(errorBody(error), error.httpStatus);
+      }
+      return errorResponse(
         "PROVIDER_UNAVAILABLE",
         "The static demo data could not be loaded.",
         503,
-      ),
-    );
+      );
+    });
   };
 
   return () => {

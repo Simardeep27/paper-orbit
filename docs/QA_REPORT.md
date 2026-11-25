@@ -1,8 +1,8 @@
 # QA report
 
 **Project:** Paper Orbit  
-**Verified:** October 28, 2026  
-**Environment:** local macOS review machine; Node.js 24.10.0; npm; Chromium via Playwright 1.64.1; production build on `127.0.0.1:3100`  
+**Verified:** October 28, 2026; public deployment re-verified November 24, 2026<br>
+**Environment:** local macOS review machine and Vercel production; Node.js 24.10.0; npm; Chromium via Playwright 1.64.1
 **Scope:** engineering verification, browser QA, real-data acquisition, and visual evidence. This is **not** a user study. The evaluation plan is deliberately blank and future-facing.
 
 ## 1. Release summary
@@ -16,15 +16,18 @@
 | Production build | **Pass** | `qa/build-final.txt` |
 | End-to-end tests | **Pass** — 16/16, 23.0 s | `qa/e2e-run-final.txt` |
 | Browser console errors | **None observed** | `qa/final-qa.json`, `qa/accessibility-check.json` |
-| Live provider smoke check | **Pass after one retry** | `qa/live-verification.json` |
+| Live provider smoke check | **Pass** — OpenAlex public deployment; keyed Semantic Scholar historically passed after one retry | Vercel smoke check; `qa/live-verification.json` |
 | Stored real snapshots | **3 centers, 2 offline-recenter links** | `data/snapshots/manifest.json` |
 | Synthetic demo | **42 papers, 3 neighborhoods, labelled** | `data/demo/` |
 | Secret scan | **No key material in source, docs, or build** | credential-prefix scan; only `.env.example` present |
 | Formal user evaluation | **Not run** | `docs/EVALUATION_PLAN.md` |
 
-**Conclusion:** the implementation and engineering verification are complete. The
-remaining caveats are data/licensing limitations, transient live-provider
-variability, unusually high abstract missingness, and the absence of a user study.
+**Conclusion:** the implementation and engineering verification are complete.
+The public Vercel deployment uses key-free OpenAlex live mode; the repository
+also retains the optional keyed Semantic Scholar provider and stored Semantic
+Scholar snapshots. Remaining caveats are data/licensing limitations, transient
+live-provider variability, unusually high abstract missingness, and the absence
+of a user study.
 
 ## 2. Clean install and build
 
@@ -185,8 +188,10 @@ laboratory benchmark.
 | Filter click → coordinated chip/list DOM update | median **16.1 ms** (in-page samples 4.9–18.9 ms) |
 | Demo direct load → heading visible | 1.5–1.8 s across runs |
 | Navigation timing (cached local assets) | DOMContentLoaded 28 ms; load 75 ms |
-| Live search API | 2037 ms |
-| Live complete neighborhood API | 7062 ms |
+| Live Semantic Scholar search API (historical, keyed) | 2037 ms |
+| Live Semantic Scholar complete neighborhood API (historical, keyed) | 7062 ms |
+| Live OpenAlex search API (Vercel production) | 1497 ms |
+| Live OpenAlex 91-node neighborhood API (Vercel production) | 1155 ms |
 | Live provider branch transient failure | observed; retry succeeded |
 
 The renderer initially produced roughly 21 FPS for the 100-node snapshot in this
@@ -202,7 +207,25 @@ before capture; the source image is not an editable scene.
 
 ## 6. Real-data verification
 
-### Live Semantic Scholar — authenticated smoke check
+### Live OpenAlex — public deployment
+
+Verified against `https://paper-orbit-live.vercel.app` on November 24, 2026.
+OpenAlex is key-free, so the public deployment asks readers for no credential.
+
+| Check | Result | Observed latency |
+|---|---|---:|
+| `/api/health` | 200; `liveConfigured: true`, `liveProvider: openalex`, `liveKeyConfigured: false` | — |
+| Search “attention is all you need” | 200; 10 results; first is *Attention Is All You Need* (`W2626778328`) | 1497 ms |
+| `ARXIV:1706.03762` | 200; resolved to `W2626778328` | — |
+| `DOI:10.48550/arXiv.1706.03762` | 200; resolved to `W2626778328` | — |
+| Live neighborhood around Attention | 200; 91 nodes, 80 edges; refs 40, citing 40, related 10; all branches `ok` | 1155 ms |
+| Browser flow | Live selected; no key dialog; search result opened; 90 papers loaded; no console errors | — |
+| Public access | Production URL returned HTML without a login redirect in curl and Playwright | — |
+
+The same browser-side OpenAlex path is used by the static GitHub Pages mirror,
+so Live remains available there without a key.
+
+### Live Semantic Scholar — authenticated smoke check (historical)
 
 Full details: `qa/live-verification.json`; raw unauthenticated 429 evidence:
 `qa/s2-live-headers.txt`, `qa/s2-live-body.txt`.
@@ -311,8 +334,9 @@ small focus script, not a formal WCAG conformance audit.
    index; provider totals and loaded neighbor counts are intentionally separate.
 4. **Missing abstracts.** Most real neighbors are title-only or similarity-
    unavailable. This limits local text similarity and is surfaced in the UI.
-5. **Live variability.** The 1 req/s credentialed limit and transient upstream
-   errors can produce partial branches. The app preserves partial data and the
+5. **Live variability.** OpenAlex public rate limits and transient upstream
+   errors can produce partial branches; the optional keyed Semantic Scholar
+   provider has a much tighter limit. The app preserves partial data and the
    snapshot mode is the reliable demo path.
 6. **Third snapshot branch failure.** The LSTM references branch is an observed
    acquisition failure, not a zero-reference result. This is deliberate evidence

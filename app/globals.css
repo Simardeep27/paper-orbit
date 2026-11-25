@@ -779,11 +779,28 @@ svg {
 
 .search-hero-note {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 8px;
   margin-top: 10px;
   color: var(--muted);
   font-size: 12px;
+}
+
+.text-link {
+  margin-left: auto;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ref);
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.text-link:hover {
+  color: var(--text);
 }
 
 /* ---------- Landing ---------- */
@@ -2949,6 +2966,7 @@ dialog.dialog::backdrop {
   padding: 12px 18px;
   border-top: 1px solid var(--border-soft);
 }
+
 
 .drawer-backdrop {
   position: fixed;

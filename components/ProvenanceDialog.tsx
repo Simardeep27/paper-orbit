@@ -6,6 +6,7 @@ import { useExplorerStore } from "@/lib/state/explorer";
 import { getCenterNode, getNeighborNodes } from "@/lib/graph/selectors";
 import { formatTimestamp } from "@/lib/format";
 import { Dialog } from "@/components/Dialog";
+import { providerLabel } from "@/lib/providers/labels";
 
 interface ProvenanceDialogProps {
   open: boolean;
@@ -89,15 +90,23 @@ export function ProvenanceDialog({ open, onClose }: ProvenanceDialogProps) {
           </div>
           <div className="provenance-cell">
             <span>Provider</span>
-            <strong>{neighborhood.provider}</strong>
+            <strong>{providerLabel(neighborhood.provider)}</strong>
           </div>
           <div className="provenance-cell">
             <span>Retrieved</span>
             <strong>{formatTimestamp(neighborhood.fetchedAt)}</strong>
           </div>
           <div className="provenance-cell">
-            <span>Recommendation pool</span>
-            <strong>{neighborhood.recommendationPool}</strong>
+            <span>
+              {neighborhood.provider === "openalex"
+                ? "Related works"
+                : "Recommendation pool"}
+            </span>
+            <strong>
+              {neighborhood.provider === "openalex"
+                ? "OpenAlex associations"
+                : neighborhood.recommendationPool}
+            </strong>
           </div>
           <div className="provenance-cell">
             <span>Center</span>
@@ -225,6 +234,22 @@ export function ProvenanceDialog({ open, onClose }: ProvenanceDialogProps) {
               Synthetic fixtures generated for Paper Orbit. Source records are
               hand-authored and deterministic; no external provider data is
               included. See{" "}
+              <Link href="/about">data sources and limitations</Link>.
+            </span>
+          </div>
+        ) : neighborhood.provider === "openalex" ? (
+          <div className="attribution">
+            <span>
+              Paper metadata and citation links from{" "}
+              <a
+                href="https://openalex.org/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                OpenAlex <ExternalLink size={10} aria-hidden="true" />
+              </a>
+              . OpenAlex data is available under CC0; no full text is stored.
+              See{" "}
               <Link href="/about">data sources and limitations</Link>.
             </span>
           </div>
